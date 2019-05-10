@@ -1,0 +1,102 @@
+@prefix : <https://registry.netwerkdigitaalerfgoed.nl> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:registry a dcat:Catalog ;
+    dcterms:title "Registry of datasets"@en ;
+    dcterms:description "Registry of datasets from organisations that participate in the Dutch Digital Heritage Network"@en ;
+    dcterms:issued "2019"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat:dataset :dataset1, :dataset2, :dataset3, :dataset4 .
+
+:dataset1 a dcat:Dataset ;
+    dcterms:title "Nederlandse Bibliografie Totaal"@nl ;
+    dcterms:description "Nederlandse Bibliografie Totaal (NBT) bevat publicaties die in Nederland, over Nederland of in de Nederlandse taal zijn verschenen"@nl ;
+    dcterms:creator <http://data.bibliotheken.nl/id/thes/p075301482> ;
+    dcterms:publisher <http://data.bibliotheken.nl/id/thes/p075301482> ;
+    dcat:landingPage <http://data.bibliotheken.nl/doc/dataset/nbt> ;
+    dcterms:license <http://opendatacommons.org/licenses/by/1.0/> ;
+    dcterms:issued "2017"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date ;
+    dcat:distribution :distribution1 .
+
+:distribution1 a dcat:Distribution ;
+    dcat:format "application/sparql-results+xml" ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle>, <https://www.iana.org/assignments/media-types/application/rdf+xml> ;
+    dcat:accessService :service1 .
+
+:service1 a dcat:DataService ;
+    dcat:endpointURL <http://data.bibliotheken.nl/sparql> ;
+    dcat:servesDataset :dataset1 ;
+    dcterms:issued "2017"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date .
+
+:dataset2 a dcat:Dataset ;
+    dcterms:title "RKDartists"@nl ;
+    dcterms:description "RKDartists bevat betrouwbare biografische gegevens over Nederlandse kunstenaars vanaf de middeleeuwen tot heden"@nl ;
+    dcterms:creator <https://rkd.nl/> ;
+    dcterms:publisher <https://rkd.nl/> ;
+    dcat:landingPage <https://rkd.nl/nl/projecten-en-publicaties/overige-databases/open-search-rkdartists> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl>, <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1.0/> ;
+    dcterms:issued "2014"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date ;
+    dcat:distribution :distribution2 .
+
+:distribution2 a dcat:Distribution ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    dcat:accessService :service2 .
+
+:service2 a dcat:DataService ;
+    dcat:endpointURL <http://opendata.rkd.nl/opensearch/artists/eac-cpf> ;
+    dcat:endpointDescription <http://opendata.rkd.nl/opensearch/artists/eac-cpf/description-document> ;
+    dcat:servesDataset :dataset2 ;
+    dcterms:issued "2014"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date .
+
+:dataset3 a dcat:Dataset ;
+    dcterms:title "Adamlink straten"@nl ;
+    dcterms:description "De referentiedata voor Amsterdamse straten, gebouwen, wijken en personen worden samengesteld uit verschillende bronnen, waarop zo goed mogelijk redactie wordt gevoerd"@nl ;
+    dcterms:creator <https://www.adamlink.nl/> ;
+    dcterms:publisher <https://www.adamlink.nl/> ;
+    dcat:landingPage <https://adamlink.nl/data> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
+    dcterms:issued "2017"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date ;
+    dcat:distribution :distribution3, :distribution4 .
+
+:distribution3 a dcat:Distribution ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+    dcat:downloadURL <https://adamlink.nl/data/rdf/streets> ;
+    dcterms:issued "2017"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date .
+
+:distribution4 a dcat:Distribution ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv> ;
+    dcat:downloadURL <https://www.adamlink.nl/data/csv/streets> ;
+    dcterms:issued "2017"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date .
+
+:dataset4 a dcat:Dataset ;
+    dcterms:title "Foto- en filmcollectie van Stadsarchief Breda"@nl ;
+    dcterms:description "De foto- en filmcollectie bevat ruim 340.000 historische (bewegende) beelden"@nl ;
+    dcterms:creator <https://stadsarchief.breda.nl/> ;
+    dcterms:publisher <https://stadsarchief.breda.nl/> ;
+    dcat:landingPage <https://stadsarchief.breda.nl/collectie/beeld/films-en-foto-s/> ;
+    dcterms:license <http://rightsstatements.org/page/InC/1.0/> ;
+    dcterms:issued "2018"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date ;
+    dcat:distribution :distribution5 .
+
+:distributions5 a dcat:Distribution ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/xml> ;
+    dcat:accessService :service3 ;
+    dcterms:publisher <https://www.brabantcloud.nl/> .
+
+:service3 a dcat:DataService ;
+    dcat:endpointURL <http://prod.brabantcloud.hubs.delving.org/api/oai-pmh/?verb=ListRecords&set=stadsarchief-breda&metadataPrefix=edm-strict> ;
+    dcat:servesDataset :dataset4 ;
+    dcterms:issued "2018"^^xsd:date ;
+    dcterms:modified "2019-05-09"^^xsd:date .
