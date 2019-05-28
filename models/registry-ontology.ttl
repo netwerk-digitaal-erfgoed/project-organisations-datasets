@@ -10,7 +10,7 @@
 nde:RegistryOntology a owl:Ontology ;
     rdfs:label "Registry Ontology"@en ;
     rdfs:comment "Ontology of NDE's Registry"@en ;
-    owl:versionInfo "Version 0.1"@en ;
+    owl:versionInfo "Version 0.2"@en ;
     dcterms:creator [
         a foaf:Organization ;
         foaf:name "Dutch Digital Heritage Network"@en ;
@@ -40,9 +40,16 @@ nde:Distribution a owl:Class ;
 # Properties
 ####################
 
+nde:identifier a owl:DatatypeProperty ;
+    rdfs:label "Identifier"@en ;
+    rdfs:comment "Identifier of the registry, dataset or distribution"@en ;
+    rdfs:domain nde:Registry, nde:Dataset, nde:Distribution ;
+    rdfs:range rdfs:Literal ;
+    skos:editorialNote "Known as 'ID' in NDE's conceptual model"@en .
+
 nde:serviceLevel a owl:ObjectProperty ;
     rdfs:label "Service level"@en ;
-    rdfs:comment "Reference to a description of the service level of the registry or distribution of the dataset"@en ;
+    rdfs:comment "Reference to the service level of the registry or distribution of the dataset"@en ;
     rdfs:domain nde:Registry, nde:Distribution ;
     skos:editorialNote "TODO: define the service levels"@en ;
     skos:editorialNote "Known as 'Serviceniveau' in NDE's conceptual model"@en .
@@ -61,12 +68,25 @@ nde:description a owl:DatatypeProperty ;
     rdfs:range rdfs:Literal ;
     skos:editorialNote "Known as 'Beschrijving' in NDE's conceptual model"@en .
 
+nde:source a owl:ObjectProperty ;
+    rdfs:label "Source"@en ;
+    rdfs:comment "Reference to the original registry, dataset or distribution"@en ;
+    rdfs:domain nde:Registry, nde:Dataset, nde:Distribution ;
+    skos:editorialNote "Known as 'Originele dataset' in NDE's conceptual model, though now also applicable to a registry and distribution"@en .
+
 nde:dataset a owl:ObjectProperty ;
     rdfs:label "Dataset"@en ;
     rdfs:comment "Reference to a dataset in the registry"@en ;
     rdfs:domain nde:Registry ;
     rdfs:range nde:Dataset ;
     skos:editorialNote "Known as 'Dataset(s)' in NDE's conceptual model"@en .
+
+nde:datasetOf a owl:ObjectProperty ;
+    rdfs:label "Dataset of"@en ;
+    rdfs:comment "Reference to the registry to which this dataset belongs"@en ;
+    rdfs:domain nde:Dataset ;
+    rdfs:range nde:Registry ;
+    skos:editorialNote "Not a part of NDE's conceptual model"@en .
 
 nde:pageWithAdditionalInformation a owl:ObjectProperty ;
     rdfs:label "Webpage with additional information"@en ;
@@ -123,6 +143,13 @@ nde:distribution a owl:ObjectProperty ;
     rdfs:domain nde:Dataset ;
     rdfs:range nde:Distribution ;
     skos:editorialNote "Known as 'Distributie(s)' in NDE's conceptual model"@en .
+
+nde:distributionOf a owl:ObjectProperty ;
+    rdfs:label "Distribution of"@en ;
+    rdfs:comment "Reference to the dataset to which this distribution belongs"@en ;
+    rdfs:domain nde:Distribution ;
+    rdfs:range nde:Dataset ;
+    skos:editorialNote "Not a part of NDE's conceptual model"@en .
 
 nde:mediaType a owl:ObjectProperty ;
     rdfs:label "Media type"@en ;
