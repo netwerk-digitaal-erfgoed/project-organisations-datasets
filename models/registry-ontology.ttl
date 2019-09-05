@@ -164,6 +164,19 @@ nde:accessType a owl:ObjectProperty ;
     rdfs:label "Access type"@en ;
     rdfs:comment "Access type of the distribution, e.g. a data dump or SPARQL endpoint"@en ;
     rdfs:domain nde:Distribution ;
+    rdfs:range [
+      a rdfs:Datatype ;
+      owl:oneOf (
+          "Data Dump"
+          "SPARQL endpoint"
+          "OAI-PMH"
+          "OpenSearch"
+          "CKAN"
+          "URI-deref"
+          "Custom"
+        ) ;
+      ] ;
+.
     skos:editorialNote "TODO: define the access types"@en ;
     skos:editorialNote "Known as 'Soort' in NDE's conceptual model"@en .
 
