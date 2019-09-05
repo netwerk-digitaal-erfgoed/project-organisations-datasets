@@ -1,0 +1,99 @@
+# baseURI: http://data.netwerkdigitaalerfgoed.nl/register/demo/
+# prefix: demo
+
+@prefix demo: <http://data.netwerkdigitaalerfgoed.nl/register/demo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nde: <https://ontologies.netwerkdigitaalerfgoed.nl/registry#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+demo:dataset1
+  a nde:Dataset ;
+  nde:datasetOf demo:registry ;
+  nde:distribution demo:distribution2 ;
+  nde:identifier "1234" ;
+  nde:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  nde:licenseOfContents <https://raw.githubusercontent.com/creativecommons/cc.licenserdf/master/cc/licenserdf/licenses/creativecommons.org_licenses_GPL_2.0_.rdf> ;
+  nde:licenseOfDigitalObjects <https://raw.githubusercontent.com/creativecommons/cc.licenserdf/master/cc/licenserdf/licenses/creativecommons.org_licenses_by-nc-nd_2.0_nl_.rdf> ;
+  nde:licenseOfMetadata <https://creativecommons.org/licenses/by/4.0/> ;
+  nde:owner demo:org1 ;
+  nde:pageWithAdditionalInformation <https://organisation.org/page/info> ;
+.
+demo:dataset2
+  a nde:Dataset ;
+  nde:datasetOf demo:registry ;
+  nde:distribution demo:distribution3 ;
+  nde:identifier "2345" ;
+  nde:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
+  nde:licenseOfContents <https://creativecommons.org/licenses/by/4.0/> ;
+  nde:licenseOfDigitalObjects <https://creativecommons.org/licenses/by/4.0/> ;
+  nde:licenseOfMetadata <https://creativecommons.org/licenses/by/4.0/> ;
+  nde:owner demo:org1 ;
+  nde:pageWithAdditionalInformation <https://organisation.org/page/info> ;
+.
+demo:dataset3
+  a nde:Dataset ;
+  nde:datasetOf demo:registry ;
+  nde:identifier "3456" ;
+.
+demo:dataset4
+  a nde:Dataset ;
+  nde:datasetOf demo:registry ;
+  nde:identifier "4567" ;
+.
+demo:distribution1
+  a nde:Distribution ;
+  nde:accessType "SPARQL endpoint" ;
+  nde:accessURL <http://organisation.org/sparql> ;
+  nde:distributionOf demo:dataset3 ;
+  nde:identifier "d-1234" ;
+  nde:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+.
+demo:distribution2
+  a nde:Distribution ;
+  nde:identifier "d-2345" ;
+.
+demo:distribution3
+  a nde:Distribution ;
+  nde:accessType "URI deref" ;
+  nde:accessURL <http://organisation.org/id/444444> ;
+  nde:distributionOf demo:dataset2 ;
+  nde:identifier "d-3456" ;
+  nde:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml> ;
+.
+demo:distribution4
+  a nde:Distribution ;
+  nde:identifier "d-4567" ;
+.
+demo:distributions5
+  a nde:Distribution ;
+  nde:identifier "d-5678" ;
+.
+demo:ds
+  a owl:Ontology ;
+.
+demo:org1
+  a foaf:Organization ;
+  rdfs:label "org1" ;
+.
+demo:org2
+  a foaf:Organization ;
+  rdfs:label "org2" ;
+.
+demo:org3
+  a foaf:Organization ;
+  rdfs:label "org3" ;
+.
+demo:registry
+  a nde:Registry ;
+  nde:administrator demo:org2 ;
+  nde:dataset demo:dataset1 ;
+  nde:dataset demo:dataset2 ;
+  nde:dataset demo:dataset3 ;
+  nde:dataset demo:dataset4 ;
+  nde:description "Registry of datasets from organisations that participate in the Dutch Digital Heritage Network"@en ;
+  nde:identifier "r-1234" ;
+  nde:title "Registry of datasets"@en ;
+.

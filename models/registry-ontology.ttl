@@ -1,3 +1,6 @@
+# baseURI: https://ontologies.netwerkdigitaalerfgoed.nl/registry
+# prefix: nde
+
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix nde: <https://ontologies.netwerkdigitaalerfgoed.nl/registry#> .
@@ -7,164 +10,44 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-nde:RegistryOntology a owl:Ontology ;
-    rdfs:label "Registry Ontology"@en ;
-    rdfs:comment "Ontology of NDE's Registry"@en ;
-    owl:versionInfo "Version 0.2"@en ;
-    dcterms:creator [
-        a foaf:Organization ;
-        foaf:name "Dutch Digital Heritage Network"@en ;
-        foaf:homepage <https://www.netwerkdigitaalerfgoed.nl/>
-    ] .
-
-####################
-# Classes
-####################
-
-nde:Registry a owl:Class ;
-    rdfs:label "Registry"@en ;
-    rdfs:comment "A Registry represents a collection of metadata about datasets of organisations"@en ;
-    skos:editorialNote "Known as 'Register' in NDE's conceptual model"@en .
-
-nde:Dataset a owl:Class ;
-    rdfs:label "Dataset"@en ;
-    rdfs:comment "A Dataset represents a dataset in a Registry"@en ;
-    skos:editorialNote "Known as 'Dataset' in NDE's conceptual model"@en .
-
-nde:Distribution a owl:Class ;
-    rdfs:label "Distribution"@en ;
-    rdfs:comment "A Distribution represents an accessible form of a dataset"@en ;
-    skos:editorialNote "Known as 'Distributie van dataset' in NDE's conceptual model"@en .
-
-####################
-# Properties
-####################
-
-nde:identifier a owl:DatatypeProperty ;
-    rdfs:label "Identifier"@en ;
-    rdfs:comment "Identifier of the registry, dataset or distribution"@en ;
-    rdfs:domain nde:Registry, nde:Dataset, nde:Distribution ;
-    rdfs:range rdfs:Literal ;
-    skos:editorialNote "Known as 'ID' in NDE's conceptual model"@en .
-
-nde:serviceLevel a owl:ObjectProperty ;
-    rdfs:label "Service level"@en ;
-    rdfs:comment "Reference to the service level of the registry or distribution of the dataset"@en ;
-    rdfs:domain nde:Registry, nde:Distribution ;
-    skos:editorialNote "TODO: define the service levels"@en ;
-    skos:editorialNote "Known as 'Serviceniveau' in NDE's conceptual model"@en .
-
-nde:title a owl:DatatypeProperty ;
-    rdfs:label "Title"@en ;
-    rdfs:comment "Name of the registry or dataset"@en ;
-    rdfs:domain nde:Registry, nde:Dataset ;
-    rdfs:range rdfs:Literal ;
-    skos:editorialNote "Known as 'Naam' in NDE's conceptual model"@en .
-
-nde:description a owl:DatatypeProperty ;
-    rdfs:label "Description"@en ;
-    rdfs:comment "Description of the registry or dataset"@en ;
-    rdfs:domain nde:Registry, nde:Dataset ;
-    rdfs:range rdfs:Literal ;
-    skos:editorialNote "Known as 'Beschrijving' in NDE's conceptual model"@en .
-
-nde:source a owl:ObjectProperty ;
-    rdfs:label "Source"@en ;
-    rdfs:comment "Reference to the original registry, dataset or distribution"@en ;
-    rdfs:domain nde:Registry, nde:Dataset, nde:Distribution ;
-    skos:editorialNote "Known as 'Originele dataset' in NDE's conceptual model, though now also applicable to a registry and distribution"@en .
-
-nde:dataset a owl:ObjectProperty ;
-    rdfs:label "Dataset"@en ;
-    rdfs:comment "Reference to a dataset in the registry"@en ;
-    rdfs:domain nde:Registry ;
-    rdfs:range nde:Dataset ;
-    skos:editorialNote "Known as 'Dataset(s)' in NDE's conceptual model"@en .
-
-nde:datasetOf a owl:ObjectProperty ;
-    rdfs:label "Dataset of"@en ;
-    rdfs:comment "Reference to the registry to which this dataset belongs"@en ;
-    rdfs:domain nde:Dataset ;
-    rdfs:range nde:Registry ;
-    skos:editorialNote "Not a part of NDE's conceptual model"@en .
-
-nde:pageWithAdditionalInformation a owl:ObjectProperty ;
-    rdfs:label "Webpage with additional information"@en ;
-    rdfs:comment "URL of a webpage with additional information about the dataset"@en ;
-    rdfs:domain nde:Dataset ;
-    rdfs:range foaf:Document ;
-    rdfs:subPropertyOf foaf:Page ;
-    skos:editorialNote "Known as 'Webpagina voor meer informatie' in NDE's conceptual model"@en .
-
-nde:licenseOfMetadata a owl:ObjectProperty ;
-    rdfs:label "License of the metadata"@en ;
-    rdfs:comment "License of the metadata of the dataset"@en ;
-    rdfs:domain nde:Dataset ;
-    skos:scopeNote "Use a license from e.g. Creative Commons or Open Data Commons"@en ;
-    skos:editorialNote "Known as 'Licentie van de metadata' in NDE's conceptual model"@en .
-
-nde:licenseOfContents a owl:ObjectProperty ;
-    rdfs:label "License of the contents"@en ;
-    rdfs:comment "License of the contents of the dataset"@en ;
-    rdfs:domain nde:Dataset ;
-    skos:scopeNote "Use a license from e.g. Creative Commons or Open Data Commons"@en ;
-    skos:editorialNote "Known as 'Licentie van de inhoud' in NDE's conceptual model"@en .
-
-nde:licenseOfDigitalObjects a owl:ObjectProperty ;
-    rdfs:label "License of the digital objects"@en ;
-    rdfs:comment "License of the digital objects referred to in the dataset, e.g. images or movies"@en ;
-    rdfs:domain nde:Dataset ;
-    skos:scopeNote "Use a license from e.g. Creative Commons, Open Data Commons or Rights Statements"@en ;
-    skos:editorialNote "Known as 'Licentie van de objecten' in NDE's conceptual model"@en .
-
-nde:language a owl:ObjectProperty ;
-    rdfs:label "Language"@en ;
-    rdfs:comment "Language of the contents of the dataset"@en ;
-    rdfs:domain nde:Dataset ;
-    skos:scopeNote "Use a language from the language vocabulary from Library of Congress, http://id.loc.gov/vocabulary/iso639-1/"@en ;
-    skos:editorialNote "Known as 'Taal' in NDE's conceptual model"@en .
-
-nde:issued a owl:DatatypeProperty ;
-    rdfs:label "Issued"@en ;
-    rdfs:comment "Date and time of first publication of the dataset or distribution"@en ;
-    rdfs:domain nde:Dataset, nde:Distribution ;
-    skos:editorialNote "Known as 'Datum en tijd van publicatie' in NDE's conceptual model"@en .
-
-nde:modified a owl:owl:DatatypeProperty ;
-    rdfs:label "Modified"@en ;
-    rdfs:comment "Date and time of last modification of the dataset or distribution"@en ;
-    rdfs:domain nde:Dataset, nde:Distribution ;
-    skos:editorialNote "TODO: does this property denote the last modification of the contents of the dataset or distribution? Or their metadata?"@en ;
-    skos:editorialNote "Known as 'Datum en tijd van laatste wijziging' in NDE's conceptual model"@en .
-
-nde:distribution a owl:ObjectProperty ;
-    rdfs:label "Distribution"@en ;
-    rdfs:comment "Reference to a distribution of the dataset"@en ;
-    rdfs:domain nde:Dataset ;
-    rdfs:range nde:Distribution ;
-    skos:editorialNote "Known as 'Distributie(s)' in NDE's conceptual model"@en .
-
-nde:distributionOf a owl:ObjectProperty ;
-    rdfs:label "Distribution of"@en ;
-    rdfs:comment "Reference to the dataset to which this distribution belongs"@en ;
-    rdfs:domain nde:Distribution ;
-    rdfs:range nde:Dataset ;
-    skos:editorialNote "Not a part of NDE's conceptual model"@en .
-
-nde:mediaType a owl:ObjectProperty ;
-    rdfs:label "Media type"@en ;
-    rdfs:comment "Media type of the distribution, e.g. RDF/XML, JSON-LD, Turtle"@en ;
-    rdfs:domain nde:Distribution ;
-    rdfs:range dcterms:MediaType ;
-    skos:scopeNote "Use a type from the IANA media types registry, https://www.iana.org/assignments/media-types/"@en ;
-    skos:editorialNote "TODO: Or use http://www.w3.org/ns/formats/ ?"@en ;
-    skos:editorialNote "Known as 'Formaat' in NDE's conceptual model"@en .
-
-nde:accessType a owl:ObjectProperty ;
-    rdfs:label "Access type"@en ;
-    rdfs:comment "Access type of the distribution, e.g. a data dump or SPARQL endpoint"@en ;
-    rdfs:domain nde:Distribution ;
-    rdfs:range [
+<https://ontologies.netwerkdigitaalerfgoed.nl/registry>
+  a owl:Ontology ;
+.
+nde:Dataset
+  a owl:Class ;
+  rdfs:comment "A Dataset represents a dataset in a Registry"@en ;
+  rdfs:label "Dataset"@en ;
+  skos:editorialNote "Known as 'Dataset' in NDE's conceptual model"@en ;
+.
+nde:Distribution
+  a owl:Class ;
+  rdfs:comment "A Distribution represents an accessible form of a dataset"@en ;
+  rdfs:label "Distribution"@en ;
+  skos:editorialNote "Known as 'Distributie van dataset' in NDE's conceptual model"@en ;
+.
+nde:Registry
+  a owl:Class ;
+  rdfs:comment "A Registry represents a collection of metadata about datasets of organisations"@en ;
+  rdfs:label "Registry"@en ;
+  skos:editorialNote "Known as 'Register' in NDE's conceptual model"@en ;
+.
+nde:RegistryOntology
+  a owl:Ontology ;
+  dcterms:creator [
+      a foaf:Organization ;
+      foaf:homepage <https://www.netwerkdigitaalerfgoed.nl/> ;
+      foaf:name "Dutch Digital Heritage Network"@en ;
+    ] ;
+  rdfs:comment "Ontology of NDE's Registry"@en ;
+  rdfs:label "Registry Ontology"@en ;
+  owl:versionInfo "Version 0.2"@en ;
+.
+nde:accessType
+  a owl:ObjectProperty ;
+  rdfs:comment "Access type of the distribution, e.g. a data dump or SPARQL endpoint"@en ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Access type"@en ;
+  rdfs:range [
       a rdfs:Datatype ;
       owl:oneOf (
           "Data Dump"
@@ -175,35 +58,186 @@ nde:accessType a owl:ObjectProperty ;
           "URI-deref"
           "Custom"
         ) ;
-      ] ;
+    ] ;
+  skos:editorialNote "Known as 'Soort' in NDE's conceptual model"@en ;
+  skos:editorialNote "TODO: define the access types"@en ;
 .
-    skos:editorialNote "TODO: define the access types"@en ;
-    skos:editorialNote "Known as 'Soort' in NDE's conceptual model"@en .
-
-nde:accessURL a owl:ObjectProperty ;
-    rdfs:label "Access URL"@en ;
-    rdfs:comment "URL of a resource that gives access to a distribution of a dataset, e.g. a data dump or SPARQL endpoint"@en ;
-    rdfs:domain nde:Distribution ;
-    rdfs:range rdfs:Resource ;
-    skos:editorialNote "Known as 'URL' in NDE's conceptual model"@en .
-
-nde:publisher a owl:ObjectProperty ;
-    rdfs:label "Publisher"@en ;
-    rdfs:comment "Reference to the publisher of the dataset or distribution"@en ;
-    rdfs:domain nde:Dataset, nde:Distribution ;
-    rdfs:range foaf:Organization ;
-    skos:editorialNote "Known as 'Uitgever' in NDE's conceptual model"@en .
-
-nde:owner a owl:ObjectProperty ;
-    rdfs:label "Owner"@en ;
-    rdfs:comment "Reference to the (legal) owner of the dataset"@en ;
-    rdfs:domain nde:Dataset ;
-    rdfs:range foaf:Organization ;
-    skos:editorialNote "Known as 'Eigenaar' in NDE's conceptual model"@en .
-
-nde:administrator a owl:ObjectProperty ;
-    rdfs:label "Administrator"@en ;
-    rdfs:comment "Reference to the administrator of the registry"@en ;
-    rdfs:domain nde:Registry ;
-    rdfs:range foaf:Organization ;
-    skos:editorialNote "Known as 'Beheerder' in NDE's conceptual model"@en .
+nde:accessURL
+  a owl:ObjectProperty ;
+  rdfs:comment "URL of a resource that gives access to a distribution of a dataset, e.g. a data dump or SPARQL endpoint"@en ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Access URL"@en ;
+  rdfs:range rdfs:Resource ;
+  skos:editorialNote "Known as 'URL' in NDE's conceptual model"@en ;
+.
+nde:administrator
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the administrator of the registry"@en ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Administrator"@en ;
+  rdfs:range foaf:Organization ;
+  skos:editorialNote "Known as 'Beheerder' in NDE's conceptual model"@en ;
+.
+nde:dataset
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to a dataset in the registry"@en ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Dataset"@en ;
+  rdfs:range nde:Dataset ;
+  skos:editorialNote "Known as 'Dataset(s)' in NDE's conceptual model"@en ;
+.
+nde:datasetOf
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the registry to which this dataset belongs"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "Dataset of"@en ;
+  rdfs:range nde:Registry ;
+  skos:editorialNote "Not a part of NDE's conceptual model"@en ;
+.
+nde:description
+  a owl:DatatypeProperty ;
+  rdfs:comment "Description of the registry or dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Description"@en ;
+  rdfs:range rdfs:Literal ;
+  skos:editorialNote "Known as 'Beschrijving' in NDE's conceptual model"@en ;
+.
+nde:distribution
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to a distribution of the dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "Distribution"@en ;
+  rdfs:range nde:Distribution ;
+  skos:editorialNote "Known as 'Distributie(s)' in NDE's conceptual model"@en ;
+.
+nde:distributionOf
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the dataset to which this distribution belongs"@en ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Distribution of"@en ;
+  rdfs:range nde:Dataset ;
+  skos:editorialNote "Not a part of NDE's conceptual model"@en ;
+.
+nde:identifier
+  a owl:DatatypeProperty ;
+  rdfs:comment "Identifier of the registry, dataset or distribution"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Distribution ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Identifier"@en ;
+  rdfs:range rdfs:Literal ;
+  skos:editorialNote "Known as 'ID' in NDE's conceptual model"@en ;
+.
+nde:issued
+  a owl:DatatypeProperty ;
+  rdfs:comment "Date and time of first publication of the dataset or distribution"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Issued"@en ;
+  skos:editorialNote "Known as 'Datum en tijd van publicatie' in NDE's conceptual model"@en ;
+.
+nde:language
+  a owl:ObjectProperty ;
+  rdfs:comment "Language of the contents of the dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "Language"@en ;
+  skos:editorialNote "Known as 'Taal' in NDE's conceptual model"@en ;
+  skos:scopeNote "Use a language from the language vocabulary from Library of Congress, http://id.loc.gov/vocabulary/iso639-1/"@en ;
+.
+nde:licenseOfContents
+  a owl:ObjectProperty ;
+  rdfs:comment "License of the contents of the dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "License of the contents"@en ;
+  skos:editorialNote "Known as 'Licentie van de inhoud' in NDE's conceptual model"@en ;
+  skos:scopeNote "Use a license from e.g. Creative Commons or Open Data Commons"@en ;
+.
+nde:licenseOfDigitalObjects
+  a owl:ObjectProperty ;
+  rdfs:comment "License of the digital objects referred to in the dataset, e.g. images or movies"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "License of the digital objects"@en ;
+  skos:editorialNote "Known as 'Licentie van de objecten' in NDE's conceptual model"@en ;
+  skos:scopeNote "Use a license from e.g. Creative Commons, Open Data Commons or Rights Statements"@en ;
+.
+nde:licenseOfMetadata
+  a owl:ObjectProperty ;
+  rdfs:comment "License of the metadata of the dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "License of the metadata"@en ;
+  skos:editorialNote "Known as 'Licentie van de metadata' in NDE's conceptual model"@en ;
+  skos:scopeNote "Use a license from e.g. Creative Commons or Open Data Commons"@en ;
+.
+nde:mediaType
+  a owl:ObjectProperty ;
+  rdfs:comment "Media type of the distribution, e.g. RDF/XML, JSON-LD, Turtle"@en ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Media type"@en ;
+  rdfs:range dcterms:MediaType ;
+  skos:editorialNote "Known as 'Formaat' in NDE's conceptual model"@en ;
+  skos:editorialNote "TODO: Or use http://www.w3.org/ns/formats/ ?"@en ;
+  skos:scopeNote "Use a type from the IANA media types registry, https://www.iana.org/assignments/media-types/"@en ;
+.
+nde:modified
+  a owl:DatatypeProperty ;
+  rdfs:comment "Date and time of last modification of the dataset or distribution"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Modified"@en ;
+  skos:editorialNote "Known as 'Datum en tijd van laatste wijziging' in NDE's conceptual model"@en ;
+  skos:editorialNote "TODO: does this property denote the last modification of the contents of the dataset or distribution? Or their metadata?"@en ;
+.
+nde:owner
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the (legal) owner of the dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "Owner"@en ;
+  rdfs:range foaf:Organization ;
+  skos:editorialNote "Known as 'Eigenaar' in NDE's conceptual model"@en ;
+.
+nde:pageWithAdditionalInformation
+  a owl:ObjectProperty ;
+  rdfs:comment "URL of a webpage with additional information about the dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:label "Webpage with additional information"@en ;
+  rdfs:range foaf:Document ;
+  rdfs:subPropertyOf foaf:Page ;
+  skos:editorialNote "Known as 'Webpagina voor meer informatie' in NDE's conceptual model"@en ;
+.
+nde:publisher
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the publisher of the dataset or distribution"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Distribution ;
+  rdfs:label "Publisher"@en ;
+  rdfs:range foaf:Organization ;
+  skos:editorialNote "Known as 'Uitgever' in NDE's conceptual model"@en ;
+.
+nde:serviceLevel
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the service level of the registry or distribution of the dataset"@en ;
+  rdfs:domain nde:Distribution ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Service level"@en ;
+  skos:editorialNote "Known as 'Serviceniveau' in NDE's conceptual model"@en ;
+  skos:editorialNote "TODO: define the service levels"@en ;
+.
+nde:source
+  a owl:ObjectProperty ;
+  rdfs:comment "Reference to the original registry, dataset or distribution"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Distribution ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Source"@en ;
+  skos:editorialNote "Known as 'Originele dataset' in NDE's conceptual model, though now also applicable to a registry and distribution"@en ;
+.
+nde:title
+  a owl:DatatypeProperty ;
+  rdfs:comment "Name of the registry or dataset"@en ;
+  rdfs:domain nde:Dataset ;
+  rdfs:domain nde:Registry ;
+  rdfs:label "Title"@en ;
+  rdfs:range rdfs:Literal ;
+  skos:editorialNote "Known as 'Naam' in NDE's conceptual model"@en ;
+.
