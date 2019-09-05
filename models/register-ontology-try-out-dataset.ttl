@@ -71,9 +71,6 @@ demo:distributions5
   a nde:Distribution ;
   nde:identifier "d-5678" ;
 .
-demo:ds
-  a owl:Ontology ;
-.
 demo:org1
   a foaf:Organization ;
   rdfs:label "org1" ;
