@@ -124,13 +124,13 @@ nde:language a owl:ObjectProperty ;
     skos:scopeNote "Use a language from the language vocabulary from Library of Congress, http://id.loc.gov/vocabulary/iso639-1/"@en ;
     skos:editorialNote "Known as 'Taal' in NDE's conceptual model"@en .
 
-nde:issued a owl:ObjectProperty ;
+nde:issued a owl:DatatypeProperty ;
     rdfs:label "Issued"@en ;
     rdfs:comment "Date and time of first publication of the dataset or distribution"@en ;
     rdfs:domain nde:Dataset, nde:Distribution ;
     skos:editorialNote "Known as 'Datum en tijd van publicatie' in NDE's conceptual model"@en .
 
-nde:modified a owl:ObjectProperty ;
+nde:modified a owl:owl:DatatypeProperty ;
     rdfs:label "Modified"@en ;
     rdfs:comment "Date and time of last modification of the dataset or distribution"@en ;
     rdfs:domain nde:Dataset, nde:Distribution ;
