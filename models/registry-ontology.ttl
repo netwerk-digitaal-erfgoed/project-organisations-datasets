@@ -10,9 +10,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://ontologies.netwerkdigitaalerfgoed.nl/registry>
-  a owl:Ontology ;
-.
+
 nde:Dataset
   a owl:Class ;
   rdfs:comment "A Dataset represents a dataset in a Registry"@en ;
