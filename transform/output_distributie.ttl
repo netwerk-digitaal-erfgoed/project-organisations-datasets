@@ -1,0 +1,9 @@
+@prefix data:  <https://registry.netwerkdigitaalerfgoed.nl/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix nde:  <https://ontologies.netwerkdigitaalerfgoed.nl/registry#> .
+
+data:1  rdf:type            nde:Distributie ;
+        nde:accessType      "OpenSearch" ;
+        nde:accessURL       "https://rkd.nl/opensearch-eac-cpf?q={searchTerms?}&startIndex={startIndex?}&count={itemsPerPage?}" ;
+        nde:distributionOf  "RKD" ;
+        nde:mediaType       "application/rss+xml" .

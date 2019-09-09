@@ -1,0 +1,23 @@
+@prefix data:  <https://registry.netwerkdigitaalerfgoed.nl/id/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix nde:  <https://ontologies.netwerkdigitaalerfgoed.nl/registry#> .
+
+nde:1   rdf:type               nde:Dataset ;
+        nde:datasetOf          "n/a" ;
+        nde:description        "OpenSearch API voor de Beeldbank van het Nationaal Archief" ;
+        nde:distribution       "application/rss+xml" ;
+        nde:licenseOfContents  "All content Copyright 2019, Beeldbank Nationaal Archief" ;
+        nde:owner              "http://www.gahetna.nl/" ;
+        nde:publisher          "http://www.gahetna.nl/" ;
+        nde:source             "http://www.gahetna.nl/beeldbank-api/opensearch/description-document" ;
+        nde:title              "Beeldbank Nationaal Archief" .
+
+nde:2   rdf:type               nde:Dataset ;
+        nde:datasetOf          "n/a" ;
+        nde:description        "OpenSearch API + EAC-CPF for RKDartist&" ;
+        nde:distribution       "application/rss+xml" ;
+        nde:licenseOfContents  "All content Copyright 2014, RKD" ;
+        nde:owner              "https://rkd.nl" ;
+        nde:publisher          "https://rkd.nl" ;
+        nde:source             "http://opendata.rkd.nl/opensearch/artists/eac-cpf/description-document" ;
+        nde:title              "RKD" .
