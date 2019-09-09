@@ -1,0 +1,26 @@
+prefix nde: <https://ontologies.netwerkdigitaalerfgoed.nl/registry#>
+prefix data: <https://registry.netwerkdigitaalerfgoed.nl/id/>
+
+ 
+CONSTRUCT {?uri a nde:Distributie ;
+nde:accessType ?distribution_accessType ;
+nde:accessURL ?distribution_accessURL;
+nde:distributionOf ?dataset_title ;
+#nde:identifier @@ ;
+#nde:issued @@;
+nde:mediaType ?distribution_mediaType;
+#nde:modified @@ ;
+#nde:publisher ?dataset_publisher ;
+#nde:serviceLevel ?dataset_title ;
+#nde:source ?dataset_source ;
+
+.
+
+} 
+  FROM <file:rkd.csv>
+  WHERE {
+  BIND (URI(CONCAT('https://registry.netwerkdigitaalerfgoed.nl/id/', str(?ROWNUM))) AS ?uri)
+  BIND ( IF (BOUND(?dataset_publisher), ?dataset_publisher, "n/a") as ?dataset_publisher)
+  BIND ( IF (BOUND(?distribution_accessType), ?distribution_accessType, "n/a") as ?distribution_accessType)
+
+  }

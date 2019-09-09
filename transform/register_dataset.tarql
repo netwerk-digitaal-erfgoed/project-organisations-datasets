@@ -1,0 +1,29 @@
+prefix nde: <https://ontologies.netwerkdigitaalerfgoed.nl/registry#>
+prefix data: <https://registry.netwerkdigitaalerfgoed.nl/id/>
+ 
+CONSTRUCT {?uri a nde:Dataset ;
+nde:datasetOf ?dataset_of ;
+nde:description ?dataset_description;
+nde:distribution ?distribution_mediaType ;
+#nde:identifier @@ ?dataset_identifier ;
+#nde:issued @@ ?dataset_issued;
+#nde:language @@ ?dataset_language:
+nde:licenseOfContents ?dataset_licenseOfContents ;
+#nde:licenseOfDigitalObjects @@ ?dataset_LicenseofDigitalObjets;
+#nde:licenseOfMetadata @@  ?dataset_LicenseOfMetadata:
+#nde:modified @@ ?dataset_modified ;
+nde:owner ?dataset_owner ;
+#nde:pageWithAdditionalInformation @@ ?dataset_page;
+nde:publisher ?dataset_publisher ;
+nde:source ?dataset_source ;
+nde:title ?dataset_title ;
+.
+
+
+} 
+  FROM <file:20190905-sdv-NDE-Register-OpenSearch.csv>
+  WHERE {
+  BIND (URI(CONCAT('https://ontologies.netwerkdigitaalerfgoed.nl/registry#', str(?ROWNUM))) AS ?uri)
+  BIND ( IF (BOUND(?dataset_of), ?dataset_of, "n/a") as ?dataset_of)
+  BIND ( IF (BOUND(?dataset_description), ?dataset_description, "n/a") as ?dataset_description)
+  }
