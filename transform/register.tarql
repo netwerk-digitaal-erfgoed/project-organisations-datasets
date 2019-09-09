@@ -1,0 +1,4 @@
+CONSTRUCT {?uri a reg:Dataset} 
+  FROM <na.csv>
+  WHERE {
+  BIND (URI(CONCAT('https://ontologies.netwerkdigitaalerfgoed.nl/registry#', ?rownum)) AS ?uri)}
