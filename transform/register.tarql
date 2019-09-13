@@ -1,0 +1,72 @@
+prefix nde: <https://ontologies.netwerkdigitaalerfgoed.nl/registry#>
+prefix data: <https://registry.netwerkdigitaalerfgoed.nl/id/>
+prefix foaf: <http://xmlns.com/foaf/0.1/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ 
+CONSTRUCT {
+?uri_org a foaf:Organization ;
+rdfs:label ?organization_label .
+
+?uri_ds a nde:Dataset ;
+rdfs:label ?dataset_label ;
+nde:datasetOf ?dataset_of ;
+nde:description ?dataset_description;
+nde:distribution ?distribution_mediaType ;
+nde:identifier ?dataset_identifier ;
+nde:issued  ?dataset_issued;
+nde:language ?dataset_language;
+nde:licenseOfContents ?dataset_licenseOfContents ;
+nde:licenseOfDigitalObjects ?dataset_LicenseofDigitalObjets;
+nde:licenseOfMetadata  ?dataset_LicenseOfMetadata;
+nde:modified ?dataset_modified ;
+nde:owner ?dataset_owner ;
+nde:pageWithAdditionalInformation ?dataset_pageWithAdditionalInformation;
+nde:publisher ?dataset_publisher ;
+nde:source ?dataset_source ;
+nde:title ?dataset_title ;
+.
+?uri_dist a nde:Distribution ;
+rdfs:label ?distribution_label ;
+nde:accessURL ?distribition_accessURL ;
+nde:accessType ?distribition_accessType ;
+nde:distributionOf ?distribition_of ;
+nde:identifier ?distribition_identifier ;
+nde:issued ?distribition_issued ;
+nde:mediaType ?distribition_mediaType ;
+nde:modified ?distribition_modified ;
+nde:publisher ?distribition_publisher ;
+nde:serviceLevel ?distribition_serviceLevel ;
+nde:source ?distribition_source .
+
+?uri_reg a nde:Register ;
+rdfs:label ?register_label ;
+nde:administrator ?register_administrator ;
+nde:dataset ?register_dataset ; 
+nde:description ?register_description ;
+nde:identifier ?register_identifier ;
+nde:serviceLevel ?register_serviceLevel ;
+nde:source ?register_source ;
+nde:title ?register_title .
+} 
+  FROM <file:na_beeldbank.csv>
+  WHERE {
+  BIND (URI(CONCAT('https://data.netwerkdigitaalerfgoed.nl/id/dataset/', str(?ROWNUM))) AS ?uri_ds)
+  BIND ( IF (BOUND(?dataset_of), ?dataset_of, "n/a") as ?dataset_of)
+  BIND ( IF (BOUND(?dataset_description), ?dataset_description, "n/a") as ?dataset_description)
+  BIND ( IF (BOUND(?distribution_mediaType), ?distribution_mediaType, "n/a") as ?distribution_mediaType)
+  BIND ( IF (BOUND(?dataset_identifier), ?dataset_identifier, "n/a") as ?dataset_identifier)
+  BIND ( IF (BOUND(?dataset_issued), ?dataset_issued, "n/a") as ?dataset_issued)
+  BIND ( IF (BOUND(?dataset_language), ?dataset_language, "n/a") as ?dataset_language)
+  BIND ( IF (BOUND(?dataset_licenseOfContents), ?dataset_licenseOfContents, "n/a") as ?dataset_licenseOfContents)
+  BIND ( IF (BOUND(?dataset_LicenseofDigitalObjets), ?dataset_LicenseofDigitalObjets, "n/a") as ?dataset_LicenseofDigitalObjets)
+  BIND ( IF (BOUND(?dataset_LicenseOfMetadata), ?dataset_LicenseOfMetadata, "n/a") as ?dataset_LicenseOfMetadata)
+  BIND ( IF (BOUND(?dataset_modified), ?dataset_modified, "n/a") as ?dataset_modified)
+  BIND ( IF (BOUND(?dataset_owner), ?dataset_owner, "n/a") as ?dataset_owner)
+  BIND ( IF (BOUND(?dataset_pageWithAdditionalInformation), ?dataset_pageWithAdditionalInformation, "n/a") as ?dataset_pageWithAdditionalInformation)
+  BIND ( IF (BOUND(?dataset_publisher), ?dataset_publisher, "n/a") as ?dataset_publisher)
+  BIND ( IF (BOUND(?dataset_source), ?dataset_source, "n/a") as ?dataset_source)
+  BIND ( IF (BOUND(?dataset_title), ?dataset_title, "n/a") as ?dataset_title)
+  
+  ## add binds for register and distribution
+  
+  }
