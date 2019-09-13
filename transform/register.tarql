@@ -7,6 +7,16 @@ CONSTRUCT {
 ?uri_org a foaf:Organization ;
 rdfs:label ?organization_label .
 
+?uri_reg a nde:Register ;
+rdfs:label ?register_label ;
+nde:administrator ?register_administrator ;
+nde:dataset ?register_dataset ; 
+nde:description ?register_description ;
+nde:identifier ?register_identifier ;
+nde:serviceLevel ?register_serviceLevel ;
+nde:source ?register_source ;
+nde:title ?register_title .
+
 ?uri_ds a nde:Dataset ;
 rdfs:label ?dataset_label ;
 nde:datasetOf ?dataset_of ;
@@ -38,15 +48,7 @@ nde:publisher ?distribition_publisher ;
 nde:serviceLevel ?distribition_serviceLevel ;
 nde:source ?distribition_source .
 
-?uri_reg a nde:Register ;
-rdfs:label ?register_label ;
-nde:administrator ?register_administrator ;
-nde:dataset ?register_dataset ; 
-nde:description ?register_description ;
-nde:identifier ?register_identifier ;
-nde:serviceLevel ?register_serviceLevel ;
-nde:source ?register_source ;
-nde:title ?register_title .
+
 } 
   FROM <file:na_beeldbank.csv>
   WHERE {
