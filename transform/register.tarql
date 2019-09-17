@@ -7,7 +7,7 @@ CONSTRUCT {
 ?uri_org a foaf:Organization ;
 rdfs:label ?organization_label .
 
-?uri_reg a nde:Register ;
+?uri_reg a nde:Registry ;
 rdfs:label ?register_label ;
 nde:administrator ?register_administrator ;
 nde:dataset ?register_dataset ; 
@@ -37,16 +37,16 @@ nde:title ?dataset_title ;
 .
 ?uri_dist a nde:Distribution ;
 rdfs:label ?distribution_label ;
-nde:accessURL ?distribition_accessURL ;
-nde:accessType ?distribition_accessType ;
-nde:distributionOf ?distribition_of ;
-nde:identifier ?distribition_identifier ;
-nde:issued ?distribition_issued ;
-nde:mediaType ?distribition_mediaType ;
-nde:modified ?distribition_modified ;
-nde:publisher ?distribition_publisher ;
-nde:serviceLevel ?distribition_serviceLevel ;
-nde:source ?distribition_source .
+nde:accessURL ?distribution_accessURL ;
+nde:accessType ?distribution_accessType ;
+nde:distributionOf ?distribution_of ;
+nde:identifier ?distribution_identifier ;
+nde:issued ?distribution_issued ;
+nde:mediaType ?distribution_mediaType ;
+nde:modified ?distribution_modified ;
+nde:publisher ?distribution_publisher ;
+nde:serviceLevel ?distribution_serviceLevel ;
+nde:source ?distribution_source .
 
 
 } 
