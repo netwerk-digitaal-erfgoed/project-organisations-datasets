@@ -1,0 +1,2138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Allard_Pierson>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Allard Pierson" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Amsterdam_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Amsterdam Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Archief_Eemland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Archief Eemland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Atlas_of_Mutual_Heritage>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Atlas of Mutual Heritage" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand_collecties>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand collecties" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Beeldarchief_Provincie_Zuid_Holland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeldarchief Provincie Zuid-Holland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Beeldbank_van_de_Rijksdienst_voor_het_Cultureel_Erfgoed>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeldbank van de Rijksdienst voor het Cultureel Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Belasting_en_Douane_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Belasting en Douane Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/CODA>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "CODA" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Centraal_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centraal Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Centre_Ceramique>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centre Ceramique" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/CollectieGelderland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "CollectieGelderland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Collectie Nederland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Schraven>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie Schraven" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_van_der_Kop>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie van der Kop" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/De_Museumfabriek>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "De Museumfabriek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Deventer_Musea>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Deventer Musea" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Dordrecht_Bouwhistorie>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Dordrecht Bouwhistorie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Dordrechts_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Dordrechts Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Drents_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Drents Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Duikvereniging_Pluvier>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Duikvereniging Pluvier" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Erfgoed_Utrecht>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Erfgoed Utrecht" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Frans_Halsmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Frans Halsmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Fries_Landbouwmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Fries Landbouwmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Fries_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Fries Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Geldmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geldmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Gemeentemuseum_Den_Haag>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeentemuseum Den Haag" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Groninger_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Groninger Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Nationaal_Glasmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Nationaal Glasmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Nieuwe_Instituut>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Nieuwe Instituut" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Scheepvaartmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Scheepvaartmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Historisch_Museum_den_Briel>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Historisch Museum den Briel" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Hoogheemraadschap_Hollands_Noorderkwartier>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Hoogheemraadschap Hollands Noorderkwartier" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Huis_Doorn>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Huis Doorn" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Huizer_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Huizer Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Inspectie_van_het_Onderwijs>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inspectie van het Onderwijs" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Jan_Adam_Zandleven_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Jan Adam Zandleven Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Joods_Historisch_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Joods Historisch Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Keramiekcentrum_Tiendschuur_Tegelen>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Keramiekcentrum Tiendschuur Tegelen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Kr_ller_M_ller_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Krller-Mller Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Limburgs_Erfgoed>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Limburgs Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Mauritshuis>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Mauritshuis" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Moluks_Historisch_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Moluks Historisch Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museon>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museon" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Beelden_aan_Zee>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Beelden aan Zee" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Belv_d_re>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Belvdre" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Boijmans_Van_Beuningen>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Boijmans Van Beuningen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Bronbeek>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Bronbeek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Catharijneconvent>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Catharijneconvent" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_De_Lakenhal>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum De Lakenhal" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Drachten>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Drachten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Flehite>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Flehite" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Heerenveen>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Heerenveen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Helmond>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Helmond" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Holambra>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Holambra" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Jan_Cunen>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Jan Cunen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Joure>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Joure" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Kasteel_Wijchen>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Kasteel Wijchen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Klok___Peel>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Klok & Peel" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Martena>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Martena" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Meermanno>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Meermanno" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Oud_Amelisweerd>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Oud Amelisweerd" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Rotterdam>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Rotterdam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Sloten>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Sloten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Stad_Appingedam>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Stad Appingedam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Veenendaal>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Veenendaal" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum__t_Behouden_Huys_Terschelling>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum 't Behouden Huys Terschelling" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_de_Fundatie>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum de Fundatie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_de_Wieger>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum de Wieger" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_voor_Communicatie>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum voor Communicatie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Muzeeaquarium_Delfzijl>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Muzeeaquarium Delfzijl" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief_Beeldbank>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief Beeldbank" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Gevangenismuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Gevangenismuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Militair_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Militair Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Museum_van_Wereldculturen>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Museum van Wereldculturen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Register_Historische_Computers>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Register Historische Computers" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Register_Mobiel_Erfgoed>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Register Mobiel Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Naturalis_Biodiversity_Center>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naturalis Biodiversity Center" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Instituut_voor_Mediakunst>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Instituut voor Mediakunst" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Instituut_voor_Militaire_Historie>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Instituut voor Militaire Historie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Instituut_voor_Oorlogsdocumentatie>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Instituut voor Oorlogsdocumentatie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Leder_en_Schoenen_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Leder en Schoenen Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Noord_Brabants_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Noord-Brabants Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Noord_Hollands_Archief>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Noord-Hollands Archief" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Onderwijsmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Onderwijsmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Openluchtmuseum_It_Damsh_s>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Openluchtmuseum It Damshs" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Paleis_Het_Loo>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Paleis Het Loo" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Princessehof_Leeuwarden__Nationaal_Keramiekmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Princessehof Leeuwarden, Nationaal Keramiekmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Provinciaal_Archeologisch_Depot_provincie_Zuid_Holland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Provinciaal Archeologisch Depot provincie Zuid-Holland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Provinciaal_Depot_Bodemvondsten_Noord_Brabant>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Provinciaal Depot Bodemvondsten Noord-Brabant" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Provincie_Noord_Holland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Provincie Noord-Holland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Purmerends_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Purmerends Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/RKD___Nederlands_Instituut_voor_Kunstgeschiedenis>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "RKD - Nederlands Instituut voor Kunstgeschiedenis" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Ren__en_Peter_van_der_Krogt>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Ren en Peter van der Krogt" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksakademie_van_beeldende_kunsten>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksakademie van beeldende kunsten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksdienst voor het Cultureel Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum_Boerhaave>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum Boerhaave" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum_Twenthe>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum Twenthe" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum_van_Oudheden>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum van Oudheden" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stedelijk_Museum_Schiedam>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stedelijk Museum Schiedam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Academisch_Erfgoed>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Academisch Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Collectie_Nagelhout_Holten>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Collectie Nagelhout Holten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Egress_Foundation_CSROT>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Egress Foundation CSROT" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Erfgoed_Meubelfabriek_L_O_V_>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Erfgoed Meubelfabriek L.O.V." .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Historisch_Verpleegkundig_Bezit>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Historisch Verpleegkundig Bezit" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Oude_Groninger_Kerken>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Oude Groninger Kerken" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Streekmuseum_Krimpenerwaard>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Streekmuseum Krimpenerwaard" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Streekmuseum_Volkssterrenwacht_Burgum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Streekmuseum Volkssterrenwacht Burgum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/TextielMuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "TextielMuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Textielmuseum_Tilburg>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Textielmuseum Tilburg" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Teylers_Museum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Teylers Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Van_Abbemuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Van Abbemuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Verzetsmuseum_Friesland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Verzetsmuseum Friesland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Wageningen_UR>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Wageningen UR" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Zeeuws_maritiem_muZEEum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zeeuws maritiem muZEEum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Zuiderzeemuseum>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zuiderzeemuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/aidsmemorial>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nederlandse AIDS Memorial Quilt" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "aidsmemorial" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/stichting_NAMENproject_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/aidsmemorial> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlandse AIDS Memorial Quilt" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/allard-pierson>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Allard Pierson" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "adlib" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "allard-pierson" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Allard_Pierson> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/allard-pierson> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Allard Pierson" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/amsterdam-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Amsterdam Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "amsterdam-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Amsterdam_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/amsterdam-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Amsterdam Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/appingedam>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Stad Appingedam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "appingedam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/unknown/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Stad_Appingedam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/appingedam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Stad Appingedam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/archief-eemland-beeldbank>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Archief Eemland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "archief-eemland-beeldbank" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Archief_Eemland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/archief-eemland-beeldbank> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Archief Eemland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/archief-eemland-k-en-o>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Archief Eemland, Kaarten en Ontwerptekeningen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "archief-eemland-k-en-o" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Archief_Eemland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/archief-eemland-k-en-o> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Archief Eemland, Kaarten en Ontwerptekeningen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/atlas-of-mutual-heritage>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Atlas of Mutual Heritage" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "atlas-of-mutual-heritage" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Atlas_of_Mutual_Heritage> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/atlas-of-mutual-heritage> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Atlas of Mutual Heritage" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/batavialand-archief>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Batavialand Archief Documenten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "batavialand-archief" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/batavialand-archief> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand Archief Documenten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/batavialand-boeken>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Batavialand Bibliotheek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "batavialand-boeken" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/batavialand-boeken> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand Bibliotheek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/batavialand-collecties>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Batavialand Collecties" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "batavialand-collecties" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/batavialand-collecties> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand Collecties" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/batavialand-documenten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Batavialand Documenten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "batavialand-documenten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/batavialand-documenten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand Documenten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/beeldarchief-provincie-zuid-holland>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Beeldarchief Provincie Zuid-Holland Foto's" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "beeldarchief-provincie-zuid-holland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Beeldarchief_Provincie_Zuid_Holland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/beeldarchief-provincie-zuid-holland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeldarchief Provincie Zuid-Holland Foto's" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/beeldarchief-provincie-zuid-holland-video>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Beeldarchief Provincie Zuid-Holland Video's" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "beeldarchief-provincie-zuid-holland-video" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Beeldarchief_Provincie_Zuid_Holland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/beeldarchief-provincie-zuid-holland-video> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeldarchief Provincie Zuid-Holland Video's" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/beeldcollectie-niod>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Beeldcollectie NIOD" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "beeldcollectie-niod" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Instituut_voor_Oorlogsdocumentatie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/beeldcollectie-niod> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeldcollectie NIOD" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/beelden-aan-zee>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Beelden aan Zee" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "adlib" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "beelden-aan-zee" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Beelden_aan_Zee> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/beelden-aan-zee> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beelden aan Zee" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/bendmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Belasting en Douane Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "bendmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Belasting_en_Douane_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/bendmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Belasting en Douane Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/bibrce>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Bibliotheekboeken RCE collectie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "bibrce" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/bibrce> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Bibliotheek RCE" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/boijmans-van-beuningen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Boijmans Van Beuningen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "boijmans-van-beuningen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-r/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Boijmans_Van_Beuningen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/boijmans-van-beuningen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Boijmans Van Beuningen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/bronbeek>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Bronbeek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "bronbeek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Bronbeek> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/bronbeek> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Bronbeek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/catharijneconvent>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Catharijneconvent" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "catharijneconvent" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Catharijneconvent> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/catharijneconvent> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Catharijneconvent" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/centraal-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Centraal Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "centraal-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Centraal_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/centraal-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centraal Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/centre-ceramique>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Centre Ceramique" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "centre-ceramique" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Centre_Ceramique> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/centre-ceramique> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centre Ceramique" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/circusmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Allard Pierson Circusmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "adlib" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "circusmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Allard_Pierson> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/circusmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Allard Pierson Circusmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/coda-rce>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Coda Sieraden Collectie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "coda-rce" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/CODA> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/coda-rce> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Coda Sieraden Collectie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/coll-schraven>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Collectie Schraven" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "coll-schraven" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Schraven> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/coll-schraven> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie Schraven" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/collectie-nagelhout-holten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Collectie Nagelhout Holten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "collectie-nagelhout-holten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Collectie_Nagelhout_Holten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/collectie-nagelhout-holten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie Nagelhout Holten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/collectie-sanders>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Schenking Sanders-ten Holte" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "collectie-sanders" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/collectie-sanders> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Schenking Sanders-ten Holte" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/collectie-schraven>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Collectie Schraven" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "collectie-schraven" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/unknown/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Schraven> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/collectie-schraven> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie Schraven" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/collectie-van-der-kop>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Collectie van der Kop" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "collectie-van-der-kop" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_van_der_Kop> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/collectie-van-der-kop> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie van der Kop" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/collectiegelderland>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "CollectieGelderland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "collectiegelderland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/CollectieGelderland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/collectiegelderland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "CollectieGelderland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/dordrecht-bouwhistorie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dordrecht Bouwhistorie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dordrecht-bouwhistorie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Dordrecht_Bouwhistorie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/dordrecht-bouwhistorie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Dordrecht Bouwhistorie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/dordrechts-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dordrechts Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dordrechts-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Dordrechts_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/dordrechts-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Dordrechts Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/drents-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "drents-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/3.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Drents_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/drents-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Drents Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/duikvereniging-pluvier>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Duikvereniging Pluvier" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "duikvereniging-pluvier" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Duikvereniging_Pluvier> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/duikvereniging-pluvier> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Duikvereniging Pluvier" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/egress-foundation>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Stichting Egress Foundation CSROT" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "egress-foundation" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Egress_Foundation_CSROT> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/egress-foundation> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Egress Foundation CSROT" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/erfgoed-utrecht>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Erfgoed Utrecht" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "erfgoed-utrecht" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Erfgoed_Utrecht> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/erfgoed-utrecht> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Erfgoed Utrecht" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/frans-hals-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Frans Hals Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "frans-hals-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Frans_Halsmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/frans-hals-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Frans Hals Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/fries-landbouwmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Fries Landbouwmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "fries-landbouwmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Fries_Landbouwmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/fries-landbouwmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Fries Landbouwmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/fries-landbouwmuseum-objecten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Fries Landbouwmuseum Objecten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "fries-landbouwmuseum-objecten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Fries_Landbouwmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/fries-landbouwmuseum-objecten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Fries Landbouwmuseum Objecten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/fries-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Fries Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "fries-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Fries_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/fries-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Fries Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/geldmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Geldmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "geldmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Geldmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/geldmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geldmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/geldmuseum-bibliotheek>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Geldmuseum Bibliotheek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "geldmuseum-bibliotheek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Geldmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/geldmuseum-bibliotheek> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geldmuseum Bibliotheek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/geldmuseum-tijdschriften>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Geldmuseum Tijdschriften" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "geldmuseum-tijdschriften" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Geldmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/geldmuseum-tijdschriften> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geldmuseum Tijdschriften" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/gemeentemuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Gemeentemuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "gemeentemuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Gemeentemuseum_Den_Haag> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/gemeentemuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeentemuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/gemeentemuseum-helmond>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Helmond" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "gemeentemuseum-helmond" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Helmond> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/gemeentemuseum-helmond> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Helmond" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/glasmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Het Nationaal Glasmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "glasmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by/3.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Nationaal_Glasmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/glasmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Nationaal Glasmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/groninger-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Groninger Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "groninger-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Groninger_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/groninger-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Groninger Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/het-nieuwe-instituut>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Het Nieuwe Instituut" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "het-nieuwe-instituut" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Nieuwe_Instituut> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/het-nieuwe-instituut> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Nieuwe Instituut" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/hetscheepvaartmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Het Scheepvaartmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "hetscheepvaartmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Scheepvaartmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/hetscheepvaartmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Scheepvaartmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/historisch-museum-den-briel>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Historisch Museum den Briel" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "historisch-museum-den-briel" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Historisch_Museum_den_Briel> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/historisch-museum-den-briel> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Historisch Museum den Briel" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/hoogheemraadschap-noorderkwartier>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Hoogheemraadschap Hollands Noorderkwartier" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "hoogheemraadschap-noorderkwartier" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Hoogheemraadschap_Hollands_Noorderkwartier> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/hoogheemraadschap-noorderkwartier> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Hoogheemraadschap Hollands Noorderkwartier" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/huis-doorn>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Huis Doorn" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "huis-doorn" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Huis_Doorn> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/huis-doorn> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Huis Doorn" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/huis-van-hilde>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Huis van Hilde, Huis van Hilde is een archeologiecentrum van de provincie Noord-Holland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "huis-van-hilde" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Provincie_Noord_Holland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/huis-van-hilde> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Huis van Hilde" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/huizer-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Huizer Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "huizer-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Huizer_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/huizer-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Huizer Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/inspectie-van-het-onderwijs>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Inspectie van het Onderwijs" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "inspectie-van-het-onderwijs" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Inspectie_van_het_Onderwijs> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/inspectie-van-het-onderwijs> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inspectie van het Onderwijs" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/jan-adam-zandleven-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Jan Adam Zandleven Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "jan-adam-zandleven-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Jan_Adam_Zandleven_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/jan-adam-zandleven-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Jan Adam Zandleven Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/joods-historisch>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Joods Historisch Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "joods-historisch" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Joods_Historisch_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/joods-historisch> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Joods Historisch Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/keramiekcentrum-tiendschuur-tegelen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Keramiekcentrum Tiendschuur Tegelen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "keramiekcentrum-tiendschuur-tegelen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Keramiekcentrum_Tiendschuur_Tegelen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/keramiekcentrum-tiendschuur-tegelen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Keramiekcentrum Tiendschuur Tegelen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/kroller-muller>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Krller-Mller Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "kroller-muller" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Kr_ller_M_ller_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/kroller-muller> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Krller-Mller Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/lakenhal>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum De Lakenhal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "lakenhal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_De_Lakenhal> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/lakenhal> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum De Lakenhal" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/limburgs-erfgoed>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Limburgs Erfgoed" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "limburgs-erfgoed" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Limburgs_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/limburgs-erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Limburgs Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/martena>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Martena" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "martena" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Martena> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/martena> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Martena" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/mauritshuis>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Koninklijk Kabinet van Schilderijen Mauritshuis" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "mauritshuis" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Mauritshuis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/mauritshuis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Koninklijk Kabinet van Schilderijen Mauritshuis" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/moderne-kunst-museum-deventer>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deventer Musea Collectie Moderne Kunst" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "moderne-kunst-museum-deventer" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Deventer_Musea> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/moderne-kunst-museum-deventer> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Deventer Musea Collectie Moderne Kunst" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/moluks-historisch-museum-beeldmateriaal>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Moluks Historisch Museum Beeldmateriaal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "moluks-historisch-museum-beeldmateriaal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Moluks_Historisch_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/moluks-historisch-museum-beeldmateriaal> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Moluks Historisch Museum Beeldmateriaal" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/moluks-historisch-museum-objecten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Moluks Historisch Museum Objecten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "moluks-historisch-museum-objecten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-r/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Moluks_Historisch_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/moluks-historisch-museum-objecten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Moluks Historisch Museum Objecten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/musea-deventer>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deventer Musea" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "musea-deventer" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Deventer_Musea> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/musea-deventer> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Deventer Musea" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/musea-in-drenthe>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Drents Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "musea-in-drenthe" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Drents_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/musea-in-drenthe> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Drents Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museon>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museon" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museon" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museon> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museon> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museon" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-belvedere>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Belvdre" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-belvedere" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Belv_d_re> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-belvedere> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Belvdre" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-de-fundatie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum de Fundatie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-de-fundatie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_de_Fundatie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-de-fundatie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum de Fundatie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-de-wieger>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum de Wieger" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-de-wieger" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_de_Wieger> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-de-wieger> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum de Wieger" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-flehite>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Flehite" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-flehite" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Flehite> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-flehite> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Flehite" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-heerenveen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Heerenveen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-heerenveen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Heerenveen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-heerenveen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Heerenveen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-jan-cunen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Jan Cunen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-jan-cunen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Jan_Cunen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-jan-cunen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Jan Cunen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-joure>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Joure" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-joure" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Joure> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-joure> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Joure" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-kasteel-wijchen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Kasteel Wijchen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-kasteel-wijchen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Kasteel_Wijchen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-kasteel-wijchen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Kasteel Wijchen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-klok-peel>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Klok & Peel" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-klok-peel" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Klok___Peel> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-klok-peel> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Klok & Peel" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-meermanno>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Meermanno" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-meermanno" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Meermanno> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-meermanno> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Meermanno" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-oud-amelisweerd>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Oud Amelisweerd" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-oud-amelisweerd" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Oud_Amelisweerd> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-oud-amelisweerd> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Oud Amelisweerd" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-rotterdam>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Rotterdam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-rotterdam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by/3.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Rotterdam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-rotterdam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Rotterdam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-sloten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Sloten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-sloten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Sloten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-sloten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Sloten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-stad-appingedam>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Stad Appingedam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-stad-appingedam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Stad_Appingedam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-stad-appingedam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Stad Appingedam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-t-behouden-huys-terschelling>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum 't Behouden Huys Terschelling" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-t-behouden-huys-terschelling" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum__t_Behouden_Huys_Terschelling> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-t-behouden-huys-terschelling> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum 't Behouden Huys Terschelling" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-veenendaal>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Veenendaal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-veenendaal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Veenendaal> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-veenendaal> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Veenendaal" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museum-voor-communicatie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum voor Communicatie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museum-voor-communicatie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_voor_Communicatie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museum-voor-communicatie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum voor Communicatie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museumboerhaave>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Rijksmuseum Boerhaave" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museumboerhaave" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum_Boerhaave> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museumboerhaave> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum Boerhaave" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museumdrachten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Drachten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museumdrachten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Drachten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museumdrachten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Drachten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/museumholambra>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Holambra" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "museumholambra" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Museum_Holambra> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/museumholambra> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Museum Holambra" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/muzeeaquarium>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Muzeeaquarium Delfzijl" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "muzeeaquarium" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Muzeeaquarium_Delfzijl> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/muzeeaquarium> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Muzeeaquarium Delfzijl" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/muzeeum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Zeeuws maritiem muZEEum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "muzeeum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Zeeuws_maritiem_muZEEum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/muzeeum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zeeuws maritiem muZEEum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/na-scheepswrakken-waterstaatsbestekken>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Archief Scheepswrakken Waterstaatsbestekken" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "na-scheepswrakken-waterstaatsbestekken" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/na-scheepswrakken-waterstaatsbestekken> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief Scheepswrakken Waterstaatsbestekken" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nai>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Het Nieuwe Instituut" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nai" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Nieuwe_Instituut> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nai> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Nieuwe Instituut" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nationaal-archief-beeldbank>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Archief Beeldbank" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nationaal-archief-beeldbank" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief_Beeldbank> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nationaal-archief-beeldbank> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief Beeldbank" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nationaal-gevangenismuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Gevangenismuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nationaal-gevangenismuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Gevangenismuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nationaal-gevangenismuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Gevangenismuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nationaal-museum-van-wereldculturen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Museum van Wereldculturen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nationaal-museum-van-wereldculturen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Museum_van_Wereldculturen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nationaal-museum-van-wereldculturen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Museum van Wereldculturen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nationaal-register-historische-computers>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Register Historische Computers" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nationaal-register-historische-computers" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Register_Historische_Computers> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nationaal-register-historische-computers> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Register Historische Computers" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/naturalis-biodiversity-center>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Naturalis Biodiversity Center" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "naturalis-biodiversity-center" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Naturalis_Biodiversity_Center> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/naturalis-biodiversity-center> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naturalis Biodiversity Center" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/naturalis-rgm>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Naturalis Biodiversity Center RGM" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "naturalis-rgm" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Naturalis_Biodiversity_Center> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/naturalis-rgm> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naturalis Biodiversity Center RGM" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/naturalis-rmnh>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Naturalis Biodiversity Center RMNH" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "naturalis-rmnh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Naturalis_Biodiversity_Center> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/naturalis-rmnh> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naturalis Biodiversity Center RMNH" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/naturalis-zma>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Naturalis Biodiversity Center ZMA" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "naturalis-zma" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Naturalis_Biodiversity_Center> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/naturalis-zma> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naturalis Biodiversity Center ZMA" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nederlands-leder-en-schoenen-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nederlands Leder en Schoenen Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nederlands-leder-en-schoenen-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Leder_en_Schoenen_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nederlands-leder-en-schoenen-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Leder en Schoenen Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nederlands-scheepvaartmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Het Scheepvaartmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nederlands-scheepvaartmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Het_Scheepvaartmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nederlands-scheepvaartmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Het Scheepvaartmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nimh>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nederlands Instituut voor Militaire Historie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nimh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Instituut_voor_Militaire_Historie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nimh> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Instituut voor Militaire Historie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nimk>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Collectie Nederlands Instituut voor Mediakunst" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nimk" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nederlands_Instituut_voor_Mediakunst> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nimk> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie Nederlands Instituut voor Mediakunst" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nl-wandkunst-wederopbouw>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Wandkunst uit de Wederopbouwperiode" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nl-wandkunst-wederopbouw" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nl-wandkunst-wederopbouw> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Wandkunst uit de Wederopbouwperiode" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nmm-handvuurwapens>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Militair Museum Handvuurwapens" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nmm-handvuurwapens" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Militair_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nmm-handvuurwapens> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Militair Museum Handvuurwapens" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nmm-uniformen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Militair Museum Uniformen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nmm-uniformen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/unknown/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Militair_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nmm-uniformen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Militair Museum Uniformen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nmm-voertuigen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nmm-voertuigen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by/3.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Militair_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nmm-voertuigen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Militair Museum Voertuigen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/noord-brabants-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Noord-Brabants Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "noord-brabants-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Noord_Brabants_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/noord-brabants-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Noord-Brabants Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/noord-hollands-archief>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Noord-Hollands Archief" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "noord-hollands-archief" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Noord_Hollands_Archief> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/noord-hollands-archief> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Noord-Hollands Archief" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nrme>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal Register Mobiel Erfgoed" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nrme" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Register_Mobiel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/nrme> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Register Mobiel Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/onderwijsmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Onderwijsmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "onderwijsmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Onderwijsmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/onderwijsmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Onderwijsmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/openluchtmuseum-it-damshus>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Openluchtmuseum It Damshus" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "openluchtmuseum-it-damshus" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Openluchtmuseum_It_Damsh_s> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/openluchtmuseum-it-damshus> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Openluchtmuseum It Damshus" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/oude-groninger-kerken>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Stichting Oude Groninger Kerken" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "oude-groninger-kerken" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Oude_Groninger_Kerken> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/oude-groninger-kerken> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Oude Groninger Kerken" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/paleis-het-loo>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Paleis Het Loo" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "paleis-het-loo" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Paleis_Het_Loo> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/paleis-het-loo> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Paleis Het Loo" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/princessehof>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Princessehof" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "princessehof" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by/3.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Princessehof_Leeuwarden__Nationaal_Keramiekmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/princessehof> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Princessehof" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/provinciaal-archeologisch-depot-provincie-zuid-holland>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Provinciaal Archeologisch Depot provincie Zuid-Holland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "provinciaal-archeologisch-depot-provincie-zuid-holland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Provinciaal_Archeologisch_Depot_provincie_Zuid_Holland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/provinciaal-archeologisch-depot-provincie-zuid-holland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Provinciaal Archeologisch Depot provincie Zuid-Holland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/provinciaal-depot-bodemvondsten-flevoland>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Provinciaal depot bodemvondsten Flevoland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "provinciaal-depot-bodemvondsten-flevoland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand_collecties> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/provinciaal-depot-bodemvondsten-flevoland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Provinciaal depot bodemvondsten Flevoland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/provinciaal-depot-bodemvondsten-noord-brabant>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Provinciaal Depot Bodemvondsten Noord-Brabant" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "provinciaal-depot-bodemvondsten-noord-brabant" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Provinciaal_Depot_Bodemvondsten_Noord_Brabant> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/provinciaal-depot-bodemvondsten-noord-brabant> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Provinciaal Depot Bodemvondsten Noord-Brabant" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/purmerends-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Purmerends Museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "purmerends-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Purmerends_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/purmerends-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Purmerends Museum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/raf-aerial-photographs>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Wageningen UR Library RAF aerial photographs" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "raf-aerial-photographs" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Wageningen_UR> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/raf-aerial-photographs> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Wageningen UR Library RAF aerial photographs" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rce-beeldbank>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Beeldbank van de Rijksdienst voor het Cultureel Erfgoed" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rce-beeldbank" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Beeldbank_van_de_Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rce-beeldbank> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeldbank van de Rijksdienst voor het Cultureel Erfgoed" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rce-henkes>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Werken van Dolf Henkes in de RCE Collectie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rce-henkes" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rce-henkes> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Werken van Dolf Henkes in de RCE Collectie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rce-kunstcollectie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Kunstcollectie van het rijk beheerd door de Rijksdienst voor het Cultureel Erfgoed" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rce-kunstcollectie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rce-kunstcollectie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijkscollectie RCE" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rce-maritieme-archeologie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Batavialand, Maritieme archeologie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rce-maritieme-archeologie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Batavialand_collecties> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rce-maritieme-archeologie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Batavialand, Maritieme archeologie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rijksakademie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Rijksakademie van beeldende kunsten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rijksakademie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksakademie_van_beeldende_kunsten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rijksakademie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksakademie van beeldende kunsten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rijkscollectie-rce>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Rijkscollectie RCE" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rijkscollectie-rce" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rijkscollectie-rce> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijkscollectie RCE" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rijksmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Rijksmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rijksmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rijksmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rijksmuseum-twenthe>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Rijksmuseum Twenthe" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rijksmuseum-twenthe" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum_Twenthe> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rijksmuseum-twenthe> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijksmuseum Twenthe" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rijksmuseum-van-oudheden>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Collectie Rijksmuseum van Oudheden" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rijksmuseum-van-oudheden" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by/3.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksmuseum_van_Oudheden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rijksmuseum-van-oudheden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Collectie Rijksmuseum van Oudheden" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rkd-images>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "RKD Images" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rkd-images" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/unknown/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD___Nederlands_Instituut_voor_Kunstgeschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/rkd-images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "RKD Images" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/speelgoed-museum-deventer>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Speelgoedmuseum Deventer" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "speelgoed-museum-deventer" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Deventer_Musea> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/speelgoed-museum-deventer> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Speelgoedmuseum Deventer" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/stedelijk-museum-schiedam>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Stedelijk Museum Schiedam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "stedelijk-museum-schiedam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/unknown/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stedelijk_Museum_Schiedam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/stedelijk-museum-schiedam> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stedelijk Museum Schiedam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/sthistverpleegkundigbezit>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Stichting Historisch Verpleegkundig Bezit" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "sthistverpleegkundigbezit" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Historisch_Verpleegkundig_Bezit> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/sthistverpleegkundigbezit> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Historisch Verpleegkundig Bezit" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/stichting-erfgoed-meubelfabriek-lov>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Stichting Erfgoed Meubelfabriek L.O.V." ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "stichting-erfgoed-meubelfabriek-lov" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Erfgoed_Meubelfabriek_L_O_V_> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/stichting-erfgoed-meubelfabriek-lov> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Erfgoed Meubelfabriek L.O.V." .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/stichting_NAMENproject_Nederland>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "stichting NAMENproject Nederland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/streekmuseum-volkssterrenwacht-burgum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Streekmuseum Volkssterrenwacht Burgum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "streekmuseum-volkssterrenwacht-burgum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Streekmuseum_Volkssterrenwacht_Burgum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/streekmuseum-volkssterrenwacht-burgum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Streekmuseum Volkssterrenwacht Burgum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/streekmuseumkrimpenerwaard>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Streekmuseum Krimpenerwaard" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "streekmuseumkrimpenerwaard" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Streekmuseum_Krimpenerwaard> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/streekmuseumkrimpenerwaard> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Streekmuseum Krimpenerwaard" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/te>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "te" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/textielmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "TextielMuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "textielmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Textielmuseum_Tilburg> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/textielmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "TextielMuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/textielmuseum-europeana>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "TextielMuseum Europeana" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "textielmuseum-europeana" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/TextielMuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/textielmuseum-europeana> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "TextielMuseum Europeana" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/teylers-bibliotheek>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Teylers Museum Bibliotheek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "teylers-bibliotheek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Teylers_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/teylers-bibliotheek> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Teylers Museum Bibliotheek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/teylers-fysisch-kabinet>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Teylers Museum Fysisch Kabinet" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "teylers-fysisch-kabinet" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Teylers_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/teylers-fysisch-kabinet> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Teylers Museum Fysisch Kabinet" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/teylers-kabinet-mineralogie>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Teylers Museum Kabinet Mineralogie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "teylers-kabinet-mineralogie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Teylers_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/teylers-kabinet-mineralogie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Teylers Museum Kabinet Mineralogie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/teylers-kunstverzamelingen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Teylers Museum Kabinet Kunstverzamelingen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "teylers-kunstverzamelingen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Teylers_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/teylers-kunstverzamelingen> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Teylers Museum Kabinet Kunstverzamelingen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/teylers-numismatisch-kabinet>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Teylers Museum Numismatisch Kabinet" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "teylers-numismatisch-kabinet" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-nc/3.0/nl/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Teylers_Museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/teylers-numismatisch-kabinet> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Teylers Museum Numismatisch Kabinet" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/tweets>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "tw" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "tweets" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <te> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/te> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/tweets> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "test" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/twentsewelle>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De Museumfabriek" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "twentsewelle" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/De_Museumfabriek> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/twentsewelle> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "De Museumfabriek" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/twentsewelle-exportstempels>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "TwentseWelle-exportstempels" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "twentsewelle-exportstempels" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://rightsstatements.org/vocab/InC/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/De_Museumfabriek> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/twentsewelle-exportstempels> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "TwentseWelle Exportstempels" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/unicum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Unicum Project" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "unicum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Stichting_Academisch_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/unicum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Unicum Project" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/van-abbe-museum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Van Abbemuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "van-abbe-museum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Van_Abbemuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/van-abbe-museum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Van Abbemuseum" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/van-der-krogt-mens-en-dier>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Mens en Dier in Steen en Brons" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "van-der-krogt-mens-en-dier" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Ren__en_Peter_van_der_Krogt> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/van-der-krogt-mens-en-dier> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Mens en Dier in Steen en Brons" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/verzetsmuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Verzetsmuseum Friesland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "pmh" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "verzetsmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://www.europeana.eu/rights/rr-f/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Verzetsmuseum_Friesland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/verzetsmuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Verzetsmuseum Friesland" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/wbc-lijst>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "WBC collectie" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "wbc-lijst" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/publicdomain/mark/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Rijksdienst_voor_het_Cultureel_Erfgoed> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/wbc-lijst> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "WBC collectie" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/zuiderzeemuseum>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Collectie_Nederland> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Zuiderzeemuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#harvestType> "adlib" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "zuiderzeemuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> <http://creativecommons.org/licenses/by-sa/4.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <http://data.netwerkdigitaalerfgoed.nl/datasets/Zuiderzeemuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://data.collectienederland.nl/resource/dataset/zuiderzeemuseum> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zuiderzeemuseum" .
+

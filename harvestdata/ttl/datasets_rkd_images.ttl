@@ -1,0 +1,142 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "RKD Images" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Subject_ModemuzeAccessoires>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ModemuzeAccessoires" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "ModemuzeAccessoires" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "ModemuzeAccessoires" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Subject_Staten_Generaal>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "STATEN-GENERAAL" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "STATEN-GENERAAL" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "STATEN-GENERAAL" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/image_only>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Alleen beeld" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Alleen beeld" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Alleen beeld" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nachtwacht>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nachtwacht" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nachtwacht" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nachtwacht" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_BirdsDepicted>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "BIRDS" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BIRDS" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BIRDS" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_EntirePublicDomainSet>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EntirePublicDomainSet" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "EntirePublicDomainSet" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "EntirePublicDomainSet" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_MIMO>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "MIMO" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "MIMO" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "MIMO" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_Modemuze>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze", "modemuze" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Modemuze", "modemuze" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Modemuze", "modemuze" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_ModemuzeModeprenten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ModemuzeModeprenten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "ModemuzeModeprenten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "ModemuzeModeprenten" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_NIOD>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "NIOD" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "NIOD" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "NIOD" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_OnDisplay>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "OnDisplay" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "OnDisplay" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "OnDisplay" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_Portraits>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "BioPortaal", "bio-portaal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BioPortaal", "bio-portaal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BioPortaal", "bio-portaal" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_PublicDomainImages>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "PublicDomainImages" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "PublicDomainImages" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "PublicDomainImages" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/subject_VVAK>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "VVAK" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "VVAK" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "VVAK" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/type_fashion>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Fashion" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Fashion" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Fashion" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/type_jewellery>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Jewellery" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Jewellery" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Jewellery" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/type_prints>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prints" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/RKD_Images> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Prints" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://www.rijksmuseum.nl/api/oai/2nRKrS0U?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Prints" .
+

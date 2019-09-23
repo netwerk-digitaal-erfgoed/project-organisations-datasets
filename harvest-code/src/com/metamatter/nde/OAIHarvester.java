@@ -77,7 +77,7 @@ public class OAIHarvester {
 				
 				triples += Triples.tripleO(uriSet, Prefix.rdf + "type", Prefix.nde + "Dataset");
 				triples += Triples.tripleO(uriSet, Prefix.nde + "datasetOf", uriReg);
-				triples += Triples.tripleU(uriSet, Prefix.nde + "source", q ); 												// added link to source
+				triples += Triples.tripleL(uriSet, Prefix.nde + "source", q, Prefix.xsd + "anyUri" ); 												// added link to source
 				triples += Triples.tripleL(uriSet, Prefix.nde + "identifier", ((Element) records.item(ii)).getElementsByTagName("setName").item(0).getTextContent(), null); 
 
 				if (! ((Element) records.item(ii)).getElementsByTagName("setName").item(0).getTextContent().isEmpty() ) {

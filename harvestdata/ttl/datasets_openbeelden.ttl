@@ -1,0 +1,111 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Open Beelden" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/UvA_Theaterwetenschap>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nederlandse dans- en theatervoorstellingen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze portal wordt beheerd door de opleiding Theaterwetenschap van de Universiteit van Amsterdam en bevat een selectie vanregistraties van theater- en dansvoorstellingen van 1990 tot 2010." ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nederlandse dans- en theatervoorstellingen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlandse dans- en theatervoorstellingen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/beeldengeluid>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Netherlands Institute for Sound and Vision" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Creative Commons licensed audiovisual heritage from the Netherlands Institute for Sound and Vision" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Netherlands Institute for Sound and Vision" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Netherlands Institute for Sound and Vision" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/celluloidremix>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Celluloid Remix" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Celluloid Remix" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Celluloid Remix" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/euscreen>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EUscreen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "EUscreen offers free online access to videos, stills, texts and audio from European broadcasters and audiovisual archives. We publish selected EUscreen content under a Creative Commons license on the Open Images portal" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "EUscreen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "EUscreen" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/eye>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EYE" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "EYE, het nieuwe filmmuseum, is aanjager en ambassadeur van filmcultuur in Nederland." ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "EYE" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "EYE" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/imagineic>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Imagine IC" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "www.imagineic.nl   Imagine IC verzamelt, verbeeldt en bewaart nieuwe verhalen over actueel samen leven. Imagine IC pioniert in het erfgoed van nu." ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Imagine IC" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Imagine IC" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/nimk>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "NIMk" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nederlands Instituut voor Mediakunst (NIMk / Montevideo)  www.nimk.nl  Het NIMk bevordert nieuwe technologien binnen de beeldende kunst." ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "NIMk" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "NIMk" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/rotterdam>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rotterdam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Rotterdam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Rotterdam" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rotterdam" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/stichting_natuurbeelden>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stichting Natuurbeelden" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "www.natuurbeelden.nl" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Stichting Natuurbeelden" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stichting Natuurbeelden" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/tags>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Open Beelden" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Open Beelden is een open mediaplatform dat toegang biedt tot audiovisuele collecties die eenvoudig hergebruikt kunnen worden." ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Open Beelden" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Open Beelden" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/vpro>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "VPRO" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "VPRO" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "VPRO" .
+
+<http://data.netwerkdigitaalerfgoed.nl/datasets/yadvashem>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Yad Vashem" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Open_Beelden> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Yad Vashem" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://openbeelden.nl/feeds/oai/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Yad Vashem" .
+
