@@ -8,9 +8,16 @@ public class CNLParameters {
 		
 	}
 	
-	private String endpoint , prefixURL , prefixURI, nameRegistry, sparql ;
+	private String encoding, endpoint , prefixURL , prefixURI, nameRegistry, sparql ;
 	private File fileOut ;
 		
+	public String getEncoding(){
+		return this.encoding;
+	}
+	public void setEncoding(String value){
+		this.encoding = value ;
+	}
+
 	public String getRegistry(){
 		return this.endpoint;
 	}

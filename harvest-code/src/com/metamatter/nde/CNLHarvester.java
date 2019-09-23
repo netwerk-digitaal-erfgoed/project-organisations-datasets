@@ -41,6 +41,7 @@ public class CNLHarvester {
 		Configuration config = configs.properties(configFile);
 		
 		for (int i=1; i <= config.getInt("registry.count"); i++) {
+			parameters.setEncoding(config.getString(i+".encoding"));
 			parameters.setRegistry(config.getString(i+".registry"));
 			parameters.setPrefixURI(config.getString(i+".prefixURI"));
 			parameters.setFileOut(config.getString(i+".fileOut"));
@@ -79,7 +80,8 @@ public class CNLHarvester {
 			}
 			// System.out.println(triples);
 			// write triples to file
-	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , "ISO-8859-1");
+	    //FileUtils.writeStringToFile(parameters.getFileOut(), triples , "ISO-8859-1");
+	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , parameters.getEncoding());
 	    triples = "";
 
 		}
