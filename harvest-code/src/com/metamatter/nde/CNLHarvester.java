@@ -25,7 +25,7 @@ public class CNLHarvester {
 	 */
 
 		
-	private static CNLParameters parameters = new CNLParameters();
+	private static HarvesterParameters parameters = new HarvesterParameters();
 
 	
 	public static void main(String[] args) throws ConfigurationException, IOException {
@@ -61,7 +61,7 @@ public class CNLHarvester {
 				
 				System.out.println(row.getResource("s"));
 				String id = row.getResource("s").toString();
-				String uri = parameters.getPrefixURI()+ id.substring(id.lastIndexOf("/")+1);
+				String uri = uriReg + id.substring(id.lastIndexOf("/")+1);
 				triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
 				triples += Triples.tripleL(uri, Prefix.nde + "title", row.getLiteral("n").toString() , null); 
 				triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
@@ -79,6 +79,7 @@ public class CNLHarvester {
 
 			}
 			// System.out.println(triples);
+			
 			// write triples to file
 	    //FileUtils.writeStringToFile(parameters.getFileOut(), triples , "ISO-8859-1");
 	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , parameters.getEncoding());

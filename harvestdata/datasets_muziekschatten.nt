@@ -1,0 +1,21 @@
+<http://data.muziekschatten.nl/som/> <http://schema.org/description> "The Sheet Music Catalog of Stichting Omroep Muziek [TODO]."@en .
+<http://data.muziekschatten.nl/som/> <http://creativecommons.org/ns#attributionName> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl .
+<http://data.muziekschatten.nl/som/> <http://schema.org/description> "De Bladmuziekcatalogus van Stichting Omroep Bibliotheek [TODO]"@nl .
+<http://data.muziekschatten.nl/som/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "partijen" .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "materiaal (met tekstbijlage)" .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "pianouittreksel, solopartij en partijen" .
+<http://data.muziekschatten.nl/som/> <http://rdfs.org/ns/void#uriSpace> <http://data.muziekschatten.nl/som/> .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/EV> "valid" .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "partituur (zonder tekst), zangpartij en partijen" .
+<http://data.muziekschatten.nl/som/> <http://schema.org/name> "Stichting Omroep Muziek Bladmuziekcatalogus"@nl .
+<http://data.muziekschatten.nl/som/> <http://rdfs.org/ns/void#exampleResource> <http://data.muziekschatten.nl/som/111204> .
+<http://data.muziekschatten.nl/som/> <http://purl.org/dc/terms/license> <http://opendatacommons.org/licenses/by/1.0/> .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "partituur" .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "partituur (zonder tekst) en zangpartij" .
+<http://data.muziekschatten.nl/som/> <http://creativecommons.org/ns#morePermissions> <mailto:muziekschatten@omroepmuziek.nl> .
+<http://data.muziekschatten.nl/som/> <http://creativecommons.org/ns#attributionURL> <http://omroepmuziek.nl/> .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "directie(partituur) met partijen" .
+<http://data.muziekschatten.nl/som/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "koormateriaal" .
+<http://data.muziekschatten.nl/som/> <http://data.muziekschatten.nl/som/ARR> "partituur en partijen" .

@@ -73,7 +73,7 @@ public class OAIHarvester {
 	  	for (int ii = 0 ; ii < records.getLength() ; ii++) {
 	  		NodeList nodes = ((Element) records.item(ii)).getElementsByTagName("setSpec");
 
-				String uriSet = Triples.URI(parameters.getPrefixURI(), nodes.item(0).getTextContent() ); 
+				String uriSet = Triples.URI(uriReg, nodes.item(0).getTextContent() ); 
 				
 				triples += Triples.tripleO(uriSet, Prefix.rdf + "type", Prefix.nde + "Dataset");
 				triples += Triples.tripleO(uriSet, Prefix.nde + "datasetOf", uriReg);
@@ -99,12 +99,7 @@ public class OAIHarvester {
 	  		//System.out.println(triples);
 	  	}
 
-			
-			
-			
-			
-			// System.out.println(triples);
-			// write triples to file
+	  	// write triples to file
 	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , parameters.getEncoding());
 	    triples = "";
 

@@ -109,7 +109,7 @@ public class CKANHarvester {
 		
 		String triples = "";
 		
-		String uri = parameters.getPrefixURI() + json.getString("id");
+		String uri = uriReg + json.getString("id");
 		triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
 		triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
 		triples += Triples.tripleO(uri, Prefix.nde + "source", source ); 												// added link to source
@@ -128,7 +128,7 @@ public class CKANHarvester {
 		JSONArray resources = json.getJSONArray("resources")  ;
 		for (int i = 0; i < resources.length(); i++) {
 			JSONObject resource = (JSONObject) resources.get(i) ;
-			String distURI = parameters.getPrefixURI() + resource.getString("id");
+			String distURI = uriReg + resource.getString("id");
 			triples += Triples.tripleO(distURI, Prefix.rdf + "type", Prefix.nde + "Distribution");
 			triples += Triples.tripleL(distURI, Prefix.nde + "identifier", resource.getString("id"), null); 
 			triples += Triples.tripleO(distURI, Prefix.nde + "distributionOf", uri);
