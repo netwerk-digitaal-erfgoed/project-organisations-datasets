@@ -139,14 +139,14 @@ public class CKANHarvester {
 			if (!resource.isNull("issued")) {triples += Triples.tripleL(distURI, Prefix.nde + "issued", resource.getString("created"), Prefix.xsd + "dateTime"); }
 			if (!resource.isNull("last_modified")) {triples += Triples.tripleL(distURI, Prefix.nde + "modified", resource.getString("last_modified"), Prefix.xsd + "dateTime" ); }
 
-			String formatURI = Triples.URI(parameters.getPrefixURI(), resource.getString("format"));
+			String formatURI = Triples.URI(uriReg, resource.getString("format"));
 			triples += Triples.tripleO(distURI, Prefix.nde + "mediaType", formatURI );
 			triples += Triples.tripleL(formatURI, Prefix.nde + "title", resource.getString("format"), null );
 		}
 
 		if (!json.optString("organization").isEmpty()) {
 			JSONObject organisation = (JSONObject) json.get("organization");	// Organization entry interpreted as owner (?)
-			String orgURI = parameters.getPrefixURI() + organisation.getString("id");
+			String orgURI = uriReg + organisation.getString("id");
 			triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
 			triples += Triples.tripleL(orgURI, Prefix.nde + "title", organisation.getString("title"), null );
 			triples += Triples.tripleL(orgURI, Prefix.nde + "description", organisation.getString("description").replaceAll("\\p{Cntrl}", ""), null );
@@ -160,7 +160,7 @@ public class CKANHarvester {
 		JSONArray groups = json.getJSONArray("groups")  ;  // Groups entry is interpreted as publisher (?)
 		for (int i = 0; i < groups.length(); i++) { 
 			JSONObject group = (JSONObject) groups.get(i) ;
-			String uriPublisher = parameters.getPrefixURI() + group.getString("id");
+			String uriPublisher = uriReg + group.getString("id");
 			triples += Triples.tripleO(uri, Prefix.nde + "publisher", uriPublisher);
 			triples += Triples.tripleO(uriPublisher, Prefix.rdf + "type", Prefix.foaf + "Organization");
 			triples += Triples.tripleL(uriPublisher, Prefix.nde + "identifier", group.getString("id"), null);  
@@ -171,7 +171,7 @@ public class CKANHarvester {
 		JSONArray tags = json.getJSONArray("tags")  ;  
 		for (int i = 0; i < tags.length(); i++) { 
 			JSONObject tag = (JSONObject) tags.get(i) ;
-			String tagURI = parameters.getPrefixURI() + tag.getString("id");
+			String tagURI = uriReg + tag.getString("id");
 			triples += Triples.tripleO(uri, Prefix.schema + "subject", tagURI);
 			triples += Triples.tripleO(tagURI, Prefix.rdf + "type", Prefix.skos + "Concept");
 			triples += Triples.tripleL(tagURI, Prefix.nde + "identifier", tag.getString("id"), null);  

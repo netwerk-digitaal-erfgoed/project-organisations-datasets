@@ -1,0 +1,32 @@
+<http://lod.kb.nl/registry/Modemuze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
+<http://lod.kb.nl/registry/Modemuze> <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze" . 
+<http://lod.kb.nl/registry/Modemuze1016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Modemuze1016> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Modemuze> . 
+<http://lod.kb.nl/registry/Modemuze1016> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://panic.image.ntua.gr:9000/fashionedmfp/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Modemuze1016> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1016" . 
+<http://lod.kb.nl/registry/Modemuze1016> <http://www.w3.org/2000/01/rdf-schema#label> "1016" . 
+<http://lod.kb.nl/registry/Modemuze1016> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "1016" . 
+<http://lod.kb.nl/registry/Modemuze1040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Modemuze1040> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Modemuze> . 
+<http://lod.kb.nl/registry/Modemuze1040> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://panic.image.ntua.gr:9000/fashionedmfp/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Modemuze1040> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1040" . 
+<http://lod.kb.nl/registry/Modemuze1040> <http://www.w3.org/2000/01/rdf-schema#label> "1040" . 
+<http://lod.kb.nl/registry/Modemuze1040> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "1040" . 
+<http://lod.kb.nl/registry/Modemuze1043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Modemuze1043> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Modemuze> . 
+<http://lod.kb.nl/registry/Modemuze1043> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://panic.image.ntua.gr:9000/fashionedmfp/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Modemuze1043> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1043" . 
+<http://lod.kb.nl/registry/Modemuze1043> <http://www.w3.org/2000/01/rdf-schema#label> "1043" . 
+<http://lod.kb.nl/registry/Modemuze1043> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "1043" . 
+<http://lod.kb.nl/registry/Modemuze1047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Modemuze1047> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Modemuze> . 
+<http://lod.kb.nl/registry/Modemuze1047> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://panic.image.ntua.gr:9000/fashionedmfp/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Modemuze1047> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1047" . 
+<http://lod.kb.nl/registry/Modemuze1047> <http://www.w3.org/2000/01/rdf-schema#label> "1047" . 
+<http://lod.kb.nl/registry/Modemuze1047> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "1047" . 
+<http://lod.kb.nl/registry/Modemuze1048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Modemuze1048> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Modemuze> . 
+<http://lod.kb.nl/registry/Modemuze1048> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://panic.image.ntua.gr:9000/fashionedmfp/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Modemuze1048> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1048" . 
+<http://lod.kb.nl/registry/Modemuze1048> <http://www.w3.org/2000/01/rdf-schema#label> "1048" . 
+<http://lod.kb.nl/registry/Modemuze1048> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "1048" . 

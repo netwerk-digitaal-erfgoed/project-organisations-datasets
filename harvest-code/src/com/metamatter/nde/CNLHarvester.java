@@ -71,7 +71,7 @@ public class CNLHarvester {
 				if (row.contains("d")) { triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("d").toString(), null ); }
 				if (row.contains("t")) { triples += Triples.tripleL(uri, Prefix.nde + "harvestType", row.getLiteral("t").toString(), null ); }
 				if (row.contains("o")) { 
-					String orgURI = Triples.URI(parameters.getPrefixURI() , row.getLiteral("o").toString() );
+					String orgURI = Triples.URI(uri , row.getLiteral("o").toString() );
 					triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
 					triples += Triples.tripleL(orgURI, Prefix.nde + "title", row.getLiteral("o").toString(), null );
 					triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");

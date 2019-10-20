@@ -27,7 +27,8 @@ public class SPARQLHarvester {
 		
 	private static HarvesterParameters parameters = new HarvesterParameters();
 	
-	private static String queryDetail = "CONSTRUCT { <dataset> ?p ?o } WHERE { <dataset> ?p ?o . }";
+	private static String queryDetail = "CONSTRUCT { <dataset> ?p ?o } WHERE { { <dataset> ?p ?o FILTER (!isBlANK(?o))} UNION { <dataset> ?p ?o1 . ?o1 ?p1 ?o FILTER isBlank(?o1) } }";
+	private static String queryDetail2 = "SELECT ?p ?o WHERE {  { <dataset> ?p ?o FILTER (!isBlANK(?o)) } UNION { <dataset> ?p ?o1 . ?o1 ?p1 ?o FILTER isBlank(?o1) } }";
 
 	
 	public static void main(String[] args) throws ConfigurationException, IOException {
@@ -38,12 +39,14 @@ public class SPARQLHarvester {
 		} 
 
 		String triples = "";
+		
 		File configFile = new File(args[0]);
 		Configurations configs = new Configurations();
 		Configuration config = configs.properties(configFile);
 		
 		
 		for (int i=1; i <= config.getInt("registry.count"); i++) {
+			
 			// Set config parameters for each endpoint
 			parameters.setEncoding(config.getString(i+".encoding"));
 			parameters.setRegistry(config.getString(i+".registry"));
@@ -52,14 +55,13 @@ public class SPARQLHarvester {
 			parameters.setNameRegistry(config.getString(i+".nameRegistry"));
 			parameters.setSPARQL(config.getString(i+".sparql"));
 
-			// First create triples for the Registry entity and parse metadata to triples
+			// First create triples for the Registry entity 
 			String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
 
 			// Query all datasets in endpoint
 			ResultSet results = QueryEndpoint.queryRS(parameters.getSPARQL(), parameters.getRegistry()) ;
-			System.out.println(parameters.getRegistry());
 			Model model = ModelFactory.createDefaultModel();
 			
 			// Parse each Dataset for triples (no inverse triples!)
@@ -68,18 +70,25 @@ public class SPARQLHarvester {
 				
 				String id = row.getResource("s").toString();
 				String uri = uriReg + id.substring(id.lastIndexOf("/")+1);
+				triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
 				triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
 				triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
 				System.out.println(id);
-
-				//mapTriples( QueryEndpoint.queryRS(queryDetail.replace("dataset","id") , parameters.getRegistry()), uri) ;
 				
-				// get original triples from description to file
+				// get original triples from description to model
 				System.out.println(queryDetail.replace("dataset", id ));
-				model.add(QueryEndpoint.queryModel(queryDetail.replaceAll("dataset", id ) , parameters.getRegistry()));
-			}
 
-			FileWriter out = null ;
+				ResultSet resultsDetail = QueryEndpoint.queryRS(queryDetail2.replaceAll("dataset", id ) , parameters.getRegistry()) ;
+				
+				model.add(QueryEndpoint.queryModel(queryDetail.replaceAll("dataset", id ) , parameters.getRegistry()));
+				
+				// parse model for mapping to NDE terms
+				triples += mapTriples(resultsDetail, uri);
+
+			}
+			
+			// write model to file
+/*			FileWriter out = null ;
 			try {
 				out = new FileWriter( parameters.getFileOut() );
 			  model.write( out, "N-TRIPLES" );
@@ -89,18 +98,21 @@ public class SPARQLHarvester {
 			    try {out.close();} catch (IOException ignore) {}
 			  }
 			}
-
+*/
 			System.out.println("done");
 			
 			// System.out.println(triples);
 			// write triples to file
 	    //FileUtils.writeStringToFile(parameters.getFileOut(), triples , "ISO-8859-1");
-	    //FileUtils.writeStringToFile(parameters.getFileOut(), triples , parameters.getEncoding());
+	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , parameters.getEncoding());
 	    triples = "";
 
 		}
 	
 	}
+	/*
+	 * Method form conversion of data to NDE terminology (this is where the mapping happens)
+	 */
 	
 	private static String mapTriples (ResultSet result, String uri) {
 		
@@ -108,22 +120,77 @@ public class SPARQLHarvester {
 
 		for (; result.hasNext();) {
 			QuerySolution row = result.next();
+			String prop = row.getResource("p").toString();
+			
+			if (prop.equals("http://creativecommons.org/ns#attributionName") ||  
+					prop.equals("http://schema.org/name") ||  
+					prop.equals("http://schema.org/title") ||  
+					prop.equals("http://www.w3.org/2000/01/rdf-schema#label") ||  
+					prop.equals("http://purl.org/dc/elements/1.1/title") ){ 
+				if (row.getLiteral("o").toString().contains("@")) {
+					triples += Triples.tripleL(uri, Prefix.nde + "title", row.getLiteral("o").toString() , "@" ); 
+					triples += Triples.tripleL(uri, Prefix.rdfs + "label", row.getLiteral("o").toString() , "@" ); 
+				} else {
+					triples += Triples.tripleL(uri, Prefix.nde + "title", row.getLiteral("o").toString() , null ); 
+					triples += Triples.tripleL(uri, Prefix.rdfs + "label", row.getLiteral("o").toString() , null ); 
+				}
+				
+			} else if (	prop.equals("http://creativecommons.org/ns#license") || 
+									prop.equals("http://schema.org/license") ||
+									prop.equals("http://purl.org/dc/terms/license") ){ 
+				triples += Triples.tripleO(uri, Prefix.nde + "licenseOfMetadata", row.getResource("o").toString() ); 
+				
+			} else if (	prop.equals("http://creativecommons.org/ns#useGuidelines") || 
+									prop.equals("http://www.w3.org/2000/01/rdf-schema#seeAlso") ){ 
+				if ( row.get("o").isResource() ) {
+					triples += Triples.tripleO(uri, Prefix.nde + "pageWithAdditionalInformation", row.getResource("o").toString() ); 
+				} else {
+					if (row.getLiteral("o").toString().contains("@")){ 
+						triples += Triples.tripleL(uri, Prefix.nde + "pageWithAdditionalInformation", row.getLiteral("o").toString() , "@");
+					} else {
+						triples += Triples.tripleL(uri, Prefix.nde + "pageWithAdditionalInformation", row.getLiteral("o").toString() , null);
+					}
+				}
+				
+			} else if (	prop.equals("http://purl.org/dc/elements/1.1/description") || 
+									prop.equals("http:schema.org/description")  ){ 
+				if (row.getLiteral("o").toString().contains("@")) {
+					triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("o").toString() , "@"); 
+				} else {
+					triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("o").toString() , null); 
+				}
+				
+			} else if (prop.equals("http://purl.org/dc/elements/1.1/identifier")){ 
+				triples += Triples.tripleL(uri, Prefix.nde + "identifier", row.getLiteral("o").toString() , null); 
+			
+			} else if ( prop.equals("http://purl.org/dc/terms/creator") || 
+									prop.equals("http://schema.org/provider") || 
+									prop.equals("http://schema.org/publisher") || 
+									prop.equals("http://www.europeana.eu/schemas/edm/provider") ){ 
+				if ( row.get("o").isResource() ) {
+					triples += Triples.tripleO(uri, Prefix.nde + "publisher", row.getResource("o").toString() ); 
+				} else {
+					triples += Triples.tripleL(uri, Prefix.nde + "publisher", row.getLiteral("o").toString() , null ); 
+				}
+				
+			} else if (prop.equals("http://purl.org/dc/terms/date") ){ 
+				triples += Triples.tripleL(uri, Prefix.nde + "issued", row.getLiteral("o").toString(), Prefix.xsd + "Date" ); 
+				triples += Triples.tripleL(uri, Prefix.nde + "modified", row.getLiteral("o").toString(), Prefix.xsd + "Date" ); 
 
-			/*
-			triples += Triples.tripleL(uri, Prefix.nde + "title", row.getLiteral("n").toString() , null); 
-			triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
-			triples += Triples.tripleO(uri, Prefix.nde + "source", row.getResource("s").toString() );
-			if (row.contains("r")) { triples += Triples.tripleO(uri, Prefix.nde + "licenseOfContents", row.getLiteral("r").toString() ); }
-			if (row.contains("d")) { triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("d").toString(), null ); }
-			if (row.contains("t")) { triples += Triples.tripleL(uri, Prefix.nde + "harvestType", row.getLiteral("t").toString(), null ); }
-			if (row.contains("o")) { 
-				String orgURI = Triples.URI(parameters.getPrefixURI() , row.getLiteral("o").toString() );
-				triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
-				triples += Triples.tripleL(orgURI, Prefix.nde + "title", row.getLiteral("o").toString(), null );
-				triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");
+			} else if (prop.equals("http://schema.org/dateCreated") ){ 
+				triples += Triples.tripleL(uri, Prefix.nde + "issued", row.getLiteral("o").toString(), Prefix.xsd + "Date" ); 
+
+			} else if (prop.equals("http://schema.org/dateModified") ){ 
+				triples += Triples.tripleL(uri, Prefix.nde + "modified", row.getLiteral("o").toString(), Prefix.xsd + "Date" ); 
+
+			} else if (prop.equals("http://purl.org/dc/terms/format")){ 
+				triples += Triples.tripleO(uri, Prefix.nde + "mediaType", row.getResource("o").toString() ); 
+
+			} else if (prop.equals("http://rdfs.org/ns/void#sparqlEndpoint")){ 
+				triples += Triples.tripleO(uri, Prefix.nde + "accessURL", row.getResource("o").toString() ); 
 			}
-			*/
 		}
+		// System.out.println(triples);
 		return triples;
 	}
 

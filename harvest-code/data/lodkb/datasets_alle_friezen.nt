@@ -1,0 +1,194 @@
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen> <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar: Alle Friezen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbb_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Burgerboeken Inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbb_a> <http://www.w3.org/2000/01/rdf-schema#label> "Burgerboeken Inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Burgerboeken Inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbe_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbe_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbe_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbe_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Quotisatie kohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbe_a> <http://www.w3.org/2000/01/rdf-schema#label> "Quotisatie kohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbe_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Quotisatie kohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbr_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbr_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbr_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbr_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbr_a> <http://www.w3.org/2000/01/rdf-schema#label> "inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbr_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BS Geboorte akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_g> <http://www.w3.org/2000/01/rdf-schema#label> "BS Geboorte akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BS Geboorte akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BS Huwelijk akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_h> <http://www.w3.org/2000/01/rdf-schema#label> "BS Huwelijk akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BS Huwelijk akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BS Overlijden akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_o> <http://www.w3.org/2000/01/rdf-schema#label> "BS Overlijden akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenbs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BS Overlijden akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencc_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Rolboeken arr. rechtbanken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencc_a> <http://www.w3.org/2000/01/rdf-schema#label> "Rolboeken arr. rechtbanken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rolboeken arr. rechtbanken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencv_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Registres civiques inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencv_a> <http://www.w3.org/2000/01/rdf-schema#label> "Registres civiques inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezencv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Registres civiques inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB begraven inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_b> <http://www.w3.org/2000/01/rdf-schema#label> "DTB begraven inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB begraven inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB geboortes / dopen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_d> <http://www.w3.org/2000/01/rdf-schema#label> "DTB geboortes / dopen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB geboortes / dopen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB Lidmaten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_l> <http://www.w3.org/2000/01/rdf-schema#label> "DTB Lidmaten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB Lidmaten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB Trouwen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_t> <http://www.w3.org/2000/01/rdf-schema#label> "DTB Trouwen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezendtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB Trouwen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenem_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenem_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenem_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenem_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Emigranten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenem_a> <http://www.w3.org/2000/01/rdf-schema#label> "Emigranten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenem_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Emigranten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenmvs_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenmvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenmvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenmvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Memorie van successie inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenmvs_a> <http://www.w3.org/2000/01/rdf-schema#label> "Memorie van successie inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenmvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Memorie van successie inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenna_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenna_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenna_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenna_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Notarieel archief akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenna_a> <http://www.w3.org/2000/01/rdf-schema#label> "Notarieel archief akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenna_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Notarieel archief akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenra_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Quaclappen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenra_a> <http://www.w3.org/2000/01/rdf-schema#label> "Quaclappen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezenra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Quaclappen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent01_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Militairen 1795-1815 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent01_a> <http://www.w3.org/2000/01/rdf-schema#label> "Militairen 1795-1815 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Militairen 1795-1815 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent02_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Pottenbakkers 1752-1900 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent02_a> <http://www.w3.org/2000/01/rdf-schema#label> "Pottenbakkers 1752-1900 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Pottenbakkers 1752-1900 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent03_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Kamer van koophandel inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent03_a> <http://www.w3.org/2000/01/rdf-schema#label> "Kamer van koophandel inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kamer van koophandel inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent04_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Studenten Franeker inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent04_a> <http://www.w3.org/2000/01/rdf-schema#label> "Studenten Franeker inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Studenten Franeker inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent05_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Ontvanger Generaal inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent05_a> <http://www.w3.org/2000/01/rdf-schema#label> "Ontvanger Generaal inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Ontvanger Generaal inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent06_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel e.o. inschrijvingen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent06_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel e.o. inschrijvingen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel e.o. inschrijvingen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent07_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Kadaster 1832 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent07_a> <http://www.w3.org/2000/01/rdf-schema#label> "Kadaster 1832 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kadaster 1832 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent08_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Stemkohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent08_a> <http://www.w3.org/2000/01/rdf-schema#label> "Stemkohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stemkohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent09_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel speciekohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent09_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel speciekohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel speciekohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent10_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Volkstelling 1744 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent10_a> <http://www.w3.org/2000/01/rdf-schema#label> "Volkstelling 1744 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Volkstelling 1744 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent11_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel informatieboeken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent11_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel informatieboeken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel informatieboeken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent12_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel hypotheekboeken akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent12_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel hypotheekboeken akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel hypotheekboeken akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent15_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Naamsaanneming 1811 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent15_a> <http://www.w3.org/2000/01/rdf-schema#label> "Naamsaanneming 1811 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naamsaanneming 1811 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent16_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nedergerechten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent16_a> <http://www.w3.org/2000/01/rdf-schema#label> "Nedergerechten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nedergerechten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent17_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Onderduikers inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent17_a> <http://www.w3.org/2000/01/rdf-schema#label> "Onderduikers inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Onderduikers inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent18_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inscripties en grafschriften inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent18_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inscripties en grafschriften inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezent18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inscripties en grafschriften inschrijving" . 

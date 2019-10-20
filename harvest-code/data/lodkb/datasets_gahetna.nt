@@ -1,0 +1,30 @@
+<http://lod.kb.nl/registry/GaHetNa_nl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
+<http://lod.kb.nl/registry/GaHetNa_nl> <http://www.w3.org/2000/01/rdf-schema#label> "GaHetNa.nl" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/GaHetNa_nl> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 1" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 1" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 1" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records from government archives from before 1795" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/GaHetNa_nl> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 2" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 2" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 2" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records from government archives from after 1795" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/GaHetNa_nl> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 3" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 3" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 3" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records from the province of Zuid-Holland" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/GaHetNa_nl> . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 4" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 4" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 4" . 
+<http://lod.kb.nl/registry/GaHetNa_nlnaa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records of collections of maps and drawings" . 
