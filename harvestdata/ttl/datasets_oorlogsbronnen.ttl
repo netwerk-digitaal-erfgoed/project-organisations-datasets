@@ -29,9 +29,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal046f11f6-223a-4e33-8fee-1b080c67d550>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Gemeentearchief Schiedam bevat ruim 200 beelden relevant voor onderzoek naar de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "046f11f6-223a-4e33-8fee-1b080c67d550" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-11T16:16:25.091388"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:29:24.995105"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalbe0d30dc-a419-4d83-8937-0577f5a39425> ;
@@ -121,9 +119,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal0e594bfc-7a2b-4dbb-8907-09ac79652ba8>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het NIMH omvat ca. 25000 beelden met een relatie tot het thema Tweede Wereldoorlog. In deze dataset is de metadata van deze records opgenomen." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "0e594bfc-7a2b-4dbb-8907-09ac79652ba8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T14:32:01.217397"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:26:05.447986"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale6e115a3-cfe6-46bd-aa4f-438f3d33c3d4> ;
@@ -215,9 +211,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal14a9ca1a-549e-43c8-b719-ae9e08a0af2f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dit archief bevat de beschrijvingen van meer dan 2.000 gedigitaliseerde bronnen en 534 archiefbeschrijvingen. De bestanden zijn gedigitaliseerd in het kader van het project Efgoed van de Oorlog. De collectie is statisch.Het bronbestand Archives_dvdv.tar.gz bevat een map met XML documenten die via een afgeschermde API geharvest zijn." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "14a9ca1a-549e-43c8-b719-ae9e08a0af2f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T13:45:56.082067"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:18:23.177843"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal31167e73-7cc7-4d35-961e-18035160449c> ;
@@ -237,9 +231,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal15c45905-5c96-4ddf-ae07-036335ec5987>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank bevat ruim 12.000 afbeeldingen. O.a. foto's, oude ansichtkaarten, historisch krantenmateriaal. Ruim 500 beelden hebben betrekking op de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "15c45905-5c96-4ddf-ae07-036335ec5987" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-11T16:44:47.886896"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:30:16.709357"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalda96bace-ea5a-49bd-bf0f-fbec345d502a> ;
@@ -269,16 +261,13 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal189a071c-4489-4937-9651-b0811795cfdb>
     a <http://xmlns.com/foaf/0.1/Organization> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "189a071c-4489-4937-9651-b0811795cfdb" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Erfgoed van de Oorlog" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal18bc1cb4-6011-42db-8ce5-f44d57b895dd>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Brabants Historisch Informatiecentrum bevat ruim 1700 foto's van Brabant in de periode 1940-1945." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "18bc1cb4-6011-42db-8ce5-f44d57b895dd" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T07:56:36.613200"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:19:19.365718"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal61a6cfa4-435a-4efb-befa-91bb9e5f20bd> ;
@@ -299,7 +288,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1aed3eda-a323-4c36-bd17-bd4dc35a8226>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://maior.memorix.nl/api/oai/zaa/key/3e1f051a-62df-492b-a060-c001e4db644f/"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc3481828-ec08-43b4-a2c0-26657b7dd44e> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1aed3eda-a323-4c36-bd17-bd4dc35a8226" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -308,9 +296,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1b65deac-8fae-455e-b041-1c73ccd72ff7>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Een overzicht van gebeurtenissen WO2 in Gelderland. Georganiseerd rond de thema's Bevrijding, Collaboratie, Dagelijks leven, Oorlogvoering, Vervolging, Verzet.Het onderzoek is uitgevoerd door Janneke Jorna en Elmar van de Ree." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1b65deac-8fae-455e-b041-1c73ccd72ff7" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-26T10:59:37.112151"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-05T11:41:40.419093"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalec17b985-08da-42f1-85cf-aa389c5f4f4b> ;
@@ -331,9 +317,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1bde98a4-9490-46df-a2c1-eaa29ac71ab9>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De website ArchievenWO2.nl bood een overzicht over ruim 4200 archieven met WO2-materiaal en is in 2010 opgezet in het kader van het programma Erfgoed van de Oorlog. Tijdens dit landelijke programma van het Ministerie van VWS zijn meerdere nationale WO2-collecties gecreerd.In 2017 is toegang tot de collectie ArchievenWO2 overgedragen aan het Netwerk Oorlogsbronnen. De collectie is statisch en wordt niet bijgewerkt." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1bde98a4-9490-46df-a2c1-eaa29ac71ab9" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T13:41:21.279073"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:18:00.677126"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
@@ -396,9 +380,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1ef10154-8cff-427c-9d9d-947057ebf350>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank Schouwen Duivenland bevat ruim 1800 foto's met betrekking tot de periode 1940-1945." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1ef10154-8cff-427c-9d9d-947057ebf350" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-11T16:28:21.257650"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:29:35.138852"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal2397bbf0-8b28-4b57-8c4f-757e6e3d1ba4> ;
@@ -417,9 +399,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1f8ccce9-9105-4ae6-9510-64e37738a2f0>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "EHRI (European Holocaust Research Infrastructure) is een internationaal samenwerkingsverband dat archieven met materiaal over de Holocaust beter digitaal toegankelijk wil maken. De API biedt toegang tot data over archieven in binnen- en buitenland met Holocaust-gerelateerde collecties." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1f8ccce9-9105-4ae6-9510-64e37738a2f0" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T13:51:33.056197"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2018-01-24T14:10:46.238297"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal4278d23c-4987-4642-a998-86b3b5e9f13e> ;
@@ -451,9 +431,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal20383df3-ab67-4f51-94af-a846c919c518>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van Gemeentearchief Zaanstad bevat ruim 125.000 digitale beelden. De collectie bevat een set van ruim 2100 beelden mbt de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "20383df3-ab67-4f51-94af-a846c919c518" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T14:30:30.266830"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:31:02.829638"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal957298f8-2915-4db9-ba49-2087260a495d> ;
@@ -534,9 +512,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal24b5daf2-85e9-4075-a0dc-0ebd10809b2d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Stadsarchief Breda omvat een paar honderd foto's die betrekking hebben op de Tweede Wereldoorlog. Deze dataset omvat de metadata van deze foto's." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "24b5daf2-85e9-4075-a0dc-0ebd10809b2d" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T16:24:12.140208"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:19:49.367351"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8b76eda2-31f7-48c6-a4fa-3ee0117e9d04> ;
@@ -649,9 +625,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal2b3f0e25-1c64-4f52-a8b0-862816351c0b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset (4980 records) met metadata van oorlogsaffiches uit de collectie van het NIOD Instituut voor Oorlogs-, Holocaust- en Genocidestudies. De onderwerpen zijn zeer divers: Duitse propaganda-acties, Mussert en zijn NSB, oproepen voor de Waffen SS, instructies om de bevolking te beschermen tegen luchtaanvallen, ontspanningsvormen en Duitse doodvonnissen. Burgemeesters brachten hun burgers op de hoogte van nieuwe Duitse maatregelen. De illegaliteit riep in aanplakbiljetten op tot verzet. In Nederlands-Indi bracht de Japanse bezetter propaganda-affiches in omloop." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2b3f0e25-1c64-4f52-a8b0-862816351c0b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:52:31.114637"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2018-01-24T12:05:53.582759"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -715,9 +689,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal2f4d9ced-0e9f-48a6-ba1f-b36aff233f24>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset van zo'n 2.200 fotobeschrijvingen uit de collectie van het Regionaal Historisch Centrum Limburg, met betrekking tot de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2f4d9ced-0e9f-48a6-ba1f-b36aff233f24" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T08:25:45.580273"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:22:23.885420"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6d69fc3d-16cd-49eb-aa66-45d6f24168fe> ;
@@ -763,9 +735,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal319b0670-a55f-4110-ae4c-ad3e1f50e6b1>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De metadata van de Beeldbank WO2 omvat beschrijvingen van circa 140.000 fotos, tekeningen, affiches en andere afbeeldingen over de Tweede Wereldoorlog, waaronder uniek fotomateriaal over de jodenvervolging in Nederland, de Duitse bezetting, het verzet en de collaborerende machten.Het materiaal is afkomstig uit de collectie van het NIOD Instituut voor Oorlogs-, Holocaust- en Genocidestudies en 30 andere erfgoedinstellingen met bijzondere WO2-collecties." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "319b0670-a55f-4110-ae4c-ad3e1f50e6b1" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T14:51:12.021787"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:27:26.713186"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
@@ -786,9 +756,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal32b81d39-ddc2-492f-9f34-fabf0f3d6f8f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De collectie van het Museon telt circa 273.000 voorwerpen op het gebied van de natuur, cultuur en techniek. Ca 13.000 objecten hebben betrekking op Nederland en Nederlands Indi tijdens de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "32b81d39-ddc2-492f-9f34-fabf0f3d6f8f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-23T16:09:38.596398"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:37:56.990500"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalf9b617b6-b4a0-4c26-8963-6ae86c46763d> ;
@@ -825,9 +793,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal337bc02d-3883-4fcf-bc2b-67bb84034d75>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Stadsarchief Amsterdam omvat een rijke collectie over de Tweede Wereldoorlog in de stad en in het algemeen. Deze dataset omvat enkele duizenden beschrijvingen van deze foto's." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "337bc02d-3883-4fcf-bc2b-67bb84034d75" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T16:11:40.705164"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:18:59.948945"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal81c378f3-c318-40f0-b5ec-db27e0a2de0c> ;
@@ -967,9 +933,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal38d7eb97-fad2-49a0-a646-765680aa8f83>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat de Archiefbeschrijvingen van het Gelders Archief met betrekking to WO2." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "38d7eb97-fad2-49a0-a646-765680aa8f83" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-15T13:33:09.375391"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:12:33.340520"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalf5057f82-2965-4e8e-84d9-5a4ffae67458> ;
@@ -1013,9 +977,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal39fbdb1c-e7e5-41c5-8146-6ffcb0c765c5>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "39fbdb1c-e7e5-41c5-8146-6ffcb0c765c5" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T10:02:06.760941"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:39:12.181091"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala90e714a-e3f7-48c8-9da1-245d111b4ffd> ;
@@ -1102,9 +1064,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal3b282809-1e2e-46af-aa17-a041c1b7f5cb>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat beschrijvingen van objecten en afbeeldingen uit de collectie van het Moluks Historisch Museum." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "3b282809-1e2e-46af-aa17-a041c1b7f5cb" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T12:10:33.132943"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:37:38.452382"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal900cc649-8dbd-470c-aec1-e2cf2fb6aadd> ;
@@ -1136,9 +1096,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal3d988e9a-3de6-4f72-afcf-11ad5807baf3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Vliegbasis Deelen stelt 45 objecten uit zijn collectie beschikbaar via Collectie Gelderland. Deze dataset omvat de metadata van deze objecten." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "3d988e9a-3de6-4f72-afcf-11ad5807baf3" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T12:08:34.056675"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:11:08.874522"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal18204ff7-571b-4a09-97f9-9da143a5105f> ;
@@ -1148,9 +1106,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal3e4cc5b0-71ab-4797-b70b-4daab0226575>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat metadata van geluidsfragmenten en ander materiaal in relatie tot de rol van muziek in de Tweede Wereldoorlog. Aan bod komen: het muziekleven tijdens de oorlogsjaren, verboden muziek, muziek in de doorgangs- en vernietingskampen, spotliedjes, amusementsmuziek of propagandaliederen. Het materiaal is gedigitaliseerd in het kader van het project WO2 in muziek, een initiatief van het Nederlands Muziek Instituut in samenwerking met MusicForce in het kader van het programma Erfgoed van de Oorlog (2006-2010)." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "3e4cc5b0-71ab-4797-b70b-4daab0226575" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:59:03.075613"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:42:28.614822"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal0dd15074-ee42-448d-9789-d80131d97051> ;
@@ -1161,7 +1117,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal3f32de59-fe39-4458-bf3a-75e9ebbb5bd2>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://studiezaal.nijmegen.nl/atlantispubliek/oai.axd?Verb=ListRecords&metadataPrefix=APEX"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal52d4fbe9-5eba-465e-8658-0018d43280ed> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "3f32de59-fe39-4458-bf3a-75e9ebbb5bd2" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -1170,9 +1125,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal3f52d797-d5ba-41d2-a22d-79a8ced11252>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset uit het Geheugen van Nederland omvat metadata van circa 800 egodocumenten uit Nederland en Nederlands-Indi, samengesteld uit de collecties van 20 instellingen. Naast Anne Frank hielden nog vele andere Nederlanders tijdens de oorlog trouw hun dagboek bij: huisvrouwen, burgemeesters, winkeliers, artsen, NSB'ers. Samen geven deze dagboeken vanwege hun authenticiteit een indringend beeld van het leven in oorlogstijd. Het project Oorlogsdagboeken was onderdeel van het programma Erfgoed van de Oorlog (2006-2010)" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "3f52d797-d5ba-41d2-a22d-79a8ced11252" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T10:15:11.947640"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:41:03.387882"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -1201,9 +1154,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal41187ba0-2623-462a-ad2a-d0d5517d83d3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank Erfgoed Leiden en Omstreken bevat foto's, afbeeldingen, prenten, affiches en tekeningen. Op dit moment zijn er meer dan 160.000 afbeeldingen gedigitaliseerd en te doorzoeken via de website." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "41187ba0-2623-462a-ad2a-d0d5517d83d3" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:26:31.793272"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:23:07.314097"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal454231b4-c106-445a-95d7-a34fc2b79f44> ;
@@ -1234,9 +1185,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal443910d6-4c54-483a-b353-8c29b765e077>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset (4733 records) met metadata van illegale foto's uit de Tweede wereldoorlog uit de collectie van het Nederlands Fotomuseum. De foto's geven een beeld van de gevolgen van de Duitse bezetting: honger en schaarste, jodenvervolging, verwoestingen en verzet. Sommige fotos werden iconen van het doorstane leed, andere fotos bleven lang voor het grote publiek verborgen. Deze collectie negatieven, afdrukken en albums uit de bezettingsperiode is in beheer bij het Nederlands Fotomuseum in Rotterdam." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "443910d6-4c54-483a-b353-8c29b765e077" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:38:28.613049"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:42:03.512573"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -1279,9 +1228,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal458dbdfa-0540-4225-b22f-78148c7f172b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De Collectie van Modemuze bestaat uit ruim 80.000 objecten.Varierend van Mode, streek- en klederdracht tot catwalk foto's. Ruim 15.000 objecten stammen uit de periode 1940-1945 en zijn opgenomen in Oorlogsbronnen." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "458dbdfa-0540-4225-b22f-78148c7f172b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-03-13T09:03:59.171643"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:43:20.494284"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1843996c-bb21-4ce8-912a-d216b765d1bc> ;
@@ -1291,7 +1238,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal46ad2273-4b62-49bb-8203-4f7792e25a45>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://opendata.oorlogsbronnen.nl/dataset/1b65deac-8fae-455e-b041-1c73ccd72ff7/resource/46ad2273-4b62-49bb-8203-4f7792e25a45/download/werkbestand_gebeurtenissen.xlsx"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1b65deac-8fae-455e-b041-1c73ccd72ff7> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "46ad2273-4b62-49bb-8203-4f7792e25a45" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXLSX> ;
@@ -1302,9 +1248,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal46e26dbb-6c9a-4e3f-94ae-41387bec405d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Erfgoed Cluster Weert bevat enkele duizenden beelden over de Tweede Wereldoorlog. Deze dataset omvat de metadata van deze beelden." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "46e26dbb-6c9a-4e3f-94ae-41387bec405d" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-10T14:51:26.746407"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:30:42.605946"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6532ac54-da1a-4050-b9f8-f4023992e5b3> ;
@@ -1314,7 +1258,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal46f01ce6-1481-4296-bb45-8c8fa9c0cd6e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://openbeelden.nl/feeds/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=yadvashem"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal39fbdb1c-e7e5-41c5-8146-6ffcb0c765c5> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "46f01ce6-1481-4296-bb45-8c8fa9c0cd6e" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -1323,7 +1266,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal471ed8a3-e644-434f-95a1-fc3c59f1a22b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://data.niod.nl/PoolParty/sparql/WO2_Thesaurus"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalfffae018-38b7-464e-b36e-fc701856144e> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "471ed8a3-e644-434f-95a1-fc3c59f1a22b" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -1385,9 +1327,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal48f9213b-636c-4303-a43d-3a0514bb9495>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat archiefbeschrijvingen uit de collectie van het Moluks Historisch Museum." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "48f9213b-636c-4303-a43d-3a0514bb9495" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-07-23T15:04:47.194919"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:13:29.257883"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal900cc649-8dbd-470c-aec1-e2cf2fb6aadd> ;
@@ -1408,9 +1348,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal4acd57d5-96da-4d6e-8607-4e66986ea999>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De dataset bevat metadata (390 records) van de noodgeld-collectie van het Nederlandse Geldmuseum.De bezetting door de Duitsers in de Tweede wereldoorlog had geleid tot geldschaarste. De centrale overheid gaf daarom, op 11 mei toestemming voor de uitgifte van noodgeld. Op 17 mei werd de machtiging weer ingetrokken. Toch gaven meer dan 130 gemeenten en een drietal provincies in deze korte periode hun eigen geld uit." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "4acd57d5-96da-4d6e-8607-4e66986ea999" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:23:18.342479"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:41:27.886073"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -1421,9 +1359,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal4c9fde2f-5786-41e3-b433-ddbbbc6a6906>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De dataset met propagandadrukwerk WO2 (2935 records) bevat metadata van brochures, strooibiljetten en ander materiaal. Het materiaal geeft een beeld hoe de verschillende ideologische stromingen elkaar tijdens de Tweede Wereldoorlog niet alleen met wapens maar ook met woorden bevochten. Het project Propagandadrukwerk WO2 maakte onderdeel uit van het programma Erfgoed van de Oorlog (2006-2010)De SRU endpoint van het Geheugen van Nederland wordt voor deze dataset aangesproken met de volgende query: http://jsru.kb.nl/sru/sru?query=isPartOf%3DEVDO02" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "4c9fde2f-5786-41e3-b433-ddbbbc6a6906" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T10:53:30.120107"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:41:12.395242"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -1445,9 +1381,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal4e129717-7291-4be3-abf0-5aeeee08cb8a>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Metadata van fotomateriaal uit de Beeldbank Ede dat betrekking heeft op de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "4e129717-7291-4be3-abf0-5aeeee08cb8a" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-11T15:59:28.746346"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:20:54.117841"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal88425641-563e-44e0-bbb2-6da37db1e92e> ;
@@ -1468,9 +1402,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal52bc548b-55d0-461e-8391-087bf07cbee0>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De WO2-thesaurus is een gevalideerde, hirarchisch georganiseerde trefwoordenlijst voor de thematische ontsluiting van (digitale) bronnen uit de periode 1940-1945. De thesaurus, beheerd door het NIOD, bevat bijna 4500 termen over gebeurtenissen, plaatsen, begrippen en objecten uit de Tweede Wereldoorlog. De trefwoorden zijn verdeeld over een aantal hoofdgebieden als Vervolging, Bestuur, Dagelijks Leven, Recht, etc. Tevens bevat de WO2-thesaurus een uitgebreide lijst van kampen en getto's in zowel Europa als Nederlands Indi; inclusief GPS coordinaten." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "52bc548b-55d0-461e-8391-087bf07cbee0" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-27T13:27:40.640451"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:46:35.463680"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
@@ -1480,9 +1412,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal52d4fbe9-5eba-465e-8658-0018d43280ed>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze collectie bevat de archiefbeschrijvingen van Regionaal Archief Nijmegen." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "52d4fbe9-5eba-465e-8658-0018d43280ed" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-10-22T07:22:16.266399"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:15:53.013882"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal7bf545cc-08ff-4d05-ab8f-8b15eb2b5d20> ;
@@ -1503,9 +1433,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal54986b8d-19f2-42c0-a0da-b02f3fee870b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat de Archiefbeschrijvingen van het NIOD Instituut voor Oorlogs-, Holocaust- en Genocidestudies in EAD. Het NIOD beheert ruim 2500 meter archiefmateriaal. Deze archieven hebben betrekking op de Tweede Wereldoorlog, inclusief de aanloop en nasleep. Zo vindt u onder andere de beschrijvingen van de archieven van het Duitse bezettingsbestuur, ministeries in Den Haag en Londen, verzetsgroepen, Joodse en nationaalsocialistische organisaties en gevangenkampen in zowel Europa als Azi.De archieven worden geharvest via een afgeschermd OAI Endpoint." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "54986b8d-19f2-42c0-a0da-b02f3fee870b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T14:07:55.641983"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:16:30.104639"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
@@ -1757,9 +1685,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal5f9cca9d-ffaf-401f-a12c-1c1593e06328>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De dataset luchtfoto's van de RAF bevat ruim 94.000 luchtfotos van Nederland gemaakt door de RAF in de periode 1943-1947. De set bevat  beelden waaruit de contouren van de Grebbelinie, Kamp Westerbork en Kamp Vught opgemaakt kunnen worden." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "5f9cca9d-ffaf-401f-a12c-1c1593e06328" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T08:28:57.312795"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:38:46.749108"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal9319def3-25f3-46b0-b837-491f5ffc86d8> ;
@@ -1810,7 +1736,6 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal61a6cfa4-435a-4efb-befa-91bb9e5f20bd>
     a <http://xmlns.com/foaf/0.1/Organization> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Brabants Historisch Informatiecentrum" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal61ef952f-1187-49f8-bfba-932f0c330268>
@@ -1838,9 +1763,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal62141b31-240c-4938-9145-4a1eece64388>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Op de website Oorlog in Blik worden ongeveer 750 filmfragmenten uit de Tweede Wereldoorlog beschikbaar gesteld. Deze dataset omvat de gezamenlijke metadata van alle objecten. Oorlog in Blik maakte onderdeel uit van het programma Erfgoed van de Oorlog (2006-2010)." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "62141b31-240c-4938-9145-4a1eece64388" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-27T13:01:32.765337"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:43:57.849283"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
@@ -1915,7 +1838,6 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal65debd7d-c83a-4318-9fac-880f72ac8672>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> ""^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "OAI endpoint voor Platform Militaire Historie Ede OAI. Endpoint wordt door Oorlogsbronnen gebruikt als brondata. prefix=oai_adlibset=2002" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb8c345a7-dfc2-434b-81f1-0f2d6583c570> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "65debd7d-c83a-4318-9fac-880f72ac8672" ;
@@ -1925,9 +1847,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6733810d-3f49-4109-bc59-1f8f3740093f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat de beschrijving van ca. 300 items uit beeldbank van Regionaal Archief Zutphen die gerelateerd zijn aan de Tweede Wereldoorlog" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "6733810d-3f49-4109-bc59-1f8f3740093f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T20:34:37.676886"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:31:44.542880"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald0f52335-3c86-4b98-839e-cc9b90f2cc3b> ;
@@ -1975,7 +1895,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal69910bac-e753-4f2c-b7f4-3b7cce33802f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://openbeelden.nl/feeds/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=tags"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb76b81d4-afaa-43a3-b0ce-7b2d6a4cc1ad> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "69910bac-e753-4f2c-b7f4-3b7cce33802f" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -1999,7 +1918,6 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6abb33d5-a45c-4edb-8d81-003abddd24bb>
     a <http://xmlns.com/foaf/0.1/Organization> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "6abb33d5-a45c-4edb-8d81-003abddd24bb" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geheugen van Nederland" .
 
@@ -2093,9 +2011,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6df4f51a-b604-4b58-b7a1-d40a46c2f4fc>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Regionaal Archief Nijmegen omvat circa 5300 beschrijvingen die betrekking hebben op foto's uit of over de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "6df4f51a-b604-4b58-b7a1-d40a46c2f4fc" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:50:19.505629"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:25:35.947658"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal7bf545cc-08ff-4d05-ab8f-8b15eb2b5d20> ;
@@ -2116,9 +2032,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6f1de1c3-35c6-4564-83a0-ca43365f1872>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Op gahetna.nl zijn foto's te vinden van gebeurtenissen uit de periode tussen 1865 en 1990. In totaal staan er ruim 1 miljoen foto's op de website.Ruim 400.000 foto's kunt u gratis op hoge resolutie downloaden en gebruiken. De meeste van deze foto's zijn door het Nationaal Archief als open data beschikbaar gesteld met een de CC0 verklaring (toegewezen aan het publieke domein). U mag deze foto's zonder toestemming kopiren, veranderen, en verspreiden, zelfs voor commercile doeleinden. Een bronverwijzing stelt het Nationaal Archief op prijs." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "6f1de1c3-35c6-4564-83a0-ca43365f1872" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:33:43.359420"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:24:44.763099"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale6861661-6a0a-4c3f-ae58-39407747a52d> ;
@@ -2150,9 +2064,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6ffcf904-2a04-4f69-81fd-5344e7fa0808>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "6ffcf904-2a04-4f69-81fd-5344e7fa0808" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-15T13:47:35.535710"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:21:30.514782"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalccb20514-c698-4779-87c5-4b6782e1073c> ;
@@ -2224,9 +2136,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal738885d4-4b64-4572-a178-67858ff4dd96>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat circa 220 beschrijvingen van muziekstukken van componisten die tijdens de Tweede Wereldoorlog verboden waren door de nazi's." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "738885d4-4b64-4572-a178-67858ff4dd96" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-25T20:04:48.399485"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:43:47.728434"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalaa05910e-e06c-4b67-a970-09043dd5d152> ;
@@ -2236,9 +2146,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal74aa0aeb-39a6-494d-9b00-e9b689102c0a>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat de metadata van circa 500 interviews die zijn afgenomen in het Oral project Getuigenverhalen (2006-2010). De thema's die aan bod komen zijn: vervolging en deportatie, verzet, gevangenschap, razzia, arbeidsinzet, etc." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "74aa0aeb-39a6-494d-9b00-e9b689102c0a" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-10T14:53:56.339593"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:39:34.204774"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal7fc38a71-43bc-415c-a251-64c0ecc287e3> ;
@@ -2279,9 +2187,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal7758eb7f-b560-4a3c-b4d5-598684c8f382>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De Beeldbank ontsluit bijna 1 miljoen afbeeldingen van: gebouwd erfgoed, archeologie, landschappen, de Kunstcollectie beheerd door het RCE en de collectie Kadastrale Kaarten 1811-1832. Ruim 9.000 beelden hebben betrekking op de periode 1940-1945." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "7758eb7f-b560-4a3c-b4d5-598684c8f382" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T20:00:31.085984"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:28:28.343526"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal678e76a1-957f-4f59-a46e-b850d33e64aa> ;
@@ -2445,9 +2351,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8079f44d-159d-449c-aab0-592d761ffb12>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "In Gelderland zijn meer dan achthonderd monumenten die herinneren aan de Tweede Wereldoorlog. Het eerste Gelderse oorlogsmonument werd al in augustus 1939 geplaatst in Heumen. Het herinnert aan de mobilisatie. Vandaag de dag worden er nog steeds monumenten opgericht, dus het aantal zal alleen maar groeien.Het Nationaal 4en5mei comit had in 2017 landelijk meer dan 3800 monumenten genventariseerd, waarvan er meer dan 630 in Gelderland staan. Dit onderzoek door Susan Scherpenisse heeft deze monumenten en meer dan tweehonderd 'nieuwe' monumenten genventariseerd en de beschrijvingen van de al bekende monumenten waar nodig geactualiseerd en aangevuld." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8079f44d-159d-449c-aab0-592d761ffb12" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-26T10:44:19.640378"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-02T11:54:00.682285"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalec17b985-08da-42f1-85cf-aa389c5f4f4b> ;
@@ -2484,9 +2388,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8213a5c7-d034-4805-9275-eda8ca988741>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset van beeldbeschrijvingen uit de collectie van het Waterlands Archief, met betrekking tot de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8213a5c7-d034-4805-9275-eda8ca988741" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T08:45:45.545257"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:30:28.736278"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalbad4a883-af51-4baa-bbf0-68bb4bc1b050> ;
@@ -2540,9 +2442,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8530d444-213e-4f8b-94fa-c8633b358d03>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De WO2 set van de het Historisch Centrum Overijssel bevat ruim 1400 afbeeldingen over de Tweede Wereldoorlog. Deze dataset omvat de metadata." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8530d444-213e-4f8b-94fa-c8633b358d03" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:10:49.030923"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:22:35.324861"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal5b44a4cc-91d2-4654-ae66-36a3199330fd> ;
@@ -2687,9 +2587,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8f820b16-4f1b-44d8-8200-ee965c6259bb>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Metadata van bijna 6000 namen uit de databank dapperheidsonderscheidingen van het NIMH." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8f820b16-4f1b-44d8-8200-ee965c6259bb" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T13:36:04.338446"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:12:00.331717"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale6e115a3-cfe6-46bd-aa4f-438f3d33c3d4> ;
@@ -2747,9 +2645,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal913d9dbb-fa69-4481-b945-4b3d7a078d5b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Tweehonderd locaties met een beladen verleden zijn door onderzoeker Machlien Vlasblom genventariseerdBunkers, huizen, vliegvelden, gevangenissen, kloosters, landhuizen, begraafplaatsen, ziekenhuizen en kazernes. Tweehonderd locaties en gebouwen zijn genventariseerd die n ding met elkaar gemeen hebben: ze delen een beladen WO2 verleden. Het gaat hierbij om Gelderse locaties die verbonden waren met het nationaalsocialisme of relateren aan de Duitse onderdrukking en bezetting in 1940  1945. Uit de lijst met locaties zijn vervolgens negentig locaties nader uitgewerkt en voorzien van aanvullende informatie." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "913d9dbb-fa69-4481-b945-4b3d7a078d5b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-26T10:33:43.982473"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-05T12:07:53.607465"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalec17b985-08da-42f1-85cf-aa389c5f4f4b> ;
@@ -2770,9 +2666,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal921cef42-9e50-429c-b0f8-b71fd7eafd88>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat archiefbeschrijvingen van archieven van het Stadsarchief Breda die betrekking hebben op de Tweede Wereldoorlog. Deze beschrijvingen zijn gemaakt voor het project Archieven WO2 (2010)." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "921cef42-9e50-429c-b0f8-b71fd7eafd88" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-02-05T16:14:08.231822"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2018-02-09T07:28:16.859412"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8b76eda2-31f7-48c6-a4fa-3ee0117e9d04> ;
@@ -2896,7 +2790,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal9ac2b394-199a-4bf9-a912-8c65eddbe4d7>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://data.niod.nl/PoolParty/sparql/WO2_Thesaurus"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal52bc548b-55d0-461e-8391-087bf07cbee0> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "9ac2b394-199a-4bf9-a912-8c65eddbe4d7" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -2927,9 +2820,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal9eec76e6-7741-4018-8d22-34f45e22f984>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "9eec76e6-7741-4018-8d22-34f45e22f984" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-15T13:40:32.304375"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:13:20.617382"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal454231b4-c106-445a-95d7-a34fc2b79f44> ;
@@ -2971,9 +2862,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala141b3f2-89bc-4798-8f78-d78b94c74460>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat de metadata van circa 4000 objecten uit de collectie van het Museum Rotterdam die gerelateerd zijn aan de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "a141b3f2-89bc-4798-8f78-d78b94c74460" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T12:31:55.426354"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:43:37.316272"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal784e2e25-f741-4a01-b040-71fce8bd5537> ;
@@ -3027,9 +2916,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala50316f3-c88b-4560-b772-3dd6e16142b8>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset met bijna 200 records van objecten, foto's en anderszins uit de collecties van het Nationaal Onderduikmuseum Aalten." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "a50316f3-c88b-4560-b772-3dd6e16142b8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T12:03:44.069199"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:11:00.557580"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal69f30d27-9b91-4f8f-967c-1d1fc06bfb6f> ;
@@ -3120,9 +3007,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalaab2c969-0dcb-4c72-87b0-70240ef82aef>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset van 771 foto-, affiche- en objectbeschrijvingen met het thema Tweede Wereldoorlog uit de collectie van Museum Bronbeek." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "aab2c969-0dcb-4c72-87b0-70240ef82aef" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T08:07:17.434156"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:37:27.934142"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalf2e38b29-edb1-49bd-91c0-4afb6b454e32> ;
@@ -3143,9 +3028,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalaad2fbef-eecf-4019-bce5-039b820125b5>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De kern van de bibliotheekcollectie (circa 70.000 beschrijvingen) van het NIOD Instituut voor Oorlogs-, Holocaust- en Genocidestudies bestaat sinds 1945 uit publicaties over Nederland en het toenmalige Nederlands-Indi tijdens de Tweede Wereldoorlog (1940-1945). Hierbij horen ook lokale en regionale studies, herinneringen en publicaties over de Jodenvervolging. Daarnaast heeft het NIOD van oudsher ook een uitgebreide collectie boeken over de Tweede Wereldoorlog in andere landen, waarbij vooral de collectie Duitsland aanzienlijk is. Ook omvat de NIOD bibliotheek publicaties over de aanloop tot (Eerste Wereldoorlog, opkomend fascisme, interbellum) en de nasleep van (zuivering, berechting, Bersiap, politionele acties, oorlogsgetroffenen) de Tweede Wereldoorlog. De bibliotheekcollectie bevat naast boeken en (digitale) tijdschriften ook (Maleistalige) kranten, (lucht)pamfletten en illegale bladen uit de Tweede Wereldoorlog, scripties, dvd's en een grote collectie krantenknipsels." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "aad2fbef-eecf-4019-bce5-039b820125b5" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T09:45:22.121660"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:40:49.050776"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
@@ -3177,9 +3060,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalabae7bbd-6921-4845-9984-b36fc33fe8fc>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Ruim 1100 objecten uit de collecties van het Rijksmuseum die betrekking hebben op de Tweede Wereldoorlog in Nederland en Nederland Indi. De specifieke set WO2 in de OAI endpoint van het Rijksmuseum is op dit moment niet operationeel." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "abae7bbd-6921-4845-9984-b36fc33fe8fc" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-27T13:20:36.082178"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:46:08.073768"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal43343b15-1140-4854-8cb7-4801a56e286e> ;
@@ -3189,9 +3070,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalabe5a9a7-0816-4698-91dc-26d564cc175d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset van ruim 1.500 archiefbeschrijvingen uit de collectie van het Gemeentearchief Zeist, met betrekking tot de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "abe5a9a7-0816-4698-91dc-26d564cc175d" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T09:10:20.473474"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-09T12:18:06.972545"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1df433ed-94be-470d-8a10-65c1e11e7829> ;
@@ -3237,9 +3116,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb012bad5-1a64-48cf-a072-f784bb0aec27>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat enkele duizenden beschrijvingen van foto's uit of over de Tweede Wereldoorlog afkomstig uit de collecties van Erfgoed Den Bosch." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b012bad5-1a64-48cf-a072-f784bb0aec27" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-11T16:07:03.621519"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:20:10.094636"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal11da324a-7730-4047-b558-88dbac86e1a5> ;
@@ -3271,9 +3148,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb1206da6-7b41-42e3-a512-50761ef3c670>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset met de metadata (1234 records) van een selectie van illegaal drukwerk uit de Tweede Wereldoorlog, samengesteld uit de collectie van het NIOD Instituut voor Oorlogs-, Holocaust- en Genocidestudies." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b1206da6-7b41-42e3-a512-50761ef3c670" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:45:16.671267"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:42:18.452835"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -3284,9 +3159,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb21bece1-868c-40e7-9561-971613f9556c>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat beschrijvingen van de ca. 4000 monumenten die op de website van het Nationaal Comit 4 en 5 mei worden gepresenteerd." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b21bece1-868c-40e7-9561-971613f9556c" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-27T13:10:31.782690"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:45:44.664446"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalae7a3e65-3479-4eac-a3d1-d91a5e6274f6> ;
@@ -3296,9 +3169,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb3517fae-4bf7-4d44-b6ea-be462ab56394>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Gelderland lag van september 1944 tot en met mei 1945 negen maanden lang onafgebroken midden in het strijdgewoel. Tal van locaties in de provincie herinneren aan deze bijzondere aspecten uit het verhaal van de Tweede Wereldoorlog in Gelderland.Onderzoeker Jelle van de Graaf bracht ze in kaart." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b3517fae-4bf7-4d44-b6ea-be462ab56394" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-26T10:37:32.087897"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-02T11:54:05.179927"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalec17b985-08da-42f1-85cf-aa389c5f4f4b> ;
@@ -3317,9 +3188,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb702393c-91d7-41fc-af36-642f740f8f79>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset (6149) omvat metadata van een selectie van gedichten en boeken die tijdens de Tweede Wereldoorlog illegaal of clandestien in Nederland zijn verschenen. Het project Verzetsliteratuur maakte onderdeel uit van het programma Erfgoed van de Oorlog (2006-2010)." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b702393c-91d7-41fc-af36-642f740f8f79" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:01:34.866624"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-02T15:21:34.058993"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -3341,9 +3210,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb76b81d4-afaa-43a3-b0ce-7b2d6a4cc1ad>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De set van de NSB Filmdienst is onderdeel van de set TAGS. Er zitten 171 propagandafilms in de NSB Filmdienst set" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b76b81d4-afaa-43a3-b0ce-7b2d6a4cc1ad" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T11:45:56.255174"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:38:55.448641"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala90e714a-e3f7-48c8-9da1-245d111b4ffd> ;
@@ -3386,9 +3253,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb8c345a7-dfc2-434b-81f1-0f2d6583c570>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Museum Platform Militaire Historie Ede stelt ca. 100 uit zijn collectie beschikbaar via Collectie Gelderland betrekking hebbende op de militaire geschiedenis van Ede. Deze dataset bevat de metadata van deze objecten." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b8c345a7-dfc2-434b-81f1-0f2d6583c570" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T13:26:22.712526"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:11:35.566930"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8a0d1dd4-c5cc-4f78-8716-abe881514000> ;
@@ -3398,9 +3263,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb9373287-8af1-44f7-a068-c2c968ec1c43>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b9373287-8af1-44f7-a068-c2c968ec1c43" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-15T13:42:16.997853"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:17:22.523126"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala7c2c0d0-889a-49c6-a370-f1bb18310453> ;
@@ -3410,7 +3273,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalba8b1426-881d-4ff2-9bbf-a2d3cad5f400>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://maior.memorix.nl/api/oai/wat/key/7211386a-906f-434d-9994-24c0513c8ab8/?verb=ListRecords&metadataPrefix=ese"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8213a5c7-d034-4805-9275-eda8ca988741> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "ba8b1426-881d-4ff2-9bbf-a2d3cad5f400" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -3455,9 +3317,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalbcd7a084-8251-4ff8-82d2-5d9fca8f98cd>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat metadata (4580 records) van foto's genomen door Cas Oorthuys en Charles Breijer in Indonesi in de periode 1947-1953. In januari en februari 1947 reisden deze bevriende fotografen onafhankelijk van elkaar naar Indonesi en brachten verschillende momenten van het dekolonisatieproces in beeld. Oorthuys keerde eind maart al terug naar Nederland. Breijer bleef tot 1953, de laatste drie jaar als filmer bij het Indonesische Ministerie van Voorlichting. Lex de Herder werd begin 1949 als dienstplichtige naar Indonesi uitgezonden waar hij allereerst als omroeper en vervolgens als fotograaf ging werken. De collectie wordt beheerd door het Nederlands Fotomuseum." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "bcd7a084-8251-4ff8-82d2-5d9fca8f98cd" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-24T11:32:49.268508"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:41:49.202149"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8eefb123-e030-4a85-b5b0-7b95905597bc> ;
@@ -3503,7 +3363,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalbe40a897-9797-4e61-aa4f-3b6e76bef7cf>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://opendata.oorlogsbronnen.nl/dataset/6ffcf904-2a04-4f69-81fd-5344e7fa0808/resource/be40a897-9797-4e61-aa4f-3b6e76bef7cf/download/data.tar.gz"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6ffcf904-2a04-4f69-81fd-5344e7fa0808> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "be40a897-9797-4e61-aa4f-3b6e76bef7cf" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -3545,9 +3404,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc20fbad5-2655-4088-a14b-78591b1136dd>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank Erfgoed Rijssen-Holten omvat circa 400 afbeeldingen uit of over de Tweede Wereldoorlog. Deze dataset omvat alle beschrijvingen inclusief deeplinks." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c20fbad5-2655-4088-a14b-78591b1136dd" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-11T16:47:29.274935"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:29:12.725395"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale4e8bb73-67ae-469d-92b9-cd6c3b556f14> ;
@@ -3568,9 +3425,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc3481828-ec08-43b4-a2c0-26657b7dd44e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bestaat uit metadata van circa 100 foto's uit de Beeldbank Eemland die betrekking hebben op de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c3481828-ec08-43b4-a2c0-26657b7dd44e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-08T13:07:12.444975"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://creativecommons.org/licenses/by-nc/2.0/"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:21:15.278892"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6d9683a1-59c4-42eb-9593-2974c9811a59> ;
@@ -3591,7 +3446,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc492b38d-cf18-499f-9ff7-3799038f9586>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://archives.memorix.nl/NL-TbRAT/oai-pmh"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb9373287-8af1-44f7-a068-c2c968ec1c43> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c492b38d-cf18-499f-9ff7-3799038f9586" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -3600,9 +3454,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc4ce11b8-6ace-401c-8029-8abf5cfa6854>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat meer dan 160.000 records van mannen, vrouwen en kinderen die hun leven verloren tijdens de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c4ce11b8-6ace-401c-8029-8abf5cfa6854" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-26T13:27:55.501675"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:45:29.408139"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal3901e7c0-7712-4464-bc9d-0dd41089a76e> ;
@@ -3612,9 +3464,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc4f318b6-847b-4c81-89ba-0cb8839de79e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset van zo'n 4.800 beeldbeschrijvingen met betrekking tot de Tweede Wereldoorlog, uit de collectie van het Planbureau en Bibliotheek van Zeeland." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c4f318b6-847b-4c81-89ba-0cb8839de79e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T12:06:02.769988"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:31:32.407547"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc5e4e596-59e0-4e7b-b373-2bef68424809> ;
@@ -3640,7 +3490,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc69f825d-dcd8-480e-bf64-a7360f0b6509>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://opendata.oorlogsbronnen.nl/dataset/921cef42-9e50-429c-b0f8-b71fd7eafd88/resource/c69f825d-dcd8-480e-bf64-a7360f0b6509/download/archieven-breda-in-archieven-wo2.xlsx"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal921cef42-9e50-429c-b0f8-b71fd7eafd88> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c69f825d-dcd8-480e-bf64-a7360f0b6509" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXLSX> ;
@@ -3695,9 +3544,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalc92dc6d5-76e6-4672-9744-6d454e09ef8d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c92dc6d5-76e6-4672-9744-6d454e09ef8d" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-10-30T20:13:07.172185"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:15:38.082391"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale6861661-6a0a-4c3f-ae58-39407747a52d> ;
@@ -3767,9 +3614,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalcba29c3a-752b-4152-b172-a2d349655352>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Archieven van Archief Eemland die relevant zijn voor onderzoek naar WO2. De RDF bestanden zijn gezipt." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "cba29c3a-752b-4152-b172-a2d349655352" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-02-20T10:30:33.736144"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-09T12:01:34.723750"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal6d9683a1-59c4-42eb-9593-2974c9811a59> ;
@@ -3806,9 +3651,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalcf82f410-ad37-42f7-a136-e2eff1993ec8>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Regionaal Archief Tilburg bevat bijna 1300 beelden met betrekking tot de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "cf82f410-ad37-42f7-a136-e2eff1993ec8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-23T13:00:08.090230"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:30:07.948245"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala7c2c0d0-889a-49c6-a370-f1bb18310453> ;
@@ -3829,9 +3672,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalcfd61e33-c7a1-4a8d-8fa3-bdf20c71a427>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het Noord-Hollands archief bevat bijna 245.000 beelden. Ruim 8700 beelden hebben betrekking op de periode 1940-1945." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "cfd61e33-c7a1-4a8d-8fa3-bdf20c71a427" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:47:11.646410"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:25:14.211023"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal1e3279f1-a2ac-4709-9f20-6c1ad926d22c> ;
@@ -3915,9 +3756,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald7672e3e-4c75-407f-bde5-7414db3547d5>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset bevat ruim 270 beschrijvingen van boeken met het thema WO2 uit de bibliotheekcollectie van het Regionaal Archief Nijmegen." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "d7672e3e-4c75-407f-bde5-7414db3547d5" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-07-18T07:49:53.860073"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:31:54.727337"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal7bf545cc-08ff-4d05-ab8f-8b15eb2b5d20> ;
@@ -4012,7 +3851,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportaldc8298c1-4b73-4010-8161-1418a6eeb9c6>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://archives.memorix.nl/NL-LdnRAL/oai-pmh?verb=ListMetadataFormats"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal9eec76e6-7741-4018-8d22-34f45e22f984> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dc8298c1-4b73-4010-8161-1418a6eeb9c6" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -4076,9 +3914,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale034b5e7-0be2-4823-9cba-30cbd2c30029>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De beeldbank van het historisch Centrum Leeuwarden bevat ruim 2000 foto's uit de periode 1940-1945. In de dataset van de beeldbank WO2 zit de Collectie de Roos van het HCL: affiches uit de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e034b5e7-0be2-4823-9cba-30cbd2c30029" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:04:15.412185"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:22:11.859584"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal2562bdc2-6775-4081-bc44-61f46f7e908c> ;
@@ -4121,7 +3957,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale30ea2b1-da13-4aa0-8785-f1fd080789d1>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.forbiddenmusicregained.org/legendoai/"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal738885d4-4b64-4572-a178-67858ff4dd96> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e30ea2b1-da13-4aa0-8785-f1fd080789d1" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -4152,9 +3987,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale3bb64ec-85ae-4232-b9f6-f83d8202538f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De kerncollectie van het Nationaal Bevrijdingsmuseum 1944-1945 bevat objecten, documenten en audiovisuele bronnen die direct met de bevrijdingsgeschiedenis (en dus de periode 1944-1945) te maken hebben. Deze bevat burger- en militaire objecten op drie niveaus: regionaal, nationaal, internationaal. De hoofdthematiek van het museum is bevrijding. Een centrale plaats is er voor de burger en de gewone soldaat.Het museum heeft een eigen wikipagina waar objecten uit de collectie gedeeld worden:https://nl.wikipedia.org/wiki/Nationaal_Bevrijdingsmuseum_1944-1945" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e3bb64ec-85ae-4232-b9f6-f83d8202538f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T13:20:15.521172"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:11:24.103768"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal8774170e-4215-4739-b6ab-45960bf9aeb2> ;
@@ -4200,9 +4033,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale53b0496-900d-4973-a6ec-eb581c5942e7>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Op de website Open Beelden wordt rechtenvrij beeldmateriaal aangeboden. Deze dataset omvat de metadata die betrekking hebben op de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e53b0496-900d-4973-a6ec-eb581c5942e7" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-27T13:13:50.769291"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:39:03.404807"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportala90e714a-e3f7-48c8-9da1-245d111b4ffd> ;
@@ -4223,9 +4054,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale623f999-6444-475a-a070-82e2d061960e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Het Haags Gemeentearchief stelt via een beeldbank ruim 225.000 beelden digitaal beschikbaar, vaak gerelateerd aan Den Haag (inclusief Scheveningen en de voormalige gemeente Loosduinen), Leidschendam, Voorburg en incidenteel andere plaatsen. Deze dataset bestaat uit metadata van de circa 2000 beelden die betrekking hebben op de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e623f999-6444-475a-a070-82e2d061960e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2017-12-29T11:35:48.842877"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:20:36.481281"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal455fdd99-5e34-425f-930a-2e9930221217> ;
@@ -4261,9 +4090,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale7da16d7-1737-4f00-a454-ab59aca74190>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Beeldbank Streekarchief Langstraat Heusden Altena /Waalwijk. Bevat bijna 600 beelden over de periode 1940-1945. Deze dataset omvat de metadata van de beschrijvingen." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e7da16d7-1737-4f00-a454-ab59aca74190" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T19:17:26.356247"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:22:50.846706"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal64769b76-db69-418c-8f53-00c3b37639fe> ;
@@ -4284,9 +4111,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportaleafb533f-dba4-4d29-bd7e-c14d258b7ff3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset omvat een paar honderd beschrijvingen van foto's in de beeldbank van het Regionaal Archief Alkmaar die betrekking hebben op de Tweede Wereldoorlog." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "eafb533f-dba4-4d29-bd7e-c14d258b7ff3" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T16:06:27.840186"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:18:49.843129"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalf0e132d2-1485-459f-b0a1-c5a5e9b5341b> ;
@@ -4393,9 +4218,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalf58a2011-a608-4544-ac02-8a9c71a010c3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De Dataset WO2 van Atlas van Stolk is een door de museum gecureerde dataset ter beschikking gesteld aan het Netwerk Oorlogsbronnen. De dataset wordt regelmatig bijgewerkt door het museum.De endpoint van de dataset is niet publiek toegankelijk." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "f58a2011-a608-4544-ac02-8a9c71a010c3" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-01-22T15:37:20.837273"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:18:38.043985"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal923c6adb-3650-4f30-bce6-559b2069ed29> ;
@@ -4405,7 +4228,6 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalf59f01a1-3a92-4a6a-8aaa-9791cb159c6e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://denbosch.hosting.deventit.net/atlantispubliek/oai.axd"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalb012bad5-1a64-48cf-a072-f784bb0aec27> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "f59f01a1-3a92-4a6a-8aaa-9791cb159c6e" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_CollectieportalXML> ;
@@ -4490,9 +4312,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalfc00f72e-3f43-4bf1-b6df-8d613c22ddc7>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Dataset van beeldbeschrijvingen met betrekking tot de Tweedewereldoorlog afkomstig van GooienVechtHistorisch.nl, een website van de archiefdiensten van Hilversum en Naarden. Opgenomen in Oorlogsbronnen via Europeana." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "fc00f72e-3f43-4bf1-b6df-8d613c22ddc7" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-06-06T11:56:32.163178"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:21:58.278367"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportale6912e66-7505-4209-a2e7-cea6ebd6663a> ;
@@ -4524,9 +4344,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalfe589581-3396-44d7-839c-40ea81725f5b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "fe589581-3396-44d7-839c-40ea81725f5b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-02-15T13:37:44.800395"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-by-sa"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:12:58.658505"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal275d81a9-fa25-4369-9231-10bed5436460> ;
@@ -4569,16 +4387,10 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportalfffae018-38b7-464e-b36e-fc701856144e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportal> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Skos set biografieen van direct betrokkenen bij WO2, Nederland." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "fffae018-38b7-464e-b36e-fc701856144e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2018-10-22T07:12:21.453229"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfContents> "http://www.opendefinition.org/licenses/cc-zero"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-07-06T07:46:25.211876"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#owner> <https://data.netwerkdigitaalerfgoed.nl/registry/Oorlogsbronnen_Collectieportald97c55a6-60fe-43a4-8b8e-34ae5e234a82> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <https://opendata.oorlogsbronnen.nl/api/action/package_show?id=wo2-biografieen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "WO2 Biografieen" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/scheme>
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Conceptscheme for joining subjects derived from dataset harvest from one data registry" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Conceptscheme for Oorlogsbronnen Collectieportal" .
 

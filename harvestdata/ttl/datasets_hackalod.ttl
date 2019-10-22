@@ -1,101 +1,23 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset>, <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl, "EDBO", "Early Dutch Books Online (dataset)"@nl, "HackaLOD", "Stichting Omroep Muziek Bladmuziekcatalogus"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODNetwerk_Digitaal_Erfgoed> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/>, <https://creativecommons.org/about/cc0> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> "This dataset is published under a CC0 licence"@en ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://viaf.org/viaf/157027892> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl, "EDBO", "Early Dutch Books Online (dataset)"@nl, "Stichting Omroep Muziek Bladmuziekcatalogus"@nl .
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "HackaLOD" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODNetwerk_Digitaal_Erfgoed> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODNetwerk_Digitaal_Erfgoed>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Netwerk Digitaal Erfgoed" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODbrinkman>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODedbo>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EDBO", "Early Dutch Books Online (dataset)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "brinkman" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://data.bibliotheken.nl/id/scheme/brinkman>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODcorps>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "corps" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODdbnla>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus Auteurs DBNL"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dbnla" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://dbnl.nl/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus Auteurs DBNL"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODdbnlt>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Titels DBNL"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dbnlt" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://dbnl.nl/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Titels DBNL"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODgtt>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "gtt" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://data.bibliotheken.nl/id/scheme/gtt>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODid>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "id" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODkbcode>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus KBcode"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "kbcode" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://data.bibliotheken.nl/id/scheme/kbcode>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus KBcode"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODnbt>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Nederlandse Bibliografie Totaal (NBT)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nbt" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis>, <https://www.kb.nl/organisatie/voor-uitgevers/informatie-over-de-nederlandse-bibliografie> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlandse Bibliografie Totaal (NBT)"@nl .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "edbo" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <https://creativecommons.org/about/cc0> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> "This dataset is published under a CC0 licence"@en ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://viaf.org/viaf/157027892> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "EDBO", "Early Dutch Books Online (dataset)"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod10046797>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -767,58 +689,4 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2007-01-01+01:00^^http://www.w3.org/2001/XMLSchema#date"^^<http://www.w3.org/2001/XMLSchema#Date> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/HuffenerkandMCC>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 07, JULES SCHELVIS" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODpersons>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "persons" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODrise-alba>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-alba" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-05-21"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-08-15"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODrise-centsprenten>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-centsprenten" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-03-12"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODrise-childrensbooks>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Children's Books"@en ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-childrensbooks" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Children's Books"@en .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODstcn>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "stcn" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-03-26"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://www.stcn.nl/>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis>, <https://www.kb.nl/organisatie/voor-uitgevers/informatie-over-de-nederlandse-bibliografie> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl .
 

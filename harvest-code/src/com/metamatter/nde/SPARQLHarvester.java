@@ -69,6 +69,7 @@ public class SPARQLHarvester {
 
 			
 			// Query all datasets in endpoint
+			System.out.println(parameters.getSPARQL());
 			ResultSet results = QueryEndpoint.queryRS(parameters.getSPARQL(), parameters.getRegistry()) ;
 			Model model = ModelFactory.createDefaultModel();
 			
@@ -76,23 +77,32 @@ public class SPARQLHarvester {
 			for (; results.hasNext();) {
 				QuerySolution row = results.next();
 				
+				
 				String id = row.getResource("s").toString();
-				String uri = uriReg + id.substring(id.lastIndexOf("/")+1);
-				triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
-				triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
-				triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
 				System.out.println(id);
-				
-				// get original triples from description to model
-				System.out.println(queryDetail.replace("dataset", id ));
-
-				ResultSet resultsDetail = QueryEndpoint.queryRS(queryDetail2.replaceAll("dataset", id ) , parameters.getRegistry()) ;
-				
-				model.add(QueryEndpoint.queryModel(queryDetail.replaceAll("dataset", id ) , parameters.getRegistry()));
-				
-				// parse model for mapping to NDE terms
-				triples += mapTriples(resultsDetail, uri);
-
+				if (id.length() > 0) {
+					String uri = "";
+					if (id.lastIndexOf("/") == id.length()-1 ){ 
+						String id2 = id.trim().substring(0, id.length()-1) ; 
+						uri = uriReg + id2.substring(id2.lastIndexOf("/") + 1);
+						triples += Triples.tripleL(uri, Prefix.nde + "identifier", id2.substring(id2.lastIndexOf("/")+1) , null); 
+					} else { 				
+						uri = uriReg + id.substring(id.lastIndexOf("/") + 1);
+						triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
+					}
+					triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
+					triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
+					
+					// get original triples from description to model
+					System.out.println(queryDetail.replace("dataset", id ));
+	
+					ResultSet resultsDetail = QueryEndpoint.queryRS(queryDetail2.replaceAll("dataset", id ) , parameters.getRegistry()) ;
+					
+					model.add(QueryEndpoint.queryModel(queryDetail.replaceAll("dataset", id ) , parameters.getRegistry()));
+					
+					// parse model for mapping to NDE terms
+					triples += mapTriples(resultsDetail, uri);
+				}
 			}
 			
 			// write model to file
@@ -109,7 +119,6 @@ public class SPARQLHarvester {
 */
 			System.out.println("done");
 			
-			// System.out.println(triples);
 			// write triples to file
 	    //FileUtils.writeStringToFile(parameters.getFileOut(), triples , "ISO-8859-1");
 	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , parameters.getEncoding());

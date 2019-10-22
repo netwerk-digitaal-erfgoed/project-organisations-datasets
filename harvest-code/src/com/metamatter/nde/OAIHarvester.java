@@ -78,17 +78,19 @@ public class OAIHarvester {
 				triples += Triples.tripleO(uriSet, Prefix.rdf + "type", Prefix.nde + "Dataset");
 				triples += Triples.tripleO(uriSet, Prefix.nde + "datasetOf", uriReg);
 				triples += Triples.tripleL(uriSet, Prefix.nde + "source", q, Prefix.xsd + "anyUri" ); 												// added link to source
-				triples += Triples.tripleL(uriSet, Prefix.nde + "identifier", ((Element) records.item(ii)).getElementsByTagName("setName").item(0).getTextContent(), null); 
 				
+
 				String label = ((Element) records.item(ii)).getElementsByTagName("setName").item(0).getTextContent();
 				
 //				if ( !((Element) records.item(ii)).getElementsByTagName("setName").item(0).getTextContent().isEmpty()) {
 				if ( label.trim().length() > 0 ) {
 					triples += Triples.tripleL(uriSet, Prefix.rdfs + "label", label, null);
 					triples += Triples.tripleL(uriSet, Prefix.nde + "title", label, null);
+					triples += Triples.tripleL(uriSet, Prefix.nde + "identifier", ((Element) records.item(ii)).getElementsByTagName("setName").item(0).getTextContent(), null); 
 				} else {
 					triples += Triples.tripleL(uriSet, Prefix.rdfs + "label", nodes.item(0).getTextContent(), null);
 					triples += Triples.tripleL(uriSet, Prefix.nde + "title", nodes.item(0).getTextContent(), null);
+					triples += Triples.tripleL(uriSet, Prefix.nde + "identifier", ((Element) records.item(ii)).getElementsByTagName("setSpec").item(0).getTextContent(), null); 
 				}
 
 	  		NodeList description = ((Element) records.item(ii)).getElementsByTagName("setDescription");

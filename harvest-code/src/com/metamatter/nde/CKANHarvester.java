@@ -1,22 +1,13 @@
 package com.metamatter.nde;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.commons.configuration2.CompositeConfiguration;
 import org.apache.commons.configuration2.Configuration;
-import org.apache.commons.configuration2.PropertiesConfiguration;
 import org.apache.commons.configuration2.builder.fluent.Configurations;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 import org.apache.commons.io.FileUtils;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -78,8 +69,8 @@ public class CKANHarvester {
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
 			
-			triples += Triples.tripleL( parameters.getPrefixURI()+"scheme", Prefix.nde + "description", "Conceptscheme for joining subjects derived from dataset harvest from one data registry", null);  
-			triples += Triples.tripleL( parameters.getPrefixURI()+"scheme", Prefix.nde + "title", "Conceptscheme for " + parameters.getNameRegistry() , null);  
+			//triples += Triples.tripleL( parameters.getPrefixURI()+"scheme", Prefix.nde + "description", "Conceptscheme for joining subjects derived from dataset harvest from one data registry", null);  
+			//triples += Triples.tripleL( parameters.getPrefixURI()+"scheme", Prefix.nde + "title", "Conceptscheme for " + parameters.getNameRegistry() , null);  
 
 			
 			// Get description for each dataset in list
@@ -113,44 +104,50 @@ public class CKANHarvester {
 		triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
 		triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
 		triples += Triples.tripleO(uri, Prefix.nde + "source", source ); 												// added link to source
-		triples += Triples.tripleL(uri, Prefix.nde + "title", json.getString("title"), null);
-		triples += Triples.tripleL(uri, Prefix.nde + "identifier", json.getString("id"), null); 
+		if (!json.optString("title").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "title", json.getString("title"), null); }
+		if (!json.optString("id").isEmpty()) {triples += Triples.tripleL(uri, Prefix.nde + "identifier", json.getString("id"), null); }
 		if (!json.optString("license_url").isEmpty()) {
 			triples += Triples.tripleL(uri, Prefix.nde + "licenseOfContents", json.getString("license_url"), Prefix.xsd + "anyURI");
 		} else if (!json.optString("license_id").isEmpty()) {
 			triples += Triples.tripleL(uri, Prefix.nde + "licenseOfContents", json.getString("license_id"), null );
 		}
 
-		triples += Triples.tripleL(uri, Prefix.nde + "issued", json.getString("metadata_created"), Prefix.xsd + "dateTime" );
-		triples += Triples.tripleL(uri, Prefix.nde + "modified", json.getString("metadata_modified"), Prefix.xsd + "dateTime" );
-		triples += Triples.tripleL(uri, Prefix.nde + "description", json.getString("notes").replaceAll("\\p{Cntrl}", ""), null );
+		if (!json.optString("issued").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "issued", json.getString("metadata_created"), Prefix.xsd + "dateTime" ); }
+		if (!json.optString("metadata_modified").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "modified", json.getString("metadata_modified"), Prefix.xsd + "dateTime" ); }
+		if (!json.optString("description").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "description", json.getString("notes").replaceAll("\\p{Cntrl}", ""), null ); }
 
 		JSONArray resources = json.getJSONArray("resources")  ;
 		for (int i = 0; i < resources.length(); i++) {
 			JSONObject resource = (JSONObject) resources.get(i) ;
-			String distURI = uriReg + resource.getString("id");
-			triples += Triples.tripleO(distURI, Prefix.rdf + "type", Prefix.nde + "Distribution");
-			triples += Triples.tripleL(distURI, Prefix.nde + "identifier", resource.getString("id"), null); 
-			triples += Triples.tripleO(distURI, Prefix.nde + "distributionOf", uri);
-			triples += Triples.tripleL(distURI, Prefix.nde + "accessURL", resource.getString("url"), Prefix.xsd + "anyURI" );
-			if (!resource.isNull("description")) { triples += Triples.tripleL(distURI, Prefix.nde + "description", resource.getString("description").replaceAll("\\p{Cntrl}", ""), null ); }
-			if (!resource.isNull("name")) { triples += Triples.tripleL(distURI, Prefix.nde + "title", resource.getString("name"), null ); }
-			if (!resource.isNull("size")) {triples += Triples.tripleL(distURI, Prefix.nde + "size", Double.toString(resource.getDouble("size")), null ); }				// Ontbreekt in model !
-			if (!resource.isNull("issued")) {triples += Triples.tripleL(distURI, Prefix.nde + "issued", resource.getString("created"), Prefix.xsd + "dateTime"); }
-			if (!resource.isNull("last_modified")) {triples += Triples.tripleL(distURI, Prefix.nde + "modified", resource.getString("last_modified"), Prefix.xsd + "dateTime" ); }
-
-			String formatURI = Triples.URI(uriReg, resource.getString("format"));
-			triples += Triples.tripleO(distURI, Prefix.nde + "mediaType", formatURI );
-			triples += Triples.tripleL(formatURI, Prefix.nde + "title", resource.getString("format"), null );
+			if (!resource.optString("id").isEmpty()) {
+				String distURI = uriReg + resource.getString("id");
+				triples += Triples.tripleO(distURI, Prefix.rdf + "type", Prefix.nde + "Distribution");
+				triples += Triples.tripleL(distURI, Prefix.nde + "identifier", resource.getString("id"), null); 
+				triples += Triples.tripleO(distURI, Prefix.nde + "distributionOf", uri);
+				if (!resource.optString("url").isEmpty()) { triples += Triples.tripleL(distURI, Prefix.nde + "accessURL", resource.getString("url"), Prefix.xsd + "anyURI" ); }
+				if (!resource.optString("description").isEmpty()) { triples += Triples.tripleL(distURI, Prefix.nde + "description", resource.getString("description").replaceAll("\\p{Cntrl}", ""), null ); }
+				if (!resource.optString("name").isEmpty()) { triples += Triples.tripleL(distURI, Prefix.nde + "title", resource.getString("name"), null ); }
+				if (!resource.optString("size").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "size", Double.toString(resource.getDouble("size")), null ); }				// Ontbreekt in model !
+				if (!resource.optString("issued").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "issued", resource.getString("created"), Prefix.xsd + "dateTime"); }
+				if (!resource.optString("last_modified").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "modified", resource.getString("last_modified"), Prefix.xsd + "dateTime" ); }
+	
+				if (!resource.optString("format").isEmpty()) {
+					String formatURI = Triples.URI(uriReg, resource.getString("format"));
+					triples += Triples.tripleO(distURI, Prefix.nde + "mediaType", formatURI );
+					triples += Triples.tripleL(formatURI, Prefix.nde + "title", resource.getString("format"), null );
+				}
+			}
 		}
 
-		if (!json.optString("organization").isEmpty()) {
+		if (!json.optString("organization").isEmpty() ) {
 			JSONObject organisation = (JSONObject) json.get("organization");	// Organization entry interpreted as owner (?)
-			String orgURI = uriReg + organisation.getString("id");
-			triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
-			triples += Triples.tripleL(orgURI, Prefix.nde + "title", organisation.getString("title"), null );
-			triples += Triples.tripleL(orgURI, Prefix.nde + "description", organisation.getString("description").replaceAll("\\p{Cntrl}", ""), null );
-			triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");
+			if (!organisation.optString("id").isEmpty()) {  
+				String orgURI = uriReg + organisation.getString("id");
+				triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
+				triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");
+				if (!organisation.optString("title").isEmpty()) {  triples += Triples.tripleL(orgURI, Prefix.nde + "title", organisation.getString("title"), null ); }
+				if (!organisation.optString("description").isEmpty()) { triples += Triples.tripleL(orgURI, Prefix.nde + "description", organisation.getString("description").replaceAll("\\p{Cntrl}", ""), null ); }
+			}
 		}
 		
 		if (!json.optString("maintainer").isEmpty()) {
@@ -160,12 +157,14 @@ public class CKANHarvester {
 		JSONArray groups = json.getJSONArray("groups")  ;  // Groups entry is interpreted as publisher (?)
 		for (int i = 0; i < groups.length(); i++) { 
 			JSONObject group = (JSONObject) groups.get(i) ;
-			String uriPublisher = uriReg + group.getString("id");
-			triples += Triples.tripleO(uri, Prefix.nde + "publisher", uriPublisher);
-			triples += Triples.tripleO(uriPublisher, Prefix.rdf + "type", Prefix.foaf + "Organization");
-			triples += Triples.tripleL(uriPublisher, Prefix.nde + "identifier", group.getString("id"), null);  
-			triples += Triples.tripleL(uriPublisher, Prefix.nde + "title", group.getString("title"), null);  
-			triples += Triples.tripleL(uriPublisher, Prefix.nde + "description", group.getString("description").replaceAll("\\p{Cntrl}", ""), null);  
+			if (!group.optString("id").isEmpty()) {   
+				String uriPublisher = uriReg + group.getString("id");
+				triples += Triples.tripleL(uriPublisher, Prefix.nde + "identifier", group.getString("id"), null); 
+				triples += Triples.tripleO(uri, Prefix.nde + "publisher", uriPublisher);
+				triples += Triples.tripleO(uriPublisher, Prefix.rdf + "type", Prefix.foaf + "Organization");
+				if (!group.optString("title").isEmpty()) { triples += Triples.tripleL(uriPublisher, Prefix.nde + "title", group.getString("title"), null); }  
+				if (!group.optString("description").isEmpty()) { triples += Triples.tripleL(uriPublisher, Prefix.nde + "description", group.getString("description").replaceAll("\\p{Cntrl}", ""), null); }  
+			}
 		}
 /*
 		JSONArray tags = json.getJSONArray("tags")  ;  
