@@ -1,7 +1,6 @@
 package com.metamatter.nde;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 
 import org.apache.commons.configuration2.Configuration;
@@ -9,9 +8,6 @@ import org.apache.commons.configuration2.builder.fluent.Configurations;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 import org.apache.commons.io.FileUtils;
 import org.apache.jena.query.*;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-
 import com.metamatter.util.Prefix;
 import com.metamatter.util.QueryEndpoint;
 import com.metamatter.util.Triples;
@@ -62,18 +58,21 @@ public class CNLHarvester {
 				System.out.println(row.getResource("s"));
 				String id = row.getResource("s").toString();
 				String uri = uriReg + id.substring(id.lastIndexOf("/")+1);
-				triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
-				triples += Triples.tripleL(uri, Prefix.nde + "title", row.getLiteral("n").toString() , null); 
+
 				triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
 				triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
+				triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
 				triples += Triples.tripleO(uri, Prefix.nde + "source", row.getResource("s").toString() );
+				if (row.contains("n")) { triples += Triples.tripleL(uri, Prefix.nde + "title", row.getLiteral("n").toString() , null); }
+				if (row.contains("n")) { triples += Triples.tripleL(uri, Prefix.rdfs + "label", row.getLiteral("n").toString() , null); }
 				if (row.contains("r")) { triples += Triples.tripleO(uri, Prefix.nde + "licenseOfContents", row.getLiteral("r").toString() ); }
-				if (row.contains("d")) { triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("d").toString(), null ); }
+				if (row.contains("d") && row.get("d").toString().length() > 1) { triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("d").toString(), null ); }
 				if (row.contains("t")) { triples += Triples.tripleL(uri, Prefix.nde + "harvestType", row.getLiteral("t").toString(), null ); }
 				if (row.contains("o")) { 
 					String orgURI = Triples.URI(uri , row.getLiteral("o").toString() );
 					triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
 					triples += Triples.tripleL(orgURI, Prefix.nde + "title", row.getLiteral("o").toString(), null );
+					triples += Triples.tripleL(orgURI, Prefix.rdfs + "label", row.getLiteral("o").toString(), null );
 					triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");
 				}
 

@@ -2,7 +2,8 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_History>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "International Institute of Social History" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "International Institute of Social History" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_HistoryInternational_Institute_of_Social_History> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_HistoryIISG>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -11,6 +12,10 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "IISG collections" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "IISG collections" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_HistoryInternational_Institute_of_Social_History>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "International Institute of Social History" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_HistoryPM>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

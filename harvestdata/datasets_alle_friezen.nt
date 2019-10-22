@@ -1,5 +1,8 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen> <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar: Alle Friezen" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_FriezenTresoar> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_FriezenTresoar> <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_FriezenTresoar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezenbb_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezenbb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezenbb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 

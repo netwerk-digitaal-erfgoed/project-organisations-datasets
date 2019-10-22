@@ -8,7 +8,7 @@ public class HarvesterParameters {
 		
 	}
 	
-	private String encoding, registry , prefixURL , prefixURI, nameRegistry, sparql ;
+	private String encoding, registry , prefixURL , prefixURI, nameRegistry, sparql, organization ;
 	private File fileOut ;
 		
 	public String getRegistry(){
@@ -58,6 +58,13 @@ public class HarvesterParameters {
 	}
 	public void setSPARQL (String value){
 		this.sparql = value ;
+	}
+
+	public String getOrganization(){
+		return this.organization;
+	}
+	public void setOrganization (String value){
+		this.organization = value ;
 	}
 
 }

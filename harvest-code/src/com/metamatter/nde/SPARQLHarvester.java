@@ -54,12 +54,20 @@ public class SPARQLHarvester {
 			parameters.setFileOut(config.getString(i+".fileOut"));
 			parameters.setNameRegistry(config.getString(i+".nameRegistry"));
 			parameters.setSPARQL(config.getString(i+".sparql"));
+			parameters.setOrganization(config.getString(i+".organization"));
 
 			// First create triples for the Registry entity 
 			String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
+			String uriOrg = Triples.URI(uriReg, parameters.getOrganization()); 
+
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
+			triples += Triples.tripleO(uriReg, Prefix.nde + "administrator", uriOrg );
 
+			triples += Triples.tripleO(uriOrg, Prefix.rdf + "type", Prefix.foaf + "Organization");
+			triples += Triples.tripleL(uriOrg, Prefix.rdfs + "label", parameters.getOrganization(), null);
+
+			
 			// Query all datasets in endpoint
 			ResultSet results = QueryEndpoint.queryRS(parameters.getSPARQL(), parameters.getRegistry()) ;
 			Model model = ModelFactory.createDefaultModel();

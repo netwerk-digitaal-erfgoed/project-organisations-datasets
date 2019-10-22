@@ -18,7 +18,7 @@ ckan3.encoding = UTF-8
 ckan3.registry = http://mediasuitedata.clariah.nl/api/action/package_list
 ckan3.nameRegistry = Clariah Labs Dataset Registry
 ckan3.prefixURL = http://mediasuitedata.clariah.nl/api/action/package_show?id=
-ckan3.prefixURI = http://lod.kb.nl/datasets/
+ckan3.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
 ckan3.fileOut = data/datasets_clariah.nt
 
 ckan4.encoding = UTF-8

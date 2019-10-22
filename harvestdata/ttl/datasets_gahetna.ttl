@@ -2,7 +2,12 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "GaHetNa.nl" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "GaHetNa.nl" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlNationaal_Archief> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlNationaal_Archief>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlnaa1>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

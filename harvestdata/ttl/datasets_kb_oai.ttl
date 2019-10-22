@@ -2,7 +2,8 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMH>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek OAIPMH" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek OAIPMH" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMHKoninklijke_Bibliotheek> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMHALBA>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -2226,6 +2227,10 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "KRUSEMAN" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://services.kb.nl/mdo/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "KRUSEMAN" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMHKoninklijke_Bibliotheek>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMHLITERAT>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

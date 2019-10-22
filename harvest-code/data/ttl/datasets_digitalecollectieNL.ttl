@@ -2,7 +2,12 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Digitale_Collectie_Nederland>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Digitale Collectie Nederland" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "Digitale Collectie Nederland" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Digitale_Collectie_NederlandBeeld___Geluid> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Digitale_Collectie_NederlandBeeld___Geluid>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Beeld & Geluid" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Digitale_Collectie_NederlandBrabantCloud>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

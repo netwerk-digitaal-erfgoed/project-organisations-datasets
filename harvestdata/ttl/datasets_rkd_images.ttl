@@ -2,7 +2,12 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/RKD_Images>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "RKD Images" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "RKD Images" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/RKD_ImagesRKD> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/RKD_ImagesRKD>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "RKD" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/RKD_ImagesSubject_ModemuzeAccessoires>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

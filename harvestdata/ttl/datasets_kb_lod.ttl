@@ -2,9 +2,15 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek LOD" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek LOD" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODKoninklijke_Bibliotheek> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODKoninklijke_Bibliotheek>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODbrinkman>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -15,6 +21,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODcorps>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -25,6 +32,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODdbnla>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus Auteurs DBNL"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -35,6 +43,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus Auteurs DBNL"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODdbnlt>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Titels DBNL"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -45,6 +54,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Titels DBNL"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODgtt>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -55,6 +65,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODkbcode>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus KBcode"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -65,6 +76,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus KBcode"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODnbt>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nederlandse Bibliografie Totaal (NBT)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -75,6 +87,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlandse Bibliografie Totaal (NBT)"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODpersons>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -85,6 +98,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODrise-alba>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-alba" ;
@@ -96,6 +110,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODrise-centsprenten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-centsprenten" ;
@@ -106,6 +121,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODrise-childrensbooks>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Children's Books"@en ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-childrensbooks" ;
@@ -114,12 +130,14 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Children's Books"@en .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODstcn>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "stcn" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-03-26"^^<http://www.w3.org/2001/XMLSchema#Date> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-10-21^^http://www.w3.org/2001/XMLSchema#date"^^<http://www.w3.org/2001/XMLSchema#Date> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://www.stcn.nl/>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis>, <https://www.kb.nl/organisatie/voor-uitgevers/informatie-over-de-nederlandse-bibliografie> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl .

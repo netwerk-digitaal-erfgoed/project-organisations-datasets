@@ -2,7 +2,8 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Modemuze>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/ModemuzeModemuze> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Modemuze1016>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -43,4 +44,8 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1048" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://panic.image.ntua.gr:9000/fashionedmfp/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "1048" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/ModemuzeModemuze>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze" .
 

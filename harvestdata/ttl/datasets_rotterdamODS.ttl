@@ -25,12 +25,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P00 - Kazerneplein" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore01f6a066-fdaf-4a31-bb75-8d95cdde1b8a>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "01f6a066-fdaf-4a31-bb75-8d95cdde1b8a" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "vergunning" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore02238e29-8c91-470f-9490-92ba7416afb6>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2013-09-12T123619/25-DM_PROD-731604-v1-Lodingstekening_RIJNHAVEN_MOND_-_19993788.TIF"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -284,12 +278,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "2704388.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-12T123205/16-DM_PROD-728159-v1-Lodingstekening_RIJNHAVEN_MOND_-_70009650.TIF" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore09651991-d34e-4f1a-b0d2-1b6fa845c4a9>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "09651991-d34e-4f1a-b0d2-1b6fa845c4a9" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "parkeren" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore097ae1e6-1b0c-418b-89e9-76dd51de1d3f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2012-06-05T143437/Deelgemeente-Delfshaven.pdf"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -319,12 +307,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreHTML> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Website" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore09fb64a9-abfa-4b6a-85b2-d552a8547802>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "09fb64a9-abfa-4b6a-85b2-d552a8547802" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "luchtfoto" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a26ef5c-b465-402c-b441-2735ee0660cf>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2016-12-15T10%3A22%3A23.802Z/oat-schiebroek.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -333,12 +315,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "0a26ef5c-b465-402c-b441-2735ee0660cf" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreCSV> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "OAT Schiebroek.csv" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a3bd369-ef0f-494b-9cb3-2e23037604ad>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "0a3bd369-ef0f-494b-9cb3-2e23037604ad" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "archief" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a5620a6-2ef0-4313-a002-0e0935be355e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -359,12 +335,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "0a6c4c87-b30e-49d4-9266-bcdf9c15dc4e" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastorePDF> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Standard for the Publication of Dynamic Parking Data v1.0" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a702ca6-b47e-4329-b354-14c05afd5bd2>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "0a702ca6-b47e-4329-b354-14c05afd5bd2" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "glooiingen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0ac45ff8-7667-4268-8647-df00d40a1040>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -424,7 +394,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P23 - P_Schouwburgplein 2" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0de2ba92-cad6-4749-8d09-8cb7b51f4787>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2407c671-6de1-469d-9f5a-e4ef67657c29>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore8e776acf-f087-4037-a578-eb46d2f22f38>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreedb7f50f-00a5-459e-b029-c37a9b777062> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Telcijfers per locatie ten behoeve van het vrachtverbod 's-Gravendijkwal e.o. Dit verbod is op 1-1-2015 ingegaan." ;
@@ -517,12 +486,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreHTML> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Krantenartikelen" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0fcb96aa-0d1e-4a05-b8fd-37ee7197d11f>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "0fcb96aa-0d1e-4a05-b8fd-37ee7197d11f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "monumenten" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore11417dfd-e3eb-4f25-bff6-e5d0ba6d4708>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2012-06-05T143548/Deelgemeente-Hoogvliet.pdf"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -575,7 +538,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "mydatasteven.foo@sense-os.nl" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore13afbe09-ef49-4bb3-a76e-01a0ed1857df>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1598cf65-519f-412c-9418-9b50455490a9>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2d47e376-be8c-41a2-921f-a308388870d8> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Overzicht gehele vastgoedportefeuille gemeente Rotterdam." ;
@@ -617,12 +579,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "1.00901594E8" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BSB-CAD" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1598cf65-519f-412c-9418-9b50455490a9>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1598cf65-519f-412c-9418-9b50455490a9" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "vastgoed" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore15c93a5e-7916-486e-a3eb-678c2c1fcfac>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://collecties.stadsarchief.rotterdam.nl/publiek/sub_navigeren.aspx"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -632,12 +588,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreHTML> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Archieven bladeren" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore15e0b66a-2ce7-462f-b379-ab26a6196835>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "15e0b66a-2ce7-462f-b379-ab26a6196835" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "bodemonderzoek" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore16e16c2f-23ea-4e21-acfd-2c8db41b3078>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://api.sense-os.nl/sensors/182900/data.json?API_KEY=737e45f2-f8fe-11e1-85e6-da0007d04f45"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -646,12 +596,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "16e16c2f-23ea-4e21-acfd-2c8db41b3078" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "noise_sensor (noise_sensor)" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore175c36c5-7849-43dc-a996-0dd19b93d6c2>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "175c36c5-7849-43dc-a996-0dd19b93d6c2" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "geodata" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore176143a7-d8cb-45a7-b399-679ccc55d385>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -675,12 +619,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "633547.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-12T123948/33-DM_PROD-732713-v1-Lodingstekening_RIJNHAVEN_MOND_-_20003202.TIF" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore17cb57bd-0de5-47ab-84de-5ebc8770875e>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "17cb57bd-0de5-47ab-84de-5ebc8770875e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "kolken" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore17f7bb2c-0102-4e43-8c2f-6e011ced5ad3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://api.sense-os.nl/sensors/182918/data.json?API_KEY=737e45f2-f8fe-11e1-85e6-da0007d04f45"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -689,18 +627,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "17f7bb2c-0102-4e43-8c2f-6e011ced5ad3" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "linear acceleration (MPL Linear Acceleration)" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore18090b98-8147-4c65-a0dd-988dc6b6f033>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "18090b98-8147-4c65-a0dd-988dc6b6f033" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "bomen" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore181cb194-0c79-4fd9-8302-6c816dc0d042>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "181cb194-0c79-4fd9-8302-6c816dc0d042" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "water" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore18366ca9-8a5b-49a1-b09b-d7d47074030c>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -899,18 +825,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreCSV> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "OAT Pernis.csv" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1dd0d5e7-39c3-4060-a072-1b71868c2139>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1dd0d5e7-39c3-4060-a072-1b71868c2139" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "groen" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1df12daa-4eb2-4ee1-bc10-3cd55d68c6b6>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "1df12daa-4eb2-4ee1-bc10-3cd55d68c6b6" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "bruggen" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1e4a0ce8-34be-4cb6-bfb8-21cf2c0a36cb>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2015-07-16T11%3A50%3A45.063Z/telpunten-1-meting.xlsx"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -998,12 +912,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P27 - P_Colosseumweg" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore20b18a5b-f507-401d-adc9-d7c374371ede>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "20b18a5b-f507-401d-adc9-d7c374371ede" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "milieuzone" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore21057941-9ab4-401a-8017-5db397e69ed6>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:gwrwebdatamapservermapBBDWH_pub.map&amp=&SERVICE=WFS&amp=&VERSION=1.0.0&amp=&REQUEST=getfeature&amp=&TYPENAME=sdo_gwr_bsb_speelplaatsenondergrond&amp=&MAXFEATURES=100"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -1072,7 +980,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Spangen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore231d72f0-0928-46c8-b1d3-4ed2e585e34c>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore28e856eb-a8d6-4dfc-8c21-88b86ff84fde>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore934c9ef9-86fd-410e-8f73-a11847a309c7>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb52e04cd-3ee3-4371-ba32-ef2e31bed2ab>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree83a8e8c-fb40-4183-8429-7d606036fa66>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref1c9bc29-bc76-4e45-8f03-c4bae3334887> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Hoogtebestand 2014 Rotterdam totaal. Er is gekozen voor TIF formaat (met hoogte tov NAP en 1 meter resolutie). Alleen het stedelijke gebied tot en met Hoogvliet. Voor meer informatie contact m.boelhouwer@rotterdam.nl" ;
@@ -1108,12 +1015,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> "Sense" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=mydata2c8c25ce6ec6e14af77dd0c7eb90009d> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Dataset of jp@sense-os.nl" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2407c671-6de1-469d-9f5a-e4ef67657c29>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2407c671-6de1-469d-9f5a-e4ef67657c29" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "luchtkwaliteit" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore24154825-8763-4470-87c8-b961c35fe36d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -1298,12 +1199,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "335578.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-12T124253/42-DM_PROD-735080-v1-Lodingstekening_RIJNHAVEN_MOND_-_20023108.TIF" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore28e856eb-a8d6-4dfc-8c21-88b86ff84fde>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "28e856eb-a8d6-4dfc-8c21-88b86ff84fde" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "lidar" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2949423e-73e3-4f67-9f72-6638327436b8>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/nl/storage/f/2013-10-02T115401/objecten-buitenruimte-met-GIS-bestanden.zip"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -1422,12 +1317,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=rijnhaven-buitenruimte-objecten> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijnhaven buitenruimte objecten" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2d47e376-be8c-41a2-921f-a308388870d8>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2d47e376-be8c-41a2-921f-a308388870d8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "rotterdam" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2d6f2609-174d-4fa3-9f3d-a5c3d6d0f214>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://opendata.technolution.nl/opendata/parkingdata/v1/static/45434989-3252-4c85-8731-c856b02c390c"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -1436,12 +1325,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2d6f2609-174d-4fa3-9f3d-a5c3d6d0f214" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P01 - Stationsplein" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2e12b2eb-642d-42fc-ba66-34a4046a875e>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2e12b2eb-642d-42fc-ba66-34a4046a875e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2015" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2e40b010-ce36-4917-ab15-24677d05cd69>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -1508,18 +1391,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=vuilcontainers> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Containers, restafval, papier, glas in Rotterdam" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2fc753af-689d-4634-b4fb-53478ebe531a>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "2fc753af-689d-4634-b4fb-53478ebe531a" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "meldingen" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore301c8380-ee9f-400c-9855-be71f8c50e8f>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "301c8380-ee9f-400c-9855-be71f8c50e8f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "sloten" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore30d8b9a7-d322-41fb-ba25-5002501b2373>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://3dre.gw.rotterdam.nl/3D/15-93-Heijplaat.zip"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -1575,12 +1446,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "33b9a619-fddc-422f-b97c-ef065b60e955" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "pressure (BMP180 Pressure sensor)" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore341b48d7-2dde-4c6b-b296-2a5978ae7f91>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "341b48d7-2dde-4c6b-b296-2a5978ae7f91" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "kunstwerken" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore349b674e-e9c9-42c4-93de-457658ff487f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -1699,7 +1564,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Straatmeubilair - Informatiebord" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore36502d2b-2d82-4535-937b-238431f685b9>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0fcb96aa-0d1e-4a05-b8fd-37ee7197d11f>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2d47e376-be8c-41a2-921f-a308388870d8>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref5216fb8-7db6-4c1a-9df5-cfb9ad2d63c8> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Lijst van Rotterdamse monumenten in shape files" ;
@@ -1864,12 +1728,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kralingen Oost" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore3f980e2b-2cc2-4eff-a3f0-e89b6001ef28>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "3f980e2b-2cc2-4eff-a3f0-e89b6001ef28" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "verkeersborden" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore3fc9a0cd-84dd-4418-90ec-bc97671c2d7c>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/e3736bac-8efe-4d71-b06b-ba2a54cfd815"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -1898,7 +1756,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: PAP03 - Brinkpark Kortparkeerders" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore407b2380-dd8d-4cbe-bcb4-7853c6a616c5>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore09651991-d34e-4f1a-b0d2-1b6fa845c4a9>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore73c8d985-8fe2-43a0-a0dc-3e291f2f5bae> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Informatie over de status van de parkeervakken langs de Kruiskade, Kruiskadehof en Karel Doormanstraat in Rotterdam." ;
@@ -1919,12 +1776,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2013-09-12T12:16:02"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "1139099.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-12T122712/09-DM_PROD-725910-v1-Lodingstekening_RIJNHAVEN_MOND_ _KONINGINNENHOOFD_-_20053152.pdf" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore40a9fc7f-a864-4036-828c-e285884873d4>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "40a9fc7f-a864-4036-828c-e285884873d4" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "wegen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore40beb376-ece6-4989-8ea8-3b311b3fcb69>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -1991,12 +1842,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2014-01-30T10:52:11.138098"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=tijdelijke-verkeersmaatregelen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tijdelijke Verkeersmaatregelen" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore43618327-9b87-4e53-9142-25873f9601b0>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "43618327-9b87-4e53-9142-25873f9601b0" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "verkeersmaatregelen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore441cd38d-4230-4636-a23d-164863646e30>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -2325,12 +2170,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: 3 - Burcht" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore4f2848c3-518b-4db0-b7e4-8b2d1dfc03e9>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "4f2848c3-518b-4db0-b7e4-8b2d1dfc03e9" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "puntenwolk" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore4fa311e3-2897-4e84-8aae-5ff76328b4b3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
@@ -2364,7 +2203,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-12T124033/35-DM_PROD-733820-v1-Lodingstekening_RIJNHAVEN_-_20013103.TIF" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore50ab8fbd-ee1e-442f-8661-9d2aef8e2120>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2fc753af-689d-4634-b4fb-53478ebe531a>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5e958dab-5bbd-44b5-b997-33bf7c26ac05> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Meldingen over de buitenruimte." ;
@@ -2784,12 +2622,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kralingse Bos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5e958dab-5bbd-44b5-b997-33bf7c26ac05>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "5e958dab-5bbd-44b5-b997-33bf7c26ac05" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "msb" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5e9b3d56-4ca0-4eb6-9124-e1a884880c4e>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://api.sense-os.nl/sensors/180655/data.json?API_KEY=c87bfec6-0d5f-11e2-94c1-da0007d04f45"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -2830,12 +2662,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zuidwijk" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5f2cdc46-3ea8-437a-9c5f-cf1987941c25>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "5f2cdc46-3ea8-437a-9c5f-cf1987941c25" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kadaster acrhief geschiedenis geodata" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5f336910-b60e-4e4e-a496-d6e52de36bf5>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
@@ -2848,12 +2674,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> "Peter Dirk Conradie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=veiligheidsindex-ijsselmonde> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Veiligheidsindex IJsselmonde" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5faa4ed3-5683-4c88-9f3c-7897e4fe28b2>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "5faa4ed3-5683-4c88-9f3c-7897e4fe28b2" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tijdelijke verkeersmaatregelen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5fb4c6c6-b407-4041-8a45-452730908e98>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -3003,7 +2823,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Omnibus 2012 Vragenlijst C" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore61fe16e3-ab62-46e8-b899-d91c82c5aee4>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a3bd369-ef0f-494b-9cb3-2e23037604ad>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore175c36c5-7849-43dc-a996-0dd19b93d6c2>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5f2cdc46-3ea8-437a-9c5f-cf1987941c25>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore726e119a-432a-4abc-b151-79f3e0192950>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore8562c447-0d04-40b9-bed3-83358d0668eb> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "<p>Inhoudelijke informatie:</p><p>De Kadastrale Data 1832 bestaat uit een percelen en gebouwenlaag. In de lagen zijn alle kadastrale gemeenten opgenomen die binnen de gemeentegrenzen van het huidige Rotterdam liggen. Het gaat om de kadastrale gemeenten: Charlois, Delfshaven, Hillegersberg, Hoogvliet, IJsselmonde, Katendrecht, Kralingen, Overschie, Rotterdam, Pernisen Schiebroek. Niet opgenomen zijn Hoek van Holland en Nesseland. Naast de lagen bevat deze data ook de gegevens afkomstig uit de Oorspronkele Aanwijzende Tafels (OAT's). De inhoud van de OAT's is per gemeente ook toegevoegd als csv bestand. zie voor de inhoud van deze sets het lees mij bestand, de tabbladen structuur data_csv en inhoud_csv</p><p>De vectorbestanden zijn vervaardigd door George Buzing van het Gemeentearchief Delft en Johan Feikens (voor de gemeenten Hoogvliet, Pernis, Schiebroek en IJsselmonde). De perceelsgegevens uit de Oorspronkelijk Aanwijzende Tafels (OATs) zijn ingevoerd door medewerkers van het Stadsarchief Rotterdam (afdeling projecten) http://www.stadsarchief.rotterdam.nl en Peter van der Meer van de Fryske Akademy (voor de gemeenten Hoogvliet, Pernis en Schiebroek). De ESRI Geodatabase is vervaardigd door de Fryske Akademy. http://www.hisgis.nl/hisgis/gewesten/rotterdam</p><p>Gebruikte standaard:</p></p>Geen</p><p>Verwijzing naar bron:</p><p>Nationaal Archief, Den Haag, Minuutplans en Verzamelplans van het Kadaster Zuid-Holland, District Rotterdam, nummer toegang 4.KADOR-R en Nationaal Archief, Den Haag, Microfiches Oorspronkelijke Aanwijzende Tafels Kadaster, Districten 's-Gravenhage en Rotterdam, nummer toegang 4.KADOR-OAT</p><p>Achtergrond (context) van de bron:</p>Kadaster 1832: <p>De basislaag uit 1832 bestaat uit de oudste cartografisch betrouwbare bezitsregistratie per perceel, namelijk die van het kadaster. Een instelling uit de tijd van Napoleon, opgezet om een eerlijke grondslag te verkrijgen voor het heffen van grondbelasting. De eerste Nederlandse kadasterkaarten dateren uit 1812 en 1813. Omdat de opmeting voor het hele land bijna twintig jaar in beslag nam, kon het kadaster pas in 1832 in werking treden. De kadasterkaarten zijn digitaal nagetekend en in een cordinatenstelsel geplaatst, waardoor ze op alle topografische kaarten passen. Vervolgens zijn aan elk perceel de bijbehorende gegevens over eigenaren, gebruik en waarde anno 1832 gehangen. Voor het gebied van de (huidige) gemeente Rotterdam zijn op die manier 101 kadasterkaarten verwerkt met in totaal ruim 38.000 percelen.</p><p>Voor deze bron bestaat een broncommentaar in de serie Broncommentaren 3: Bronnen betreffende de registratie van onroerend goed in de negentiende en twintigste eeuw, onderdeel De kadastrale legger en aanverwante bronnen, 1812-1990 door P. Kruizinga.</p><p> Zie: http://resources.huygens.knaw.nl/broncommentaren/retro</p>Percelenlaag: <p>In deze laag zijn alle percelen te vinden die voorkomen op de kaarten of minuutplans van 1832, eventueel ingekleurd naar grondgebruik. Voor ieder perceel is informatie opgenomen uit de Oorspronkelijke Aanwijzende Tafels van 1832 (registers met perceelinformatie).</p>Gebouwenlaag:<p>In deze laag worden alle gebouwen weergegeven die voorkomen op de kadastrale kaarten of minuutplans van 1832. Informatie over de eigenaar is beperkt overgenomen uit de laag percelen van 1832. Voor het raadplegen van de kwalitatieve waarde van de gebouwen is een aparte laag gemaakt waarin de klasse van waardering in een oplopende kleur van blauw naar rood is weergegeven. De rode kleur staat dan voor een hoge waardering.</p>" ;
@@ -3142,7 +2961,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rotterdam vragenlijst 2008 55  NEDERLANDS 20080124" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore64a94ddd-e608-4e55-9ca9-0c191b77b449>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1df12daa-4eb2-4ee1-bc10-3cd55d68c6b6>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore728569a3-ddd8-4018-b433-1c89cba3f314>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb431c852-ec1d-421c-8967-7f30501ea9c8>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastored726d6c2-b55e-4fab-bd6e-5192f55e6c00> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Deze dataset is verwijderd, maar de beschrijving van de nieuwe dataset is al beschikbaar. Vanaf april/ mei2013 zal een structurele actuele dataset worden aangeboden." ;
@@ -3251,12 +3069,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P1 - Emmapassage" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore68989ba3-faf6-4e3d-9b9e-8241762fa59b>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "68989ba3-faf6-4e3d-9b9e-8241762fa59b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "genealogie" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore68c4d05f-bd8c-4f13-be17-9239595a4c8d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2012-10-09T173649/120928_Woonbron-BOG-potentielijst-datastore.xlsx"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -3269,7 +3081,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Woonbron BOG potentielijst" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore6955b09f-6bba-4f42-9973-4f97d7cea153>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore20b18a5b-f507-401d-adc9-d7c374371ede>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2407c671-6de1-469d-9f5a-e4ef67657c29>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore728569a3-ddd8-4018-b433-1c89cba3f314>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreedb7f50f-00a5-459e-b029-c37a9b777062> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De gemeente Rotterdam wil de effecten van de invoering/uitbreiding van de milieuzone personenauto's, bestelverkeer en vrachtverkeer inzichtelijk maken. Deze dataset bevat alle passages van voertuigen tijdens de 0 meting in oktober 2015" ;
@@ -3291,7 +3102,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Afgehandeld" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore6972ec75-0da4-465e-8175-b52995bf67ea>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore28e856eb-a8d6-4dfc-8c21-88b86ff84fde>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore4f2848c3-518b-4db0-b7e4-8b2d1dfc03e9>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref1c9bc29-bc76-4e45-8f03-c4bae3334887>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref6d69f8b-cf87-4192-9313-d8dfcf5ab7c8> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "actuele maaiveldhoogteinformatie van de gemeente Rotterdam. Er is gekozen voor TIF formaat (met hoogte tov NAP en 1 meter resolutie). Alleen het stedelijke gebied tot en met Hoogvliet. Voor meer informatie kunt u terecht bij m.boelhouwer@rotterdam.nl" ;
@@ -3481,7 +3291,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Handleiding gebruik Open Geodata" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore6d35514c-40af-4c36-b845-ee62a9557b73>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore01f6a066-fdaf-4a31-bb75-8d95cdde1b8a>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a702ca6-b47e-4329-b354-14c05afd5bd2>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore17cb57bd-0de5-47ab-84de-5ebc8770875e>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore18090b98-8147-4c65-a0dd-988dc6b6f033>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore181cb194-0c79-4fd9-8302-6c816dc0d042>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1dd0d5e7-39c3-4060-a072-1b71868c2139>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore1df12daa-4eb2-4ee1-bc10-3cd55d68c6b6>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore301c8380-ee9f-400c-9855-be71f8c50e8f>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore341b48d7-2dde-4c6b-b296-2a5978ae7f91>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore3f980e2b-2cc2-4eff-a3f0-e89b6001ef28>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore40a9fc7f-a864-4036-828c-e285884873d4>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore43618327-9b87-4e53-9142-25873f9601b0>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore5faa4ed3-5683-4c88-9f3c-7897e4fe28b2>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore910777a8-12c2-4593-b91c-cbf77e424293>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore963e7085-1c18-4d42-92a9-5abdc0a9445d>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore9f7199ef-58de-470a-a216-20b206885c6f>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea8054458-9687-41f8-afb6-b6c307e65d01>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb3e50e35-9ea2-457f-9263-122446a41850>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorec14747b9-5c80-4cb2-ae7c-e9868df2d661>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoredb6299f2-499b-45b5-ba1e-b9f0056a407e>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreffb69c43-9656-4542-8cbb-bc878462683e> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Gegevens uit het Beheersysteem voor de Buitenruimte worden als lagen aangeboden in de WMS/WFS service (zie hieronder). De informatie wordt rechtstreeks uit de database getoond. Deze wordt dagelijks ververst.  Het webadres van de service voor gebruik in Gis-programma's is: http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:gwrwebdatamapservermapBBDWH_pub.map  (Let op: deze link kun je dus alleen in Gis-programma's toepassen.  Als je hem in je browser aanklikt lijkt het alsof hij niet werkt, maar hij werkt dus wel).    [Meer informatie over het gebruik van geoservices] (http://pdok-ngr.readthedocs.org/en/latest/services.html)      Voorbeelden van (gratis) software waarmee je de webservice kunt benaderen zijn: - [QGIS](http://qgis.org/en/site/forusers/download.html 'QGIS') - [gvSIG](http://www.gvsig.org/web/home/catalog 'gvSIG') - [uDig](http://udig.refractions.net/download/ 'uDig')      [Handleiding voor het gebruik van Open Geodata (.doc)](http://www.rotterdamopendata.nl/storage/f/2014-01-21T08:50:54.346Z/handleiding-gebruik-open-geodata.doc)    #1 Vraag informatie op over de webservice:http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:%5Cgwr%5Cwebdata%5Cmapserver%5Cmap%5Cbbdwh_pub.map&service=wms&request=getcapabilities#2 Voorbeeld om een kaart van de bomen op te halen:http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:%5Cgwr%5Cwebdata%5Cmapserver%5Cmap%5Cbbdwh_pub.map&LAYERS=sdo_obsurv_bmn_alg&STYLES=&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:28992&BBOX=91187.177790573,435905.88627779,93735.113914687,437929.94768479&WIDTH=963&HEIGHT=765&FORMAT=image/png&TRANSPARENT=FALSE&BGCOLOR=0xFFFFFF&SERVICE=WMS" ;
@@ -3678,12 +3487,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: Klanderij - Klanderij" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore71a86114-7864-4441-b2aa-e6e022fb2262>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "71a86114-7864-4441-b2aa-e6e022fb2262" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "milieu" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore71b33892-5671-4336-93bc-eb0e091c0028>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2014-02-07T09:00:16.314Z/wilhelminaplein-5.pdf"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -3737,18 +3540,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "44971.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-07-30T134807/P-en-R-Data.zip" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore726e119a-432a-4abc-b151-79f3e0192950>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "726e119a-432a-4abc-b151-79f3e0192950" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "geschiedenis" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore728569a3-ddd8-4018-b433-1c89cba3f314>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "728569a3-ddd8-4018-b433-1c89cba3f314" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "mobiliteit" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore72b39ba2-0f37-472b-a420-ef19fff3a3f6>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/a89f5b00-3759-43d0-829e-58dc01173bf6"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -3788,12 +3579,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> "Arjan Aaftink" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=geluid> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geluid" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore73c8d985-8fe2-43a0-a0dc-3e291f2f5bae>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "73c8d985-8fe2-43a0-a0dc-3e291f2f5bae" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "gemeente-rotterdam" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore73d2824d-5b6a-4936-a6e1-1ea8e57be5c2>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -3844,7 +3629,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: La Vie - La Vie" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore7612bf23-5249-4e56-8434-0b4b322e88bd>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore175c36c5-7849-43dc-a996-0dd19b93d6c2>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore726e119a-432a-4abc-b151-79f3e0192950>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorec3e24d47-794b-4116-8051-454cc0f48a53> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "<p><strong>Inhoudelijke informatie:</strong></p><p>Rotterdamse bestaande en verdwenen straatnamen zoals vastgesteld door de colleges van burgemeester en wethouders, met achtergrondinformatie.De basis van de set vormen de gegevens verzameld voor de publicatie 'De Straatnamen van Rotterdam' Rotterdam 1992. Deze zijn sinds 1992 aangevuld met gegevens van nieuwe naamgevingen en intrekkingen  door de secretaris van de Commissie van advies inzake straatnaamgeving. (http://www.stadsarchief.rotterdam.nl/collectie/straatnamen) De straten van het gebied Rozenburg, sinds 2010 onderdeel van Rotterdam, zijn hierin niet opgenomen. De data worden gepubliceerd op de website van het Stadsarchief (http://www.stadsarchief.rotterdam.nl/straatnamen-overzicht)</p><p><strong>Gebruikte standaard:</strong></p><p>Geen</p><p><strong>Verwijzing naar bron:</strong></p><p>De straatnamencommissie van Rotterdam is verantwoordelijk voor de keuze van straatnamen. Straatnamen verwijzen vaak naar de geschiedenis van een plek of passen binnen een gekozen wijkthema. Neem bijvoorbeeld het Hofplein, waarvan de naam herinnert aan de ridderhofstad Weena, die noordoostelijk van het huidige Hofplein was gelegen. Of het Wonderklauwpad in Hoogvliet, dat past binnen het wijkthema vistuig en verwijst naar een voormalig vistuig voor de kokkelvisserij. Straatnamen worden ook veel gebruikt om belangrijke Rotterdammers te eren na hun overlijden. Denk maar aan Coen Moulijn en Pim Fortuyn, die beiden een eigen straat kregen. </p>" ;
@@ -3911,12 +3695,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: PAP02 - Koningshaven" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore793245aa-3f60-464a-8018-7f2ef6625355>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "793245aa-3f60-464a-8018-7f2ef6625355" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "bodemkwaliteit" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore794fbf57-120a-4b58-a865-01787c8e414d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/d79529a2-cc17-475b-a803-48d1d7e6de87"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -3966,12 +3744,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> "Marc Rijnveld" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=zalen-nederland> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zalen Nederland" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore7ad45bcc-1c21-40f2-9cd2-b1bcfcd47b21>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "7ad45bcc-1c21-40f2-9cd2-b1bcfcd47b21" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stadsbeheer" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore7ae236a1-d054-4b7e-9b4c-8c9e011ef5fe>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -4178,7 +3950,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-19T151224/Rijnhaven_wegelementen.pdf" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore81c99ab6-e697-4280-a0eb-74690143746f>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb6f94a5d-9841-447f-97b3-e2ed2d9b7c83>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree540b20f-a58a-4d82-9da8-ed8928a6bb76> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Cartography data of Rotterdam port to Apps project" ;
@@ -4273,12 +4044,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8419ee4b-361b-4aa8-aa38-529843616929" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorexlsx> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Straatnamen_van_Rotterdam.xlsx" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore8562c447-0d04-40b9-bed3-83358d0668eb>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8562c447-0d04-40b9-bed3-83358d0668eb" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "kadaster" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore85917d17-bd98-4db9-a552-f74104e0b73d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -4524,12 +4289,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P11 - P R Veeladingstraat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore8e776acf-f087-4037-a578-eb46d2f22f38>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "8e776acf-f087-4037-a578-eb46d2f22f38" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "vrachtverkeer" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore8f3254db-e35d-45f5-b167-1a22e9b3e24a>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/nl/storage/f/2013-09-19T151138/Rijnhaven_kwetsbareobjecten.pdf"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -4668,12 +4427,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=gezondheidszorg-locaties> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gezondheidszorg locaties" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore910777a8-12c2-4593-b91c-cbf77e424293>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "910777a8-12c2-4593-b91c-cbf77e424293" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "beschoeiing" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore91846477-6c55-47d0-b5ec-d7ec5fdcb72d>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://opendata.technolution.nl/opendata/parkingdata/v1/dynamic/a03c3613-6fed-4659-906f-17843c227622"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -4742,12 +4495,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P5 - P_Oude Haven" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore934c9ef9-86fd-410e-8f73-a11847a309c7>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "934c9ef9-86fd-410e-8f73-a11847a309c7" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "basisinformatie Rotterdam" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore939970b9-013f-4a87-96d8-4b54f53bb394>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:gwrwebdatamapservermapBBDWH_pub.map&amp=&SERVICE=WFS&amp=&VERSION=1.0.0&amp=&REQUEST=getfeature&amp=&TYPENAME=sdo_msb_doorverw&amp=&MAXFEATURES=100"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -4814,12 +4561,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "96058e11-ebf9-4208-b08d-3b7762b4b6a4" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kralingseveer" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore963e7085-1c18-4d42-92a9-5abdc0a9445d>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "963e7085-1c18-4d42-92a9-5abdc0a9445d" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "verlichting" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore9666f61b-b9e9-479e-8567-59bdfcc6e93c>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -4911,12 +4652,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "98152a77-9d39-4426-b3ec-958fb3a649c8" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreXLS> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Einduitslag gemeenteraadsverkiezingen per stembureau" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore983b6ec8-0ab0-4340-9be3-97312058f480>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "983b6ec8-0ab0-4340-9be3-97312058f480" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "grond" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore983e272c-fc77-4a7c-9f02-1803c7d66969>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -5143,12 +4878,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P1 - Chassparking" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore9f7199ef-58de-470a-a216-20b206885c6f>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "9f7199ef-58de-470a-a216-20b206885c6f" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "productnormering" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore9f973a78-4361-4efb-b117-fb6e533a96bd>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://3dre.gw.rotterdam.nl/3D/15-76-Zuidplein.zip"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -5264,12 +4993,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: 1 - Rozenhof" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea2b747b1-69af-41e8-9627-7589acc16854>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "a2b747b1-69af-41e8-9627-7589acc16854" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "bodem" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea301528a-0927-4c22-a872-3435355b052f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://3dre.gw.rotterdam.nl/3D/3-21-Bospolder.zip"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -5345,12 +5068,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "a4ea0a8a-ecf3-489e-82ec-365157c4290a" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: Klooster - Klooster" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea4eac254-bf94-416e-a1af-d13c3f2ef2a1>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "a4eac254-bf94-416e-a1af-d13c3f2ef2a1" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "grondwater" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea541766d-23d1-4990-8577-bbb23e643621>
     a <http://xmlns.com/foaf/0.1/Organization> ;
@@ -5475,14 +5192,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=rijnhavenondergrond> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rijnhaven ondergrond" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea8054458-9687-41f8-afb6-b6c307e65d01>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "a8054458-9687-41f8-afb6-b6c307e65d01" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "slagbomen" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea8b3c2c5-a645-4140-af68-88130dd458ca>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore09fb64a9-abfa-4b6a-85b2-d552a8547802>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore2e12b2eb-642d-42fc-ba66-34a4046a875e>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore934c9ef9-86fd-410e-8f73-a11847a309c7> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Luchtfoto gemeente Rotterdam 2015. Opgenomen in 12 maart 2015 door het luchtfotobedrijf Geocart. De foto wordt aangeboden in het JPEG2000 formaat, dat onder andere te gebruiken is in het open source pakket QGIS (www.qgis.com)." ;
@@ -5826,24 +5536,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreXML> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Online catalogus" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb3e50e35-9ea2-457f-9263-122446a41850>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b3e50e35-9ea2-457f-9263-122446a41850" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tvm" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb419c6ee-7e1b-4fbc-802c-66195dc6bcf0>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b419c6ee-7e1b-4fbc-802c-66195dc6bcf0" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "strooiroutes" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb431c852-ec1d-421c-8967-7f30501ea9c8>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b431c852-ec1d-421c-8967-7f30501ea9c8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "verkeer" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb43251be-8cfb-476a-8d2b-5760d29619f7>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "De Gemeente Rotterdam" ;
@@ -5859,12 +5551,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2013-09-16T10:38:09"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "57965.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-16T104942/KZ112033.pdf" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb52e04cd-3ee3-4371-ba32-ef2e31bed2ab>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b52e04cd-3ee3-4371-ba32-ef2e31bed2ab" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "hoogtebestand" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb5ba2aba-5ccf-4529-ad39-e7892c4cad23>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -5912,12 +5598,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b6df55ca-3573-4581-b4f3-a60e79c6bb24" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreCSV> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "cijfersetje Noord.csv" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb6f94a5d-9841-447f-97b3-e2ed2d9b7c83>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b6f94a5d-9841-447f-97b3-e2ed2d9b7c83" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Apps" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb7015f38-e603-4a72-94e5-438ab05cb7fa>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -6052,12 +5732,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "b9fc9f5e-0818-4850-8fa0-d84deb4fa885" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Oud IJsselmonde" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreba0d674f-5e58-4ee0-8908-576c0e9933ef>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "ba0d674f-5e58-4ee0-8908-576c0e9933ef" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "burgerlijke stand" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreba212459-86cf-42e8-a523-258a34d88fad>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -6265,12 +5939,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=tabellen-mobiliteitsonderzoek-nederland> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tabellen Mobiliteitsonderzoek Nederland" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorec14747b9-5c80-4cb2-ae7c-e9868df2d661>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c14747b9-5c80-4cb2-ae7c-e9868df2d661" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "fonteinen" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorec175d96c-f40c-415d-9ed2-1806bd7ed0ea>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://api.sense-os.nl/sensors/180658/data.json?API_KEY=c87bfec6-0d5f-11e2-94c1-da0007d04f45"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -6364,12 +6032,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c3b677dc-3575-4e4d-92a7-f3143673aeeb" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zevenkamp" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorec3e24d47-794b-4116-8051-454cc0f48a53>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "c3e24d47-794b-4116-8051-454cc0f48a53" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "straatnamen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorec3ea96d9-776c-444d-9bd1-3cd9247bb875>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -6596,12 +6258,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P06 - Sluisstraat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorecac78778-fae8-4d1d-8e2a-b42d9bc53ec1>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "cac78778-fae8-4d1d-8e2a-b42d9bc53ec1" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "personen" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorecb2cf316-b8b7-484f-97d9-7242e37b8f7f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
@@ -6665,7 +6321,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013_gemeentelijke_monumenten.sbn" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorecd693c0d-6400-4b9b-af71-2e51f82e9310>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore7ad45bcc-1c21-40f2-9cd2-b1bcfcd47b21>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreb419c6ee-7e1b-4fbc-802c-66195dc6bcf0>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree3460dcf-6d28-4cfd-9b7f-96dec0426c1b> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Strooiroutes Rotterdamse Wijken voor gladheidsbestrijding.  In blauw aangegeven de hoofdroutes, in rood de fietsroutes.  Beschikbaar als WMS service.    Het URL dat gebruikt moet worden in GIS-programma's is  http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:gwrwebdatamapservermapschoon_pub.map   (Let op: deze link kun je dus alleen in Gis-programma's toepassen.  Als je hem in je browser aanklikt lijkt het alsof hij niet werkt, maar hij werkt dus wel).  [Meer informatie over het gebruik van geoservices] (http://pdok-ngr.readthedocs.org/en/latest/services.html)    [Handleiding voor het gebruik van Open Geodata (.doc)](http://www.rotterdamopendata.nl/storage/f/2014-01-21T08:50:54.346Z/handleiding-gebruik-open-geodata.doc)" ;
@@ -6925,12 +6580,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "A13.zip" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastored726d6c2-b55e-4fab-bd6e-5192f55e6c00>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "d726d6c2-b55e-4fab-bd6e-5192f55e6c00" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Erasmusbrug" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastored7a87457-631c-4625-8da7-8df95897f337>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.rotterdamopendata.nl/storage/f/2016-12-15T10%3A21%3A47.148Z/oat-rotterdam.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -7098,12 +6747,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "db41d028-fccc-44ef-bb84-20d2186b3759" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rotterdamse parkeergarage: P301 - P R Slinge bovendek" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoredb6299f2-499b-45b5-ba1e-b9f0056a407e>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "db6299f2-499b-45b5-ba1e-b9f0056a407e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "banken" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoredbfd7412-d080-4f21-8623-4517c36ec2c2>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -7365,12 +7008,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "8033664.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-16T103222/hoogtebestand.dwg" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree3460dcf-6d28-4cfd-9b7f-96dec0426c1b>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e3460dcf-6d28-4cfd-9b7f-96dec0426c1b" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "gladheid" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree3c90d11-db97-4ecc-bc16-c5b5cfc6ab7b>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://3dre.gw.rotterdam.nl/3D/6-65-Molenlaankwartier.zip"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -7423,12 +7060,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2013-05-28T12:20:29"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "8.6912951E7" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Bouwlagen-Panden" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree540b20f-a58a-4d82-9da8-ed8928a6bb76>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e540b20f-a58a-4d82-9da8-ed8928a6bb76" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Prodevelop" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree54740d7-db7b-49bf-be8f-5387362d810c>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -7485,12 +7116,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2012-06-05T16:34:40"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "189714.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Deelgemeente IJsselmonde" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree83a8e8c-fb40-4183-8429-7d606036fa66>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "e83a8e8c-fb40-4183-8429-7d606036fa66" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2014" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoree851d125-9b0a-4b6c-982b-90b4c12518f9>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -7671,12 +7296,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreZIP> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Delfshaven" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreedb7f50f-00a5-459e-b029-c37a9b777062>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "edb7f50f-00a5-459e-b029-c37a9b777062" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "verkeer en vervoer" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreedbf652b-832b-4d72-a378-f919f2400828>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://3dre.gw.rotterdam.nl/3D/6-64-Terbregge.zip"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -7819,12 +7438,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#size> "1388690.0" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "2013-09-12T122852/13-DM_PROD-728156-v1-Lodingstekening_RIJNHAVEN_-_70009650.TIF" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref1c9bc29-bc76-4e45-8f03-c4bae3334887>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "f1c9bc29-bc76-4e45-8f03-c4bae3334887" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "3d" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref1f4ff3f-aa58-4d35-9613-6a85e4aab08c>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://wms.cipix4.cipix.nl/?MAP=/home/stadsmak/www/resources/obr/wms/objects.map&service=wfs&request=GetFeature&TYPENAME=sale,rent&version=1.1.0"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -7947,12 +7560,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreJSON> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Parkeergarage: P09 - P R Godsweerdersingel" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref5216fb8-7db6-4c1a-9df5-cfb9ad2d63c8>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "f5216fb8-7db6-4c1a-9df5-cfb9ad2d63c8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "shape" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref560892e-cf05-4327-ac1f-062c7b65884a>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://opendata.technolution.nl/opendata/parkingdata/v1/static/4d958ee5-ca22-4cf1-9568-7b3aafa4350e"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
@@ -7972,7 +7579,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tijdelijke Verkeersmaatregelen - Punten" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref6105e15-752d-4f72-b74b-8104796d824d>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore0a3bd369-ef0f-494b-9cb3-2e23037604ad>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore68989ba3-faf6-4e3d-9b9e-8241762fa59b>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore726e119a-432a-4abc-b151-79f3e0192950>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreba0d674f-5e58-4ee0-8908-576c0e9933ef>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorecac78778-fae8-4d1d-8e2a-b42d9bc53ec1> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "<p>In de open data portal van het Stadsarchief Rotterdam staan zogenaamde NTIs (Nadere Toegang per Inventarisnummer). Gekozen is om alle NTIs die verwijzen naar een gelijksoortige bron en die een gelijksoortige structuur hebben, gezamenlijk te beschrijven. De context van de sets bestaat onder andere uit: Inhoud van de dataset;  Context van ontstaan; Onderhoud, wijzigingen en aanvullingen; Verwijzing naar brongegevens met uitleg over de bron ;Gebruikte standaard; Formaat; Licentie.De portal is te vinden via http://www.stadsarchief.rotterdam.nl/vraagbaak/open-data </p>" ;
@@ -7984,12 +7590,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> "Marie Clair Dangerfield" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <http://rotterdamopendata.nl/api/action/package_show?id=historische-persoonsgegevens> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Historische persoonsgegevens" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref6d69f8b-cf87-4192-9313-d8dfcf5ab7c8>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "f6d69f8b-cf87-4192-9313-d8dfcf5ab7c8" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "maaiveldhoogte" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoref6df785a-d65d-4a5d-a062-8aff9dc4772f>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;
@@ -8130,7 +7730,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beschikbare locaties" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorefce1caf1-c3be-4f21-a9a7-9a20c212716d>
-    <http://schema.org/subject> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore15e0b66a-2ce7-462f-b379-ab26a6196835>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore71a86114-7864-4441-b2aa-e6e022fb2262>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore793245aa-3f60-464a-8018-7f2ef6625355>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore983b6ec8-0ab0-4340-9be3-97312058f480>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea2b747b1-69af-41e8-9627-7589acc16854>, <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastorea4eac254-bf94-416e-a1af-d13c3f2ef2a1> ;
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastore> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "<p>Op Rotterdam Open data kunt u gegevens van milieu hyginischbodemonderzoek binnen de gemeente Rotterdam downloaden. Het betreft een ZIPbestand met gegevens die in samenwerking met de DCMR zijn verzameld. In het ZIPbestand is per locatie, voor alle locaties binnen de gemeente Rotterdam een <spanclass=SpellE>xml</span> bestand aanwezig in het SIKB0101 formaat. Het betrefthier een momentopname van een dynamische gegevensverzameling van januari 2016. Degegevensverzameling wordt jaarlijks geactualiseerd. Meer informatie over dituitwisselingsformaat kunt u vinden op: <a href='http://www.sikb.nl/sikb0101'>http://www.sikb.nl/sikb0101</a></p><p>De gegevens hebben betrekking tot bodemonderzoekslocaties, getoetsterapporten en besluiten. Deze gegevens betreffende locaties, besluiten enrapporten worden geregistreerd en onderhouden door de DCMR (MilieudienstRijnmond). </p><p>Van een deel van de bodemonderzoeksrapporten zijn de detailgegevensaanwezig van de bodemonderzoeken. Het betreft hier meetpunt, filter,boorbeschrijvingen, analysegegevens e.d. Deze gegevens worden beheerd door de dienststadsontwikkeling van de gemeente Rotterdam. Tot 2008 zijn deze gegevensgrotendeels handmatig ingevoerd. Na 2008 is dit deels handmatig en deelsgeautomatiseerd gebeurd. In 2010 is vanwege de hoge kosten gestopt met dehandmatige invoer van bodemonderzoeksgegevens en zijn alleen nog detailgegevenstoegevoegd aan bodemonderzoeksrapporten die digitaal in het SIKB formaatbeschikbaar waren. Het betreft hier merendeels detail gegevens van bodemonderzoekwat is uitgevoerd in opdracht van de gemeente Rotterdam. </p><p>Nota bene: </p><ul><li>(detail) gegevens van een bodemonderzoekbetreffen een momentopname. Gegevens die niet meer van toepassing zijn alsgevolg van (<span class=SpellE>insitu</span>)bodemsanering of anderszinsvergraven van de ondergrond zijn NIET uit de gegevensverzameling verwijderd.</li><li>Indien er verschillen bestaan tussen dedetailgegevens in het getoetste bodemrapport en de gegevens zoals deze in dezedigitale gegevensverzameling aanwezig zijn, zijn de detail gegevens zoals deze inhet bodemrapport opgenomen leidend.</li><li>De gemeente Rotterdam biedt dezegegevensverzameling aan als service en is niet aansprakelijk voor onjuisthedenin de gegevensverzameling en bewerkingen en (mis)interpretatie van de gegevensdoor derden.</li><li>Bij publicatie van de gegevens of bewerkingen hiervan dient een duidelijke verwijzing aanwezig te zijn naar de gebruiktebrongegevens op Rotterdam Opendata.</li><li>De gemeente Rotterdam is niet aansprakelijk voor het ontbreken van gegevens</li><li>Aan de informatie kunnen geen rechten worden ontleend</li></ul>" ;
@@ -8275,12 +7874,6 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "ff79b5de-5414-4c1e-b25b-612105b86f1c" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_OpendatastoreHTML> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Indicatorenindex" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreffb69c43-9656-4542-8cbb-bc878462683e>
-    a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    <http://www.w3.org/2004/02/skos/core#inScheme> "https://data.netwerkdigitaalerfgoed.nl/registry/scheme" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "ffb69c43-9656-4542-8cbb-bc878462683e" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "speeltoestellen" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Roterdam_Opendatastoreffba5ac1-2399-4964-9639-05fe377956ff>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution> ;

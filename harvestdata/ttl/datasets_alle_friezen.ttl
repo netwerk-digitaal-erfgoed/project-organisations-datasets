@@ -2,7 +2,12 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar: Alle Friezen" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar: Alle Friezen" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_FriezenTresoar> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_FriezenTresoar>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezenbb_a>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

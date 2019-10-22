@@ -2,7 +2,12 @@
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/OpenSKOS>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "OpenSKOS" .
+    <http://www.w3.org/2000/01/rdf-schema#label> "OpenSKOS" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/OpenSKOSBeeld___Geluid> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/OpenSKOSBeeld___Geluid>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Beeld & Geluid" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/OpenSKOSbeng>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

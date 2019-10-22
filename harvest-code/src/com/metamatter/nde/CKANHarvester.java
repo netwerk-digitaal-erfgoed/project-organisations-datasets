@@ -167,7 +167,7 @@ public class CKANHarvester {
 			triples += Triples.tripleL(uriPublisher, Prefix.nde + "title", group.getString("title"), null);  
 			triples += Triples.tripleL(uriPublisher, Prefix.nde + "description", group.getString("description").replaceAll("\\p{Cntrl}", ""), null);  
 		}
-
+/*
 		JSONArray tags = json.getJSONArray("tags")  ;  
 		for (int i = 0; i < tags.length(); i++) { 
 			JSONObject tag = (JSONObject) tags.get(i) ;
@@ -178,8 +178,7 @@ public class CKANHarvester {
 			triples += Triples.tripleL(tagURI, Prefix.nde + "title", tag.getString("display_name"), null);  
 			triples += Triples.tripleL(tagURI, Prefix.skos + "inScheme", parameters.getPrefixURI()+"scheme", null);  
 		}
-		
-		
+*/
 		
 		return triples;
 		
