@@ -3,13 +3,13 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief Actorenregister" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_ActorenregisterNationaal_Archief> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister/Nationaal_Archief> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_ActorenregisterNationaal_Archief>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister/Nationaal_Archief>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregisteragencycode_NL_HaNA>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister/agencycode_NL_HaNA>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "List records for Nationaal Archief." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister> ;
@@ -17,7 +17,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://actorenregister.nationaalarchief.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "List records for Nationaal Archief." .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregisteragencycode_NL_NHDD>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister/agencycode_NL_NHDD>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "List records for Doc-Direkt." ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Nationaal_Archief_Actorenregister> ;

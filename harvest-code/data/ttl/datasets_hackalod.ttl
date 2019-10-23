@@ -1,103 +1,25 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset>, <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl, "EDBO", "Early Dutch Books Online (dataset)"@nl, "HackaLOD", "Stichting Omroep Muziek Bladmuziekcatalogus"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODNetwerk_Digitaal_Erfgoed> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/>, <https://creativecommons.org/about/cc0> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> "This dataset is published under a CC0 licence"@en ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://viaf.org/viaf/157027892> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl, "EDBO", "Early Dutch Books Online (dataset)"@nl, "Stichting Omroep Muziek Bladmuziekcatalogus"@nl .
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "HackaLOD" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODNetwerk_Digitaal_Erfgoed>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Netwerk Digitaal Erfgoed" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODbrinkman>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/edbo>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EDBO", "Early Dutch Books Online (dataset)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "brinkman" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://data.bibliotheken.nl/id/scheme/brinkman>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "edbo" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <https://creativecommons.org/about/cc0> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> "This dataset is published under a CC0 licence"@en ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://viaf.org/viaf/157027892> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "EDBO", "Early Dutch Books Online (dataset)"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODcorps>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "corps" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODdbnla>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus Auteurs DBNL"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dbnla" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://dbnl.nl/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus Auteurs DBNL"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODdbnlt>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Titels DBNL"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "dbnlt" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://dbnl.nl/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Titels DBNL"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODgtt>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "gtt" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://data.bibliotheken.nl/id/scheme/gtt>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODid>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "id" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODkbcode>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus KBcode"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "kbcode" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://data.bibliotheken.nl/id/scheme/kbcode>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus KBcode"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODnbt>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Nederlandse Bibliografie Totaal (NBT)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "nbt" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis>, <https://www.kb.nl/organisatie/voor-uitgevers/informatie-over-de-nederlandse-bibliografie> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlandse Bibliografie Totaal (NBT)"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod10046797>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod10046797>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: Joodse kinderen in kamp Vught - Interview 04, ANNY SULZBACH-SELIGMANN" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -109,7 +31,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: Joodse kinderen in kamp Vught - Interview 04, ANNY SULZBACH-SELIGMANN" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761867>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761867>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Herinneringen aan Indi, interview met de heer Van Essel" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -121,7 +43,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/IndischHerinneringscentrum>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Herinneringen aan Indi, interview met de heer Van Essel" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761871>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761871>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Herinneringen aan Indi, interview met de heer Mller" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -133,7 +55,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/IndischHerinneringscentrum>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Herinneringen aan Indi, interview met de heer Mller" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761902>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761902>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Thematische collectie: Erfgoed van de Oorlog, Nederlandse oud-gevangenen van kamp Buchenwald" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -144,7 +66,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NIODInstituutvoorOorlogsHolocaustenGenocidestudies>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thematische collectie: Erfgoed van de Oorlog, Nederlandse oud-gevangenen van kamp Buchenwald" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761912>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761912>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Herinneringen aan Indi, interview met de heer Bakker" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -156,7 +78,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/IndischHerinneringscentrum>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Herinneringen aan Indi, interview met de heer Bakker" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761913>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761913>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Herinneringen aan Indi, interview met de heer Van der Muur" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -168,7 +90,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/IndischHerinneringscentrum>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Herinneringen aan Indi, interview met de heer Van der Muur" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761915>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761915>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Herinneringen aan Indi, interview met de heer De Brune" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -180,7 +102,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/IndischHerinneringscentrum>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Herinneringen aan Indi, interview met de heer De Brune" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761916>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761916>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Getuigenverhalen, Reis van de Razzia, interview met Jan Terlouw" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -192,7 +114,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JagerMAEJdeStichtingReisvandeRazzia>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Getuigenverhalen, Reis van de Razzia, interview met Jan Terlouw" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod12761994>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod12761994>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Herinneringen aan Indi, interview met de heer Abuys" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -204,7 +126,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/IndischHerinneringscentrum>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Herinneringen aan Indi, interview met de heer Abuys" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod2760760>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod2760760>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Interviewcollectie Stichting Mondelinge Geschiedenis Indonesi, interview 1015" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -216,7 +138,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/StichtingMondelingeGeschiedenisIndonesiSMGI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Interviewcollectie Stichting Mondelinge Geschiedenis Indonesi, interview 1015" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod2760761>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod2760761>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Interviewcollectie Stichting Mondelinge Geschiedenis Indonesi, interview 1018" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -228,7 +150,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/StichtingMondelingeGeschiedenisIndonesiSMGI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Interviewcollectie Stichting Mondelinge Geschiedenis Indonesi, interview 1018" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod2760787>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod2760787>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Interviewcollectie Stichting Mondelinge Geschiedenis Indonesi, interview 1127" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -240,7 +162,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/StichtingMondelingeGeschiedenisIndonesiSMGI> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Interviewcollectie Stichting Mondelinge Geschiedenis Indonesi, interview 1127" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110936>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110936>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 14, Thomas Blatt" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -252,7 +174,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 14, Thomas Blatt" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110937>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110937>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 13, Stephan Stelmaszuk and Tadeus Syczuk" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -264,7 +186,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 13, Stephan Stelmaszuk and Tadeus Syczuk" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110945>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110945>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 03, Samuel Lerer" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -276,7 +198,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 03, Samuel Lerer" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110947>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110947>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 06, Jules Schelvis" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -288,7 +210,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 06, Jules Schelvis" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110949>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110949>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 11, Chaskiel Menche" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -300,7 +222,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 11, Chaskiel Menche" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110950>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110950>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 10, Esther Raab" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -312,7 +234,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 10, Esther Raab" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110952>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110952>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 05, Kurt Thomas" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -324,7 +246,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 05, Kurt Thomas" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110953>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110953>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 02, Alexander 'Sasja' Petsjerski" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -336,7 +258,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 02, Alexander 'Sasja' Petsjerski" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110954>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110954>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 09, Meier Ziss" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -348,7 +270,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 09, Meier Ziss" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110955>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110955>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 04, Stanislaw Szmajzner" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -360,7 +282,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 04, Stanislaw Szmajzner" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110956>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110956>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Sobibor Interviews, interview 08, Hella Weiss" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -372,7 +294,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/JulesSchelvis>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Sobibor Interviews, interview 08, Hella Weiss" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110962>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110962>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 07 Mary Richheimer-Leijden van Amstel" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -384,7 +306,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 07 Mary Richheimer-Leijden van Amstel" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110964>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110964>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 03 Pim (Constance) Combrink-Van Huizen" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -396,7 +318,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 03 Pim (Constance) Combrink-Van Huizen" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110965>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110965>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 01 Louis van Velzen" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -408,7 +330,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 01 Louis van Velzen" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110966>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110966>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 02 Lotty (Charlotte) Huffener-Veffer" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -420,7 +342,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 02 Lotty (Charlotte) Huffener-Veffer" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110967>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110967>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 05 David van Huiden" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -432,7 +354,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 05 David van Huiden" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110970>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110970>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 09 Jan Goedel" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -444,7 +366,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 09 Jan Goedel" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110971>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110971>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 11 Philip Jacobs" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -456,7 +378,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 11 Philip Jacobs" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110973>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110973>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 13 Nathan (Nikki) Hakker" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -468,7 +390,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 13 Nathan (Nikki) Hakker" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110974>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110974>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 14 Leida Keesing" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -480,7 +402,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 14 Leida Keesing" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110975>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110975>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 15  Jaap (Jack) Polak" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -492,7 +414,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 15  Jaap (Jack) Polak" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110976>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110976>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 16  Rudie Cortissos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -504,7 +426,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 16  Rudie Cortissos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110978>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110978>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 19 Max Degen" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -516,7 +438,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 19 Max Degen" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110980>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110980>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 20 Vera de Jong-Simons" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -528,7 +450,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 20 Vera de Jong-Simons" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110981>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110981>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 22 Truus (Geertruida) Zeehandelaar-Beffie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -540,7 +462,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 22 Truus (Geertruida) Zeehandelaar-Beffie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110982>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110982>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 21 Paul Hellmann" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -552,7 +474,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 21 Paul Hellmann" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110983>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110983>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Interview 08 Rob Wurms" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -564,7 +486,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen>, <http://lod.kb.nl/oorlog/dans/SelmaLeydesdorffcopyrightoninterviewUniversiteitvanAmsterdamFacGeesteswetenschappen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Interview 08 Rob Wurms" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110986>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110986>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 01 Thomas Blatt" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -576,7 +498,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 01 Thomas Blatt" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110987>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110987>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 02 Semion Rozenfeld (Semjon Rosenfeld, Semyon Rozenfeld)" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -588,7 +510,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 02 Semion Rozenfeld (Semjon Rosenfeld, Semyon Rozenfeld)" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110988>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110988>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 03 Simcha (Simha, Symcha, Simkha) Bialowitz" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -600,7 +522,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 03 Simcha (Simha, Symcha, Simkha) Bialowitz" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110989>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110989>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 04 Selma (Saartje) Engel-Wijnberg" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -612,7 +534,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 04 Selma (Saartje) Engel-Wijnberg" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110990>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110990>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 05 Alexsy Wajcen (Aleksej Waitsen)" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -624,7 +546,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 05 Alexsy Wajcen (Aleksej Waitsen)" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110991>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110991>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 06 Philip Bialowitz" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -636,7 +558,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 06 Philip Bialowitz" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3110993>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3110993>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Project 'Long shadow of Sobibor' Survivors: Interview 08 Arkady Wajspapir (Arkadii Weisspapier)" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -648,7 +570,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/LeydesdorffcopyrightoninterviewprofdrSUniversiteitvanAmsterdamdepofArtsReligionandCultuDAIinfoeurepodainl069599238>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Project 'Long shadow of Sobibor' Survivors: Interview 08 Arkady Wajspapir (Arkadii Weisspapier)" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356088>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356088>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Verrijkt Koninkrijk: Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog in XML en gesemantiseerd" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -660,7 +582,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/DoornikDrirJvanUniversityofAmsterdamInformaticsInstitute>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Verrijkt Koninkrijk: Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog in XML en gesemantiseerd" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356090>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356090>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 01, LOTTY HUFFENER-VEFFER" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -672,7 +594,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 01, LOTTY HUFFENER-VEFFER" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356093>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356093>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 02, ERNST VERDUIN" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -684,7 +606,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 02, ERNST VERDUIN" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356095>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356095>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten 'Joodse kinderen in kamp Vught' - Montage (2007) Eindpunt Sobibor" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -696,7 +618,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten 'Joodse kinderen in kamp Vught' - Montage (2007) Eindpunt Sobibor" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356096>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356096>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Montage (2007), Moeder en kind Sulzbach" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -708,7 +630,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Montage (2007), Moeder en kind Sulzbach" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356097>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356097>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten 'Joodse kinderen in kamp Vught' - 'Als ik later groot ben' (documentaire 2007)" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -720,7 +642,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten 'Joodse kinderen in kamp Vught' - 'Als ik later groot ben' (documentaire 2007)" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356098>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356098>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: 'Joodse kinderen in kamp Vught' - documentaire (2007)  WAT KUNNEN ZE NOU MET ONS DOEN" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -732,7 +654,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - documentaire (2007)  WAT KUNNEN ZE NOU MET ONS DOEN" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356099>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356099>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: 'Joodse kinderen in Kamp Vught' -  Interview 08, KOOS VALK" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -744,7 +666,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in Kamp Vught' -  Interview 08, KOOS VALK" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod3356101>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod3356101>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten 'Joodse kinderen in kamp Vught' - Montage (2007) Het kind dat moest onderduiken" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -756,7 +678,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/KlijndrsENIOD>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten 'Joodse kinderen in kamp Vught' - Montage (2007) Het kind dat moest onderduiken" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODniod9988307>
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/niod9988307>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 07, JULES SCHELVIS" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
@@ -767,58 +689,4 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2007-01-01+01:00^^http://www.w3.org/2001/XMLSchema#date"^^<http://www.w3.org/2001/XMLSchema#Date> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/HuffenerkandMCC>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 07, JULES SCHELVIS" .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODpersons>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "persons" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODrise-alba>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-alba" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-05-21"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-08-15"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODrise-centsprenten>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-centsprenten" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-03-12"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODrise-childrensbooks>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Children's Books"@en ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "rise-childrensbooks" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Children's Books"@en .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLODstcn>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "stcn" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#issued> "2019-03-26"^^<http://www.w3.org/2001/XMLSchema#Date> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> <http://www.stcn.nl/>, <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis>, <https://www.kb.nl/organisatie/voor-uitgevers/informatie-over-de-nederlandse-bibliografie> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl .
 

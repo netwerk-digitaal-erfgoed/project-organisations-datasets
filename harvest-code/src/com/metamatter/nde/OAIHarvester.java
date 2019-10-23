@@ -63,7 +63,7 @@ public class OAIHarvester {
 
 			// create triples for the Registry entity and parse metadata to triples
 			String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
-			String uriOrg = Triples.URI(uriReg , parameters.getOrganization() ); 
+			String uriOrg = Triples.URI(uriReg + "/" , parameters.getOrganization() ); 
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
 			triples += Triples.tripleO(uriReg, Prefix.nde + "administrator", uriOrg );
@@ -73,7 +73,7 @@ public class OAIHarvester {
 	  	for (int ii = 0 ; ii < records.getLength() ; ii++) {
 	  		NodeList nodes = ((Element) records.item(ii)).getElementsByTagName("setSpec");
 
-				String uriSet = Triples.URI(uriReg, nodes.item(0).getTextContent() ); 
+				String uriSet = Triples.URI(uriReg + "/", nodes.item(0).getTextContent() ); 
 				
 				triples += Triples.tripleO(uriSet, Prefix.rdf + "type", Prefix.nde + "Dataset");
 				triples += Triples.tripleO(uriSet, Prefix.nde + "datasetOf", uriReg);

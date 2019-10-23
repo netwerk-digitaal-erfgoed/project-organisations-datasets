@@ -58,7 +58,7 @@ public class SPARQLHarvester {
 
 			// First create triples for the Registry entity 
 			String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
-			String uriOrg = Triples.URI(uriReg, parameters.getOrganization()); 
+			String uriOrg = Triples.URI(uriReg + "/", parameters.getOrganization()); 
 
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
@@ -84,10 +84,10 @@ public class SPARQLHarvester {
 					String uri = "";
 					if (id.lastIndexOf("/") == id.length()-1 ){ 
 						String id2 = id.trim().substring(0, id.length()-1) ; 
-						uri = uriReg + id2.substring(id2.lastIndexOf("/") + 1);
+						uri = uriReg + "/" + id2.substring(id2.lastIndexOf("/") + 1);
 						triples += Triples.tripleL(uri, Prefix.nde + "identifier", id2.substring(id2.lastIndexOf("/")+1) , null); 
 					} else { 				
-						uri = uriReg + id.substring(id.lastIndexOf("/") + 1);
+						uri = uriReg + "/" + id.substring(id.lastIndexOf("/") + 1);
 						triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
 					}
 					triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");

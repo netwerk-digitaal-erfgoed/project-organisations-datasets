@@ -62,10 +62,10 @@ public class CNLHarvester {
 					String uri = "";
 					if (id.lastIndexOf("/") == id.length()-1 ){ 
 						String id2 = id.trim().substring(0, id.length()-1) ; 
-						uri = uriReg + id2.substring(id2.lastIndexOf("/") + 1);
+						uri = uriReg + "/" + id2.substring(id2.lastIndexOf("/") + 1);
 						triples += Triples.tripleL(uri, Prefix.nde + "identifier", id2.substring(id2.lastIndexOf("/")+1) , null); 
 					} else { 				
-						uri = uriReg + id.substring(id.lastIndexOf("/") + 1);
+						uri = uriReg + "/" + id.substring(id.lastIndexOf("/") + 1);
 						triples += Triples.tripleL(uri, Prefix.nde + "identifier", id.substring(id.lastIndexOf("/")+1) , null); 
 					}
 					triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
@@ -78,7 +78,7 @@ public class CNLHarvester {
 					if (row.contains("d") && row.get("d").toString().length() > 1) { triples += Triples.tripleL(uri, Prefix.nde + "description", row.getLiteral("d").toString(), null ); }
 					if (row.contains("t")) { triples += Triples.tripleL(uri, Prefix.nde + "harvestType", row.getLiteral("t").toString(), null ); }
 					if (row.contains("o")) { 
-						String orgURI = Triples.URI(uri , row.getLiteral("o").toString() );
+						String orgURI = Triples.URI(uriReg + "/", row.getLiteral("o").toString() );
 						triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
 						triples += Triples.tripleL(orgURI, Prefix.nde + "title", row.getLiteral("o").toString(), null );
 						triples += Triples.tripleL(orgURI, Prefix.rdfs + "label", row.getLiteral("o").toString(), null );
