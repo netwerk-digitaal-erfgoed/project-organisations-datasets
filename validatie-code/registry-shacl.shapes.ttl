@@ -1,0 +1,111 @@
+# baseURI: http://data.netwerkdigitaalerfgoed.nl/register/shacl/
+# imports: http://datashapes.org/dash
+# imports: https://ontologies.netwerkdigitaalerfgoed.nl/registry
+# prefix: shacl
+
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix shacl: <http://data.netwerkdigitaalerfgoed.nl/register/shacl/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+shacl:
+  a owl:Ontology ;
+  owl:imports <http://datashapes.org/dash> ;
+  owl:imports <https://ontologies.netwerkdigitaalerfgoed.nl/registry> ;
+  owl:versionInfo "25-10-2019 - most necessary validations" ;
+.
+<https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset>
+  a sh:NodeShape ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:description "can only have one label" ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> ;
+      sh:class <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+      sh:description "dataset of must have Registry value" ;
+      sh:minCount 1 ;
+      sh:name "dataset of " ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> ;
+      sh:description "must have exactly one title" ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "title" ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+.
+<https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distribution>
+  a sh:NodeShape ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:description "can only have one label" ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> ;
+      sh:class rdfs:Resource ;
+      sh:description "distribution must have accessURL value" ;
+      sh:minCount 1 ;
+      sh:name "access URL" ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> ;
+      sh:class <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+      sh:description "distribution of must have Dataset value" ;
+      sh:minCount 1 ;
+      sh:name "distribution of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> ;
+      sh:class <http://purl.org/dc/terms/MediaType> ;
+      sh:description "distribution of must have mediaType value" ;
+      sh:minCount 1 ;
+      sh:name "media type" ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> ;
+      sh:description "can only have one title" ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+.
+<https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry>
+  a sh:NodeShape ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:description "can only have one label	" ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      a sh:PropertyShape ;
+      sh:path <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> ;
+      sh:description "can only have one title	" ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+.
