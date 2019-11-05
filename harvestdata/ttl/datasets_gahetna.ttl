@@ -3,13 +3,13 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "GaHetNa.nl" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlNationaal_Archief> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/Nationaal_Archief> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlNationaal_Archief>
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/Nationaal_Archief>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlnaa1>
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa1>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief  Archives category 1" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> ;
@@ -18,7 +18,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief  Archives category 1" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlnaa2>
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief  Archives category 2" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> ;
@@ -27,7 +27,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief  Archives category 2" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlnaa3>
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief  Archives category 3" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> ;
@@ -36,7 +36,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief  Archives category 3" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nlnaa4>
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief  Archives category 4" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> ;

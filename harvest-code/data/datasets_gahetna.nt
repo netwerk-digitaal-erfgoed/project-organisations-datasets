@@ -9,6 +9,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa1> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 1" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 1" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 1" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyURI>. 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa1> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records from government archives from before 1795" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> . 
@@ -16,6 +17,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 2" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 2" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 2" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyURI>. 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records from government archives from after 1795" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> . 
@@ -23,6 +25,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 3" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 3" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 3" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyURI>. 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records from the province of Zuid-Holland" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl> . 
@@ -30,4 +33,5 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief – Archives category 4" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaal Archief – Archives category 4" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaal Archief – Archives category 4" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://www.gahetna.nl/archievenoverzicht/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyURI>. 
 <https://data.netwerkdigitaalerfgoed.nl/registry/GaHetNa_nl/naa4> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#description> "Nationaal ArchiefThis set contains the EAD records of collections of maps and drawings" . 

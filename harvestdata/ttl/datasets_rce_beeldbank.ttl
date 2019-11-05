@@ -3,13 +3,13 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Beeldbank RCE" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCERCE> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/RCE> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCERCE>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/RCE>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "RCE" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_Kunstcollectie>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:Kunstcollectie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -18,7 +18,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:Kunstcollectie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_architectural_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_architectural_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:architectural_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -27,7 +27,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:architectural_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_dias>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_dias>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:dias" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -36,7 +36,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:dias" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_glasmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_glasmuseum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:glasmuseum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -45,7 +45,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:glasmuseum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_maritime_discoveries>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_maritime_discoveries>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:maritime_discoveries" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -54,7 +54,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:maritime_discoveries" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_minuutplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_minuutplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:minuutplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -63,7 +63,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:minuutplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_oat>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_oat>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:oat" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -72,7 +72,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:oat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_old_prints_and_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_old_prints_and_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:old_prints_and_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -81,7 +81,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:old_prints_and_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_photos>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_photos>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:photos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -90,7 +90,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:photos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_verzamelplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_verzamelplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:verzamelplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -99,7 +99,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:verzamelplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEsearch_s_entity_type_westfries_museum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_westfries_museum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "search_s_entity_type:westfries_museum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -108,7 +108,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "search_s_entity_type:westfries_museum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -117,7 +117,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_Kunstcollectie>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:Kunstcollectie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -126,7 +126,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:Kunstcollectie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_architectural_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_architectural_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:architectural_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -135,7 +135,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:architectural_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_dias>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_dias>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:dias" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -144,7 +144,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:dias" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_glasmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_glasmuseum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:glasmuseum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -153,7 +153,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:glasmuseum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_maritime_discoveries>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_maritime_discoveries>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:maritime_discoveries" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -162,7 +162,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:maritime_discoveries" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_minuutplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_minuutplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:minuutplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -171,7 +171,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:minuutplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_oat>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_oat>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:oat" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -180,7 +180,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:oat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_old_prints_and_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_old_prints_and_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:old_prints_and_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -189,7 +189,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:old_prints_and_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_photos>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_photos>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:photos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -198,7 +198,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:photos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_verzamelplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_verzamelplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:verzamelplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -207,7 +207,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:verzamelplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_evh_search_s_entity_type_westfries_museum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_evh_search_s_entity_type_westfries_museum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:evh:search_s_entity_type:westfries_museum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -216,7 +216,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:evh:search_s_entity_type:westfries_museum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -225,7 +225,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_Kunstcollectie>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:Kunstcollectie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -234,7 +234,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:Kunstcollectie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_architectural_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_architectural_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:architectural_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -243,7 +243,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:architectural_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_dias>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_dias>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:dias" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -252,7 +252,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:dias" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_glasmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_glasmuseum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:glasmuseum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -261,7 +261,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:glasmuseum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_maritime_discoveries>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_maritime_discoveries>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:maritime_discoveries" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -270,7 +270,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:maritime_discoveries" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_minuutplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_minuutplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:minuutplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -279,7 +279,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:minuutplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_oat>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_oat>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:oat" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -288,7 +288,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:oat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_old_prints_and_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_old_prints_and_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:old_prints_and_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -297,7 +297,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:old_prints_and_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_photos>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_photos>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:photos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -306,7 +306,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:photos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_verzamelplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_verzamelplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:verzamelplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -315,7 +315,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:verzamelplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_gla_search_s_entity_type_westfries_museum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_gla_search_s_entity_type_westfries_museum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:gla:search_s_entity_type:westfries_museum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -324,7 +324,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:gla:search_s_entity_type:westfries_museum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -333,7 +333,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_Kunstcollectie>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:Kunstcollectie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -342,7 +342,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:Kunstcollectie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_architectural_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_architectural_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:architectural_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -351,7 +351,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:architectural_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_dias>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_dias>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:dias" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -360,7 +360,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:dias" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_glasmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_glasmuseum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:glasmuseum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -369,7 +369,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:glasmuseum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_maritime_discoveries>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_maritime_discoveries>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:maritime_discoveries" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -378,7 +378,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:maritime_discoveries" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_minuutplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_minuutplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:minuutplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -387,7 +387,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:minuutplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_oat>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_oat>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:oat" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -396,7 +396,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:oat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_old_prints_and_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_old_prints_and_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:old_prints_and_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -405,7 +405,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:old_prints_and_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_photos>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_photos>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:photos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -414,7 +414,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:photos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_verzamelplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_verzamelplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:verzamelplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -423,7 +423,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:verzamelplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_rce_search_s_entity_type_westfries_museum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce_search_s_entity_type_westfries_museum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:rce:search_s_entity_type:westfries_museum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -432,7 +432,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:rce:search_s_entity_type:westfries_museum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -441,7 +441,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_Kunstcollectie>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:Kunstcollectie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -450,7 +450,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:Kunstcollectie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_architectural_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_architectural_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:architectural_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -459,7 +459,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:architectural_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_dias>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_dias>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:dias" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -468,7 +468,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:dias" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_glasmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_glasmuseum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:glasmuseum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -477,7 +477,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:glasmuseum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_maritime_discoveries>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_maritime_discoveries>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:maritime_discoveries" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -486,7 +486,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:maritime_discoveries" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_minuutplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_minuutplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:minuutplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -495,7 +495,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:minuutplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_oat>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_oat>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:oat" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -504,7 +504,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:oat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_old_prints_and_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_old_prints_and_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:old_prints_and_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -513,7 +513,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:old_prints_and_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_photos>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_photos>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:photos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -522,7 +522,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:photos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_verzamelplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_verzamelplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:verzamelplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -531,7 +531,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:verzamelplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_wfm_search_s_entity_type_westfries_museum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_wfm_search_s_entity_type_westfries_museum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:wfm:search_s_entity_type:westfries_museum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -540,7 +540,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:wfm:search_s_entity_type:westfries_museum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -549,7 +549,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_Kunstcollectie>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:Kunstcollectie" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -558,7 +558,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:Kunstcollectie" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_architectural_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_architectural_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:architectural_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -567,7 +567,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:architectural_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_dias>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_dias>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:dias" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -576,7 +576,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:dias" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_glasmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_glasmuseum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:glasmuseum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -585,7 +585,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:glasmuseum" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_maritime_discoveries>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_maritime_discoveries>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:maritime_discoveries" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -594,7 +594,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:maritime_discoveries" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_minuutplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_minuutplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:minuutplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -603,7 +603,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:minuutplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_oat>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_oat>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:oat" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -612,7 +612,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:oat" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_old_prints_and_drawings>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_old_prints_and_drawings>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:old_prints_and_drawings" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -621,7 +621,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:old_prints_and_drawings" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_photos>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_photos>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:photos" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -630,7 +630,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:photos" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_verzamelplans>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_verzamelplans>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:verzamelplans" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;
@@ -639,7 +639,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "tenant:zzm:search_s_entity_type:verzamelplans" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCEtenant_zzm_search_s_entity_type_westfries_museum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_westfries_museum>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "tenant:zzm:search_s_entity_type:westfries_museum" ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> ;

@@ -3,13 +3,13 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek LOD" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODKoninklijke_Bibliotheek> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODKoninklijke_Bibliotheek>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODbrinkman>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/brinkman>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -20,7 +20,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Brinkman trefwoordenthesaurus"@nl, "De Brinkman trefwoordenthesaurus"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODcorps>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/corps>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -31,7 +31,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "KB corporatiethesaurus"@nl, "Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODdbnla>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/dbnla>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus Auteurs DBNL"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -42,7 +42,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus Auteurs DBNL"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODdbnlt>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/dbnlt>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Titels DBNL"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -53,7 +53,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Titels DBNL"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODgtt>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/gtt>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -64,7 +64,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODkbcode>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/kbcode>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Thesaurus KBcode"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -75,7 +75,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Thesaurus KBcode"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODnbt>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/nbt>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nederlandse Bibliografie Totaal (NBT)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -86,7 +86,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlandse Bibliografie Totaal (NBT)"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODpersons>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/persons>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
@@ -97,7 +97,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Personen Nederlandse Thesaurus van Auteursnamen (NTA)"@nl, "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODrise-alba>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/rise-alba>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -109,7 +109,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Alba amicorum of the National Library of the Netherlands"@en, "Alba amicorum van de Koninklijke Bibliotheek"@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODrise-centsprenten>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/rise-centsprenten>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -120,7 +120,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://data.bibliotheken.nl/id/thes/p075301482> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Centsprenten"@nl, "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw."@nl .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODrise-childrensbooks>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/rise-childrensbooks>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Children's Books"@en ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> ;
@@ -129,7 +129,7 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#pageWithAdditionalInformation> "The preferred form of attribution is: 'Contains OCLC WorldCat information made available under the ODC Attribution license. The OCLC cooperative requests that uses of WorldCat derived data contained in this work conform with the WorldCat Community Norms.' Special cases: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical WorldCat URIs is adequate to satisfy Section 4.3 of the ODC Attribution license. "@en ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Children's Books"@en .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LODstcn>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/stcn>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Short-Title Catalogue Netherlands (STCN)"@en, "Short-Title Catalogue Netherlands (STCN)"@nl ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> <http://data.bibliotheken.nl/sparql> ;
