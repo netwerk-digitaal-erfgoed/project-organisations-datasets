@@ -100,11 +100,15 @@ public class CKANHarvester {
 		
 		String triples = "";
 		
+		// Dataset
 		String uri = uriReg + "/" + json.getString("id");
 		triples += Triples.tripleO(uri, Prefix.nde + "datasetOf", uriReg);
 		triples += Triples.tripleO(uri, Prefix.rdf + "type", Prefix.nde + "Dataset");
 		triples += Triples.tripleO(uri, Prefix.nde + "source", source ); 												// added link to source
-		if (!json.optString("title").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "title", json.getString("title"), null); }
+		if (!json.optString("title").isEmpty()) { 
+			triples += Triples.tripleL(uri, Prefix.nde + "title", json.getString("title"), null); 
+			triples += Triples.tripleL(uri, Prefix.rdfs + "label", json.getString("title"), null); 
+		}
 		if (!json.optString("id").isEmpty()) {triples += Triples.tripleL(uri, Prefix.nde + "identifier", json.getString("id"), null); }
 		if (!json.optString("license_url").isEmpty()) {
 			triples += Triples.tripleL(uri, Prefix.nde + "licenseOfContents", json.getString("license_url"), Prefix.xsd + "anyURI");
@@ -116,36 +120,45 @@ public class CKANHarvester {
 		if (!json.optString("metadata_modified").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "modified", json.getString("metadata_modified"), Prefix.xsd + "dateTime" ); }
 		if (!json.optString("description").isEmpty()) { triples += Triples.tripleL(uri, Prefix.nde + "description", json.getString("notes").replaceAll("\\p{Cntrl}", ""), null ); }
 
+		// Distribution
 		JSONArray resources = json.getJSONArray("resources")  ;
 		for (int i = 0; i < resources.length(); i++) {
 			JSONObject resource = (JSONObject) resources.get(i) ;
-			if (!resource.optString("id").isEmpty()) {
-				String distURI = uriReg + "/" + resource.getString("id");
+			if (!resource.optString("revision_id").isEmpty()) {
+				String distURI = uriReg + "/distribution/" + resource.getString("revision_id");
 				triples += Triples.tripleO(distURI, Prefix.rdf + "type", Prefix.nde + "Distribution");
-				triples += Triples.tripleL(distURI, Prefix.nde + "identifier", resource.getString("id"), null); 
+				triples += Triples.tripleL(distURI, Prefix.nde + "identifier", resource.getString("revision_id"), null); 
 				triples += Triples.tripleO(distURI, Prefix.nde + "distributionOf", uri);
 				if (!resource.optString("url").isEmpty()) { triples += Triples.tripleL(distURI, Prefix.nde + "accessURL", resource.getString("url"), Prefix.xsd + "anyURI" ); }
 				if (!resource.optString("description").isEmpty()) { triples += Triples.tripleL(distURI, Prefix.nde + "description", resource.getString("description").replaceAll("\\p{Cntrl}", ""), null ); }
-				if (!resource.optString("name").isEmpty()) { triples += Triples.tripleL(distURI, Prefix.nde + "title", resource.getString("name"), null ); }
+				if (!resource.optString("name").isEmpty()) { 
+					triples += Triples.tripleL(distURI, Prefix.nde + "title", resource.getString("name"), null ); 
+					triples += Triples.tripleL(distURI, Prefix.rdfs + "label", resource.getString("name"), null ); 
+				}
 				if (!resource.optString("size").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "size", Double.toString(resource.getDouble("size")), null ); }				// Ontbreekt in model !
 				if (!resource.optString("issued").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "issued", resource.getString("created"), Prefix.xsd + "dateTime"); }
 				if (!resource.optString("last_modified").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "modified", resource.getString("last_modified"), Prefix.xsd + "dateTime" ); }
 	
 				if (!resource.optString("format").isEmpty()) {
-					String formatURI = Triples.URI(uriReg + "/", resource.getString("format"));
+					String formatURI = Triples.URI(parameters.getPrefixURL() + "/", resource.getString("format"));
 					triples += Triples.tripleO(distURI, Prefix.nde + "mediaType", formatURI );
 					triples += Triples.tripleL(formatURI, Prefix.nde + "title", resource.getString("format"), null );
+					triples += Triples.tripleL(formatURI, Prefix.rdfs + "label", resource.getString("format"), null );
 				}
 			}
 		}
-
+		
+		// Organization owner
 		if (!json.optString("organization").isEmpty() ) {
 			JSONObject organisation = (JSONObject) json.get("organization");	// Organization entry interpreted as owner (?)
 			if (!organisation.optString("id").isEmpty()) {  
 				String orgURI = uriReg + "/" + organisation.getString("id");
 				triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
 				triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");
-				if (!organisation.optString("title").isEmpty()) {  triples += Triples.tripleL(orgURI, Prefix.nde + "title", organisation.getString("title"), null ); }
+				if (!organisation.optString("title").isEmpty()) {  
+					triples += Triples.tripleL(orgURI, Prefix.nde + "title", organisation.getString("title"), null );
+					triples += Triples.tripleL(orgURI, Prefix.rdfs + "label", organisation.getString("title"), null );
+				}
 				if (!organisation.optString("description").isEmpty()) { triples += Triples.tripleL(orgURI, Prefix.nde + "description", organisation.getString("description").replaceAll("\\p{Cntrl}", ""), null ); }
 			}
 		}
@@ -153,7 +166,8 @@ public class CKANHarvester {
 		if (!json.optString("maintainer").isEmpty()) {
 			triples += Triples.tripleL(uri, Prefix.nde + "publisher", json.getString("maintainer"), null); // mostly empty
 		}
-		
+
+		// Organization publisher
 		JSONArray groups = json.getJSONArray("groups")  ;  // Groups entry is interpreted as publisher (?)
 		for (int i = 0; i < groups.length(); i++) { 
 			JSONObject group = (JSONObject) groups.get(i) ;
@@ -162,7 +176,10 @@ public class CKANHarvester {
 				triples += Triples.tripleL(uriPublisher, Prefix.nde + "identifier", group.getString("id"), null); 
 				triples += Triples.tripleO(uri, Prefix.nde + "publisher", uriPublisher);
 				triples += Triples.tripleO(uriPublisher, Prefix.rdf + "type", Prefix.foaf + "Organization");
-				if (!group.optString("title").isEmpty()) { triples += Triples.tripleL(uriPublisher, Prefix.nde + "title", group.getString("title"), null); }  
+				if (!group.optString("title").isEmpty()) { 
+					triples += Triples.tripleL(uriPublisher, Prefix.nde + "title", group.getString("title"), null);
+					triples += Triples.tripleL(uriPublisher, Prefix.rdfs + "label", group.getString("title"), null);
+				}  
 				if (!group.optString("description").isEmpty()) { triples += Triples.tripleL(uriPublisher, Prefix.nde + "description", group.getString("description").replaceAll("\\p{Cntrl}", ""), null); }  
 			}
 		}
