@@ -195,7 +195,8 @@ public class OAIHarvester {
 				triples += Triples.tripleO(uriDist, Prefix.nde + "distributionOf", uriSet);
 
 				NodeList source = ((Element) recs.item(i)).getElementsByTagName("dc:source");
-				triples += Triples.tripleO(uriDist, Prefix.nde + "accessURL", source.item(0).getTextContent());
+				triples += Triples.tripleL(uriDist, Prefix.nde + "accessURL", source.item(0).getTextContent(), Prefix.xsd + "anyUri" );
+
 	  		
 	  	}
 	  	
