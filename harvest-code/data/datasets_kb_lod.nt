@@ -1,8 +1,8 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek LOD" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek> <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek> <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/kbcode> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "kbcode" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/kbcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/kbcode> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD> . 

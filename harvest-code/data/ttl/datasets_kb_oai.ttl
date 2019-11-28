@@ -1,13 +1,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry//koninklijke_bibliotheek>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMH>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek OAIPMH" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//koninklijke_bibliotheek> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_OAIPMH/ALBA>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

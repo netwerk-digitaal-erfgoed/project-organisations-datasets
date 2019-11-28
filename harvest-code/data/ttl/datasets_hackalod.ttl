@@ -3,11 +3,7 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "HackaLOD" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed> .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed>
-    a <http://xmlns.com/foaf/0.1/Organization> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Netwerk Digitaal Erfgoed" .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Netwerk_Digitaal_Erfgoed> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/edbo>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -689,4 +685,8 @@
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#modified> "2007-01-01+01:00^^http://www.w3.org/2001/XMLSchema#date"^^<http://www.w3.org/2001/XMLSchema#Date> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#publisher> <http://lod.kb.nl/oorlog/dans/HuffenerkandMCC>, <http://lod.kb.nl/oorlog/dans/NetwerkOorlogsbronnen> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kindertransporten: 'Joodse kinderen in kamp Vught' - Interview 07, JULES SCHELVIS" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Netwerk_Digitaal_Erfgoed>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Netwerk Digitaal Erfgoed" .
 

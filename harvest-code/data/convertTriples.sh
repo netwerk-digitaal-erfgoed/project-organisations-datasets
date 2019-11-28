@@ -10,4 +10,8 @@ do
 
   #echo "rapper -i ntriples $f -o turtle $_fileOut"
   rapper -i ntriples $f -o turtle > "$(dirname "$f")/ttl/$(basename "$f" .nt).ttl"
-done 
+done
+
+cp *.nt lodkb/
+cd lodkb/
+sed -i 's|https://data.netwerkdigitaalerfgoed|http://lod.kb|g' *.nt

@@ -9,10 +9,10 @@ registry.count = 13
 
 2.encoding = UTF-8
 2.registry = http://europeana.data.digitalecollectie.nl/oai/
-2.nameRegistry = Digitale Collectie Nederland
+2.nameRegistry = Digitale Collectie
 2.organization = Beeld & Geluid
 2.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
-2.fileOut = data/datasets_digitalecollectieNL.nt
+2.fileOut = data/datasets_digitalecollectie.nt
 
 3.encoding = UTF-8
 3.registry = http://openskos.beeldengeluid.nl/oai-pmh

@@ -1,8 +1,8 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> <http://www.w3.org/2000/01/rdf-schema#label> "Beeldbank RCE" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//rce> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry//rce> <http://www.w3.org/2000/01/rdf-schema#label> "RCE" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry//rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/RCE> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/RCE> <http://www.w3.org/2000/01/rdf-schema#label> "RCE" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/RCE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_rce> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> . 

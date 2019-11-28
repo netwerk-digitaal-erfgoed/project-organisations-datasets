@@ -1,8 +1,8 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> <http://www.w3.org/2000/01/rdf-schema#label> "HackaLOD" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/Netwerk_Digitaal_Erfgoed> <http://www.w3.org/2000/01/rdf-schema#label> "Netwerk Digitaal Erfgoed" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Netwerk_Digitaal_Erfgoed> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Netwerk_Digitaal_Erfgoed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Netwerk_Digitaal_Erfgoed> <http://www.w3.org/2000/01/rdf-schema#label> "Netwerk Digitaal Erfgoed" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/edbo> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "edbo" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/edbo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD/edbo> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/HackaLOD> . 

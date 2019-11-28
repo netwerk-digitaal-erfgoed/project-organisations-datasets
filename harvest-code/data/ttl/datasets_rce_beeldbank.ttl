@@ -1,13 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry//rce>
-    a <http://xmlns.com/foaf/0.1/Organization> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "RCE" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Beeldbank RCE" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//rce> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/RCE> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/search_s_entity_type_Kunstcollectie>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
@@ -1002,4 +998,8 @@
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
     <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Beeldbank_RCE/tenant_zzm_search_s_entity_type_westfries_museum> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/RCE>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "RCE" .
 

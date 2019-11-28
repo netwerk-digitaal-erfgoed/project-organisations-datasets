@@ -1,13 +1,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry//rijksmuseum>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Rijksmuseum" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Rijksmuseum API" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//rijksmuseum> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API/Subject_ModemuzeAccessoires>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

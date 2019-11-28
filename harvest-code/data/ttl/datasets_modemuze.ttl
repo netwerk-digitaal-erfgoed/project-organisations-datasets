@@ -1,13 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry//modemuze>
-    a <http://xmlns.com/foaf/0.1/Organization> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/Modemuze>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    a <http://xmlns.com/foaf/0.1/Organization>, <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Modemuze" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//modemuze> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Modemuze> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Modemuze/1016>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

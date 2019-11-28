@@ -54,6 +54,7 @@ public class CKANHarvester {
 			parameters.setPrefixURI(config.getString("ckan"+i+".prefixURI"));
 			parameters.setFileOut(config.getString("ckan" +i+".fileOut"));
 			parameters.setNameRegistry(config.getString("ckan" +i+".nameRegistry"));
+			parameters.setOrganization(config.getString("ckan" +i+".organization"));
 
 			
 			String triples = "";
@@ -64,11 +65,14 @@ public class CKANHarvester {
 
 			System.out.println("iteration = " + i + " -- " + parameters.getRegistry());
 
-			// create triples for the Registry entity and parse metadata to triples
+			// REGISTRY: create triples for the Registry entity and parse metadata to triples
 			String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
+			String uriOrg = Triples.URI(parameters.getPrefixURI() , parameters.getOrganization() );
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
-			
+			triples += Triples.tripleO(uriReg, Prefix.nde + "administrator", uriOrg );
+			triples += Triples.tripleL(uriOrg, Prefix.rdfs + "label", parameters.getOrganization(), null);
+			triples += Triples.tripleO(uriOrg, Prefix.rdf + "type", Prefix.foaf + "Organization");
 			//triples += Triples.tripleL( parameters.getPrefixURI()+"scheme", Prefix.nde + "description", "Conceptscheme for joining subjects derived from dataset harvest from one data registry", null);  
 			//triples += Triples.tripleL( parameters.getPrefixURI()+"scheme", Prefix.nde + "title", "Conceptscheme for " + parameters.getNameRegistry() , null);  
 
@@ -140,7 +144,7 @@ public class CKANHarvester {
 				if (!resource.optString("last_modified").isEmpty()) {triples += Triples.tripleL(distURI, Prefix.nde + "modified", resource.getString("last_modified"), Prefix.xsd + "dateTime" ); }
 	
 				if (!resource.optString("format").isEmpty()) {
-					String formatURI = Triples.URI(parameters.getPrefixURL() + "/", resource.getString("format"));
+					String formatURI = Triples.URI(parameters.getPrefixURI() , resource.getString("format"));
 					triples += Triples.tripleO(distURI, Prefix.nde + "mediaType", formatURI );
 					triples += Triples.tripleL(formatURI, Prefix.nde + "title", resource.getString("format"), null );
 					triples += Triples.tripleL(formatURI, Prefix.rdfs + "label", resource.getString("format"), null );
@@ -152,7 +156,7 @@ public class CKANHarvester {
 		if (!json.optString("organization").isEmpty() ) {
 			JSONObject organisation = (JSONObject) json.get("organization");	// Organization entry interpreted as owner (?)
 			if (!organisation.optString("id").isEmpty()) {  
-				String orgURI = uriReg + "/" + organisation.getString("id");
+				String orgURI = parameters.getPrefixURI() + organisation.getString("id");
 				triples += Triples.tripleO(uri, Prefix.nde + "owner", orgURI );
 				triples += Triples.tripleO(orgURI, Prefix.rdf + "type", Prefix.foaf + "Organization");
 				if (!organisation.optString("title").isEmpty()) {  
@@ -172,7 +176,7 @@ public class CKANHarvester {
 		for (int i = 0; i < groups.length(); i++) { 
 			JSONObject group = (JSONObject) groups.get(i) ;
 			if (!group.optString("id").isEmpty()) {   
-				String uriPublisher = uriReg + "/" + group.getString("id");
+				String uriPublisher = parameters.getPrefixURI() + group.getString("id");
 				triples += Triples.tripleL(uriPublisher, Prefix.nde + "identifier", group.getString("id"), null); 
 				triples += Triples.tripleO(uri, Prefix.nde + "publisher", uriPublisher);
 				triples += Triples.tripleO(uriPublisher, Prefix.rdf + "type", Prefix.foaf + "Organization");

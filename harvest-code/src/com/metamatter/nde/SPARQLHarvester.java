@@ -58,7 +58,7 @@ public class SPARQLHarvester {
 
 			// First create triples for the Registry entity 
 			String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
-			String uriOrg = Triples.URI(uriReg + "/", parameters.getOrganization()); 
+			String uriOrg = Triples.URI(parameters.getPrefixURI(), parameters.getOrganization()); 
 
 			triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 			triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);

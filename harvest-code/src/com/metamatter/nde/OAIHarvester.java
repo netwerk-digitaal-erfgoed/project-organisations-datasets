@@ -84,13 +84,14 @@ public class OAIHarvester {
 		// REGISTRY: create triples for the Registry entity and parse metadata to triples
 		String uriReg = Triples.URI(parameters.getPrefixURI(), parameters.getNameRegistry()); 
 		//String uriOrg = Triples.URI(uriReg + "/" , parameters.getOrganization() ); 
-		String uriOrg = Triples.URI(parameters.getPrefixURI() + "/" , parameters.getOrganization().toLowerCase() ); 
+		String uriOrg = Triples.URI(parameters.getPrefixURI() , parameters.getOrganization() ); 
 		triples += Triples.tripleO(uriReg, Prefix.rdf + "type", Prefix.nde + "Registry");
 		triples += Triples.tripleL(uriReg, Prefix.rdfs + "label", parameters.getNameRegistry(), null);
 		triples += Triples.tripleO(uriReg, Prefix.nde + "administrator", uriOrg );
 		triples += Triples.tripleL(uriOrg, Prefix.rdfs + "label", parameters.getOrganization(), null);
 		triples += Triples.tripleO(uriOrg, Prefix.rdf + "type", Prefix.foaf + "Organization");
 
+		// DATASET
   	for (int i = 0 ; i < records.getLength() ; i++) {
   		NodeList nodes = ((Element) records.item(i)).getElementsByTagName("setSpec");
 
@@ -99,7 +100,7 @@ public class OAIHarvester {
 			triples += Triples.tripleO(uriSet, Prefix.nde + "datasetOf", uriReg);
 			triples += Triples.tripleO(uriSet, Prefix.nde + "mediaType", parameters.getPrefixURI() + "xml");
 			
-			
+			// DISTRIBUTION
 			String uriDist = Triples.URI(uriReg + "/", nodes.item(0).getTextContent() + "/distribution " ); 
 			if (!parameters.getNameRegistry().equals("GaHetNa.nl") ) {			// This is hack for GaHetNa: no Distributions are defined since those are in the records
 				triples += Triples.tripleO(uriDist, Prefix.rdf + "type", Prefix.nde + "Distributie");

@@ -1,8 +1,8 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API> <http://www.w3.org/2000/01/rdf-schema#label> "Rijksmuseum API" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//rijksmuseum> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry//rijksmuseum> <http://www.w3.org/2000/01/rdf-schema#label> "Rijksmuseum" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry//rijksmuseum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum> <http://www.w3.org/2000/01/rdf-schema#label> "Rijksmuseum" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API/nachtwacht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API/nachtwacht> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Rijksmuseum_API/nachtwacht> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> . 

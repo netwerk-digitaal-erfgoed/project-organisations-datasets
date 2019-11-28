@@ -1,13 +1,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry//tresoar>
+<https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar>
     a <http://xmlns.com/foaf/0.1/Organization> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar" .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar: Alle Friezen" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//tresoar> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Tresoar__Alle_Friezen/bb_a>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

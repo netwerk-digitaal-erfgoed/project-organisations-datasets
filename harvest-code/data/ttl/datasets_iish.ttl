@@ -1,13 +1,9 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://data.netwerkdigitaalerfgoed.nl/registry//international_institute_of_social_history>
-    a <http://xmlns.com/foaf/0.1/Organization> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "International Institute of Social History" .
-
 <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_History>
-    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    a <http://xmlns.com/foaf/0.1/Organization>, <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "International Institute of Social History" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry//international_institute_of_social_history> .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_History> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/International_Institute_of_Social_History/IISG>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;

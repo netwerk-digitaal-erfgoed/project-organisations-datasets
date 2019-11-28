@@ -1,8 +1,8 @@
 <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten> <http://www.w3.org/2000/01/rdf-schema#label> "Muziekschatten" . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/Stichting_Omroep_Muziek> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/Stichting_Omroep_Muziek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
-<https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/Stichting_Omroep_Muziek> <http://www.w3.org/2000/01/rdf-schema#label> "Stichting Omroep Muziek" . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Stichting_Omroep_Muziek> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Stichting_Omroep_Muziek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Stichting_Omroep_Muziek> <http://www.w3.org/2000/01/rdf-schema#label> "Stichting Omroep Muziek" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/som> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "som" . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/som> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/som> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten> . 

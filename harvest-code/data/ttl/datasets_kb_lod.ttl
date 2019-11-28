@@ -1,13 +1,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" .
+
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek LOD" ;
-    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek> .
-
-<https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/Koninklijke_Bibliotheek>
-    a <http://xmlns.com/foaf/0.1/Organization> ;
-    <http://www.w3.org/2000/01/rdf-schema#label> "Koninklijke Bibliotheek" .
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek> .
 
 <https://data.netwerkdigitaalerfgoed.nl/registry/Koninklijke_Bibliotheek_LOD/brinkman>
     a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
