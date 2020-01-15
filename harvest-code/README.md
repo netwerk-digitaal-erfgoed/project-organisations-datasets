@@ -14,7 +14,7 @@ There are 4 harvesters available:
 Harvesters are configured in the configuration file in the conf/ directory. Variables such as output files and adresses of API's are specified in these configuration files.
 
 The commands for running each harvester are:
-sh run_CKAN.sh conf/configCKAN.parameters
-sh run_OAI.sh conf/configOAI.parameters
-sh run_SPARQL.sh conf/configCNL.parameters
-sh run_CNL.sh conf/configCNL.parameters
+* sh run_SPARQL.sh conf/configCNL.parameters
+* sh run_OAI.sh conf/configOAI.parameters
+* sh run_CKAN.sh conf/configCKAN.parameters
+* sh run_CNL.sh conf/configCNL.parameters
