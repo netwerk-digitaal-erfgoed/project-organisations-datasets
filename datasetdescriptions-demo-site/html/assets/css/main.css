@@ -1,0 +1,92 @@
+
+body {
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sink {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+  background-color: #fff;
+}
+
+.navbar-content {
+  display: flex;
+}
+
+.navbar-title {
+  flex-grow: 1;
+  color: #1690c6;
+  display: flex;
+  align-items: center;
+}
+
+body.withNavbar {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+body.withSink {
+  background-color: #ebedef;
+}
+
+.withNavbar .navbar {
+  padding: 0.3rem 1rem;
+  background-color: hsla(0,0%,100%,.87);
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+.navbar-icon img {
+  height: 2.5rem;
+}
+
+.story {
+  margin-top: 20px;
+}
+
+.storyBanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.storyIcon img {
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 20px 0 10px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.storyInfo {
+  flex-grow: 1;
+  color: #292b2c;
+}
+
+.storyInfo .storyLabel {
+  color: #292b2c;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.storyDescription {
+  color: #292b2c;
+}
+
+.pvtUi {
+  table-layout: fixed;
+  width: 100%
+}
+
+.copy_btn {
+  box-sizing: unset
+}
+
+xmp {
+	background-color:#fff;
+	padding:20px;
+	border-radius:15px;
+	font-size:0.9em;
+	width:100%;
+	color:#444;
+}
