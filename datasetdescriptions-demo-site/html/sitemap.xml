@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/</loc>
+  <lastmod>2020-03-24T18:44:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/2.html</loc>
+  <lastmod>2020-03-24T18:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/3.html</loc>
+  <lastmod>2020-03-24T18:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/4.html</loc>
+  <lastmod>2020-03-24T18:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!--
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/5.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/6.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/7.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/8.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/9.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/10.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/11.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://demo.netwerkdigitaalerfgoed.nl/datasets/kb/12.html</loc>
+  <lastmod>2020-03-17T08:44:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+-->
+</urlset>
