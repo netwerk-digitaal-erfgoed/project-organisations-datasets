@@ -5,3 +5,5 @@ label { font-weight:bold; margin-right:10px;width:150px; display:inline-block }
 .distribution_first { border-top:2px solid #555 }
 th { text-align:left; width:20%}
 select { border: 1px solid #ced4da; margin:5px 0; border-radius: .25rem;}
+pre {display: block;font-size: 87.5%;color: #212529;background-color:lightgreen;padding: 30px;width:100%;margin: 20px 0;}
+.row {display: block;flex-wrap:none;}
