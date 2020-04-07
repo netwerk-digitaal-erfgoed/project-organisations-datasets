@@ -28,15 +28,204 @@
         <div class="row">
             <div class="col" style="text-align:center;">
                 <h1>Gemeenschappelijke Trefwoordenthesaurus (GTT)</h1>
-                <p>Datasetbeschrijving</p>
+                <p>Datasetbeschrijving in JSON-LD volgens <a href="https://dcat-ap-nl.readthedocs.io/nl/latest/index.html">DCAT-AP-DONL</a> (via <a href="http://demo.netwerkdigitaalerfgoed.nl/datasets/forms/dcat-schema-1.php">formulier</a>)</p>
             </div>
         </div>
 
         <div class="row">
  
-<xmp>TODO</xmp>
-	
+<pre>
+&lt;script type="application/ld+json">
+{
+	"@context": {
+		"dcat": "http://www.w3.org/ns/dcat#",
+		"dct": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"cc": "http://creativecommons.org/ns#" <span style="background-color:yellow">niet in DCAT-AP-DONL</span>
+	},
+	"@graph": [
+		{
+			"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek",
+			"@type": "foaf:Agent",
+			"foaf:name": "Koninklijke Bibliotheek"
+		},
+		{
+			"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek",
+			"@type": "foaf:Agent",
+			"foaf:name": "Koninklijke Bibliotheek"
+		},
+		{
+			"@id": "_:94306ef5-68b2-470d-afd7-27cf8e15b5a4",
+			"@type": "vcard:Organization",
+			"foaf:mbox": "dataservices@kb.nl"
+		},
+		{
+			"@id": "_:baccb761-c5c0-4e3e-a794-44230da8388e",
+			"@type": "dcat:Distribution",
+			"dcat:accessURL": {
+				"@id": "http://data.bibliotheken.nl/sparql"
+			},
+			"dcat:license": "http://opendatacommons.org/licenses/by/1.0/", <span style="background-color:yellow">deze licentie is met de hand opgevoerd, komt niet in de waardelijst van licenties voor</span>
+			
+			"cc:useGuidelines": [ { "rdf:value": "The preferred form of attribution is: \"Contains OCLC &lt;a href=\"http://www.worldcat.org/\">WorldCat&lt;/a> information made available under the &lt;a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license&lt;/a>. The OCLC cooperative requests that uses of WorldCat derived data contained in this work conform with the &lt;a href=\"https://www.oclc.org/worldcat/community/record-use/policy/community-norms.en.html\">WorldCat Community Norms&lt;/a>.\" Special cases: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical WorldCat URIs is adequate to satisfy Section 4.3 of the &lt;a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license&lt;/a>."} ],  <span style="background-color:yellow">niet in DCAT-AP-DONL</span>
+			
+			"dct:title": "Sparql endpoint",
+			"dct:description": "Sparql endpoint",
+			"dct:language": [
+				{
+					"@id": "http://publications.europa.eu/resource/authority/language/NLD"
+				}
+			],
+			"dct:format": {
+				"@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+			},
+			"dcat:mediaType": {
+				"@id": "https://www.iana.org/assignments/media-types/text/turtle"
+			}
+		},
+		{
+			"@type": "dcat:Dataset",
+			"@id": "http://data.bibliotheken.nl/id/dataset/gtt",
+			"dct:identifier": "http://data.bibliotheken.nl/id/dataset/gtt",
+			"dct:title": "Gemeenschappelijke Trefwoordenthesaurus (GTT)",
+			"dct:description": "Gemeenschappelijke Trefwoordenthesaurus (GTT), ook wel Gemeenschappelijk Onderwerpsontsluiting (GOO) genoemd, is ontwikkeld om de onderwerpsontsluiting door wetenschappelijke bibliotheken gezamenlijk uit te voeren als onderdeel van het Gemeenschappelijk Geautomatiseerd Catalogiseersysteem (GGC). Zie http://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis voor meer informatie.",
+			"dcat:keyword": [
+				"GTT",
+				"GOO",
+				"GCG"
+			],
+			"dct:language": {
+				"@id": "http://publications.europa.eu/resource/authority/language/NLD"
+			},
+			"dcat:theme": [
+				{
+					"@id": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+				}
+			],
+			"dct:modified": { <span style="background-color:yellow">deze (verplichte) waarde is onbekend, willekeurige datum ingevuld</span>
+				"@type": "xsd:dateTime",
+				"@value": "2020-01-01"
+			},
+			"overheid.authority": { <span style="background-color:yellow">het OCLC is eigenlijk de data-eigenaar, maar die zit niet in waardelijst, is ook geen overheidsorganisatie</span>
+				"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek"
+			},
+			"dct:publisher": {
+				"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek"
+			},
+			"dct:issued": { <span style="background-color:yellow">deze (verplichte) waarde is onbekend, willekeurige datum ingevuld</span>
+				"@type": "xsd:dateTime",
+				"@value": "2020-01-01"
+			},
+			"dcat:contactPoint": {
+				"@id": "_:94306ef5-68b2-470d-afd7-27cf8e15b5a4"
+			},
+			"dcat:distribution": [
+				{
+					"@id": "_:baccb761-c5c0-4e3e-a794-44230da8388e"
+				}
+			]
+		}
+	]
+}
+&lt;/script>
+</pre>
 
+<script type="application/ld+json">
+{
+	"@context": {
+		"dcat": "http://www.w3.org/ns/dcat#",
+		"dct": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"cc": "http://creativecommons.org/ns#"
+	},
+	"@graph": [
+		{
+			"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek",
+			"@type": "foaf:Agent",
+			"foaf:name": "Koninklijke Bibliotheek"
+		},
+		{
+			"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek",
+			"@type": "foaf:Agent",
+			"foaf:name": "Koninklijke Bibliotheek"
+		},
+		{
+			"@id": "_:94306ef5-68b2-470d-afd7-27cf8e15b5a4",
+			"@type": "vcard:Organization",
+			"foaf:mbox": "dataservices@kb.nl"
+		},
+		{
+			"@id": "_:baccb761-c5c0-4e3e-a794-44230da8388e",
+			"@type": "dcat:Distribution",
+			"dcat:accessURL": {
+				"@id": "http://data.bibliotheken.nl/sparql"
+			},
+			"dcat:license": "http://opendatacommons.org/licenses/by/1.0/",
+			"cc:useGuidelines": [ { "rdf:value": "The preferred form of attribution is: \"Contains OCLC <a href=\"http://www.worldcat.org/\">WorldCat</a> information made available under the <a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license</a>. The OCLC cooperative requests that uses of WorldCat derived data contained in this work conform with the <a href=\"https://www.oclc.org/worldcat/community/record-use/policy/community-norms.en.html\">WorldCat Community Norms</a>.\" Special cases: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical WorldCat URIs is adequate to satisfy Section 4.3 of the <a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license</a>."} ],
+			
+			"dct:title": "Sparql endpoint",
+			"dct:description": "Sparql endpoint",
+			"dct:language": [
+				{
+					"@id": "http://publications.europa.eu/resource/authority/language/NLD"
+				}
+			],
+			"dct:format": {
+				"@id": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+			},
+			"dcat:mediaType": {
+				"@id": "https://www.iana.org/assignments/media-types/text/turtle"
+			}
+		},
+		{
+			"@type": "dcat:Dataset",
+			"@id": "http://data.bibliotheken.nl/id/dataset/gtt",
+			"dct:identifier": "http://data.bibliotheken.nl/id/dataset/gtt",
+			"dct:title": "Gemeenschappelijke Trefwoordenthesaurus (GTT)",
+			"dct:description": "Gemeenschappelijke Trefwoordenthesaurus (GTT), ook wel Gemeenschappelijk Onderwerpsontsluiting (GOO) genoemd, is ontwikkeld om de onderwerpsontsluiting door wetenschappelijke bibliotheken gezamenlijk uit te voeren als onderdeel van het Gemeenschappelijk Geautomatiseerd Catalogiseersysteem (GGC). Zie http://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis voor meer informatie.",
+			"dcat:keyword": [
+				"GTT",
+				"GOO",
+				"GCG"
+			],
+			"dct:language": {
+				"@id": "http://publications.europa.eu/resource/authority/language/NLD"
+			},
+			"dcat:theme": [
+				{
+					"@id": "http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap"
+				}
+			],
+			"dct:modified": {
+				"@type": "xsd:dateTime",
+				"@value": "2020-01-01"
+			},
+			"overheid.authority": {
+				"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek"
+			},
+			"dct:publisher": {
+				"@id": "http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek"
+			},
+			"dct:issued": {
+				"@type": "xsd:dateTime",
+				"@value": "2020-01-01"
+			},
+			"dcat:contactPoint": {
+				"@id": "_:94306ef5-68b2-470d-afd7-27cf8e15b5a4"
+			},
+			"dcat:distribution": [
+				{
+					"@id": "_:baccb761-c5c0-4e3e-a794-44230da8388e"
+				}
+			]
+		}
+	]
+}
+</script>
     </div>
   </body>
 </html>
