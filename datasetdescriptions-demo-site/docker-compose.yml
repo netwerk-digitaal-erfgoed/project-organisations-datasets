@@ -12,8 +12,8 @@ services:
             - "traefik.port=80"
         networks:
             - traefik
-        ports:
-            - "80:80"
+#        ports:
+#            - "80:80"
         depends_on:
             - php
 
