@@ -28,14 +28,40 @@
         <div class="row">
             <div class="col" style="text-align:center;">
                 <h1>Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek</h1>
-                <p>Datasetbeschrijving</p>
+                <p>Datasetbeschrijving in schema.org/Dataset form in DOM geïnjecteerd uit extern bestand</p>
             </div>
         </div>
 
         <div class="row">
+
+            <div class="col">
  
-<xmp>TODO</xmp>
-	
+				<h3>Name</h3>
+                <p>Organisaties uit de corporatiethesaurus van de Koninklijke Bibliotheek</p>
+                <h3>Description</h3>
+                <p>Organisaties uit KB Corporatiethesaurus. De KB Corporatiethesaurus is een thesaurus waarmee de Depotcollectie en de catalogus van deze collectie, de Nederlandse Bibliografie online (ORS), op corporatie zijn ontsloten. Zie http://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis voor meer informatie.</p>
+                <h3>Identifier</h3>
+                <p>http://data.bibliotheken.nl/id/dataset/corps</p>
+                <h3>License</h3>
+                <p><a href="http://opendatacommons.org/licenses/by/1.0/">Open Data Commons Attribution License (ODC-By) v1.0</a></p>
+                <h3>Creator</h3>
+                <p><a href="http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek">Koninklijke Bibliotheek</a></p>
+                <h2>Distributions</h2>
+                <ul>
+                    <li><a href="<http://data.bibliotheken.nl/sparql>">SPARQL</a></li>
+                </ul>
+
+			</div>
+<script>
+$.getJSON( "7.jsonld", function( data ) {
+$( "<script/>", {
+"type": "application/ld+json",
+"html": JSON.stringify(data)
+}).appendTo( "head" );
+});
+
+</script>
+
 
     </div>
   </body>

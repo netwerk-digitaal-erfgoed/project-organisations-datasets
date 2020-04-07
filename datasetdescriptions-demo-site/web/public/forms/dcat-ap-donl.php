@@ -197,7 +197,7 @@ $distributionfields[]=array(
 	"range"=>"xsd:anyURI",
 	"title"=>"This property contains a URL that gives access to a Distribution of the Dataset. The resource at the access URL may contain information about how to get the Dataset.",
 	"script_dcat"=>'distribution["dcat:accessURL"]={}; distribution["dcat:accessURL"]["@id"]=$("#id_distribution_"+dataset_idx+"_accessURL").val();',
-	"script_schema"=>'distribution["contentURL"]={}; distribution["contentURL"]["@id"]=$("#id_distribution_"+dataset_idx+"_accessURL").val();'
+	"script_schema"=>'distribution["contentURL"]=$("#id_distribution_"+dataset_idx+"_accessURL").val();'
 );
 
 $distributionfields[]=array(
@@ -278,7 +278,7 @@ $distributionfields[]=array(
 	"range"=>"mdr:filetype",
 	"title"=>"This property refers to the file format of the Distribution.",
 	"script_dcat"=>'if ($("#id_distribution_"+dataset_idx+"_format").val()) { distribution["dct:format"]={"@id":$("#id_distribution_"+dataset_idx+"_format").val()}; }',
-	"script_schema"=>'if ($("#id_distribution_"+dataset_idx+"_format").val()) { distribution["encodingFormat"]={"@id":$("#id_distribution_"+dataset_idx+"_format").val()}; }'
+	"script_schema"=>'if ($("#id_distribution_"+dataset_idx+"_format").val()) { distribution["encodingFormat"]=$("#id_distribution_"+dataset_idx+"_format").val(); }'
 
 );
 
