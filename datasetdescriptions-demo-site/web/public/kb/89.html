@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              foaf: http://xmlns.com/foaf/0.1/">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Datasets">
+    <link href="../assets/imgs/nde_logo_simplified.png" rel="icon" type="image/png">
+    <title>Dataset Descriptions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="withNavbar withSink">
+    <nav class="navbar fixed-top ">
+        <div class="navbar-content">
+            <div class="navbar-icon">
+                <a class="navbar-brand" href="../">
+                    <img alt="Dataset Descriptions home" src="../assets/imgs/nde_logo.png">
+                </a>
+            </div>
+            <div class="navbar-title">
+                <a class="navbar-brand" href="../">Dataset Descriptions</a>|&nbsp;&nbsp;&nbsp;<a href="index.html">Datasets KB</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA) &amp; Short-Title Catalogue Netherlands (STCN)
+            </div>
+        </div>
+    </nav>
+	
+    <div class="container">
+		<div class="row">
+			<p>Een tweetal datasetbeschrijvingen in RDFa volgens DCAT</p>
+		</div>
+        <p><br></p>
+		<div class="row">
+            <div typeof="dcat:Dataset" resource="http://data.bibliotheken.nl/id/dataset/persons">
+				<h1 property="dct:title">Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)</h1>
+
+				<p property="dct:description">In de Nederlandse Thesaurus van Auteursnamen (NTA), ook wel de Persoonsnamenthesaurus genoemd, worden naams- en andere persoonsgegevens van auteurs opgeslagen, zodat onderscheid gemaakt kan worden tussen auteurs met dezelfde naam. Deze dataset presenteert de opgenomen namen als persoon. Zie http://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis voor meer informatie. <p>
+
+				<p property="dct:license" resource="http://opendatacommons.org/licenses/by/1.0/"><a href="http://opendatacommons.org/licenses/by/1.0/">Licentie: <span property="dct:title">Open Data Commons Attribution License (ODC-By) v1.0</span></a></p>
+
+				<p property="dct:publisher" resource="http://data.bibliotheken.nl/id/thes/p075301482">Uitgever: <a href="https://www.kb.nl/" about="http://data.bibliotheken.nl/id/thes/p075301482" property="foaf:homepage"><span property="foaf:name">Koninklijke Bibliotheek (Den Haag)</span></a></p>
+				
+				<p property='dcat:distribution' typeof='dcat:Distribution'>Distributie: <span property="dct:title">Sparql endpoint</span> (<span content='text/csv' property='dcat:mediaType'>turtle</span>) via <a href='http://data.bibliotheken.nl/sparql' property='dcat:accessURL'>http://data.bibliotheken.nl/sparql</a></p>   
+
+			</div>
+		</div>
+		<p><br></p>
+		<div class="row">
+            <div typeof="dcat:Dataset" resource="http://data.bibliotheken.nl/id/dataset/stcn">
+				<h1 property="dct:title">Short-Title Catalogue Netherlands (STCN)</h1>
+
+				<p property="dct:description">Expert descriptions of books printed in the Netherlands between 1473 and 1801 in more than 210.000 editions in 550.000 copies. Contains descriptions of books in the collections of many libraries in the Netherlands and various libraries abroad. All books are described book in hand. Descriptions contain information about authors, titles, imprints, size, collation formula, subject keywords and typographical features. Every edition is distinguished by the STCN fingerprint. Newspapers and ambassadors’ letters are excluded.<p>
+
+				<p>Meer info: <a href="http://www.stcn.nl/" property="foaf:page">http://www.stcn.nl/</a></p>
+				
+				<p property="dct:license" resource="https://creativecommons.org/publicdomain/zero/1.0/"><a href="https://creativecommons.org/publicdomain/zero/1.0/">Licentie: <span property="dct:title">CC0 1.0 Universal (CC0 1.0) 	Public Domain Dedication</span></a></p>
+
+				<p property="dct:publisher" resource="http://data.bibliotheken.nl/id/thes/p075301482">Uitgever: <a href="https://www.kb.nl/" about="http://data.bibliotheken.nl/id/thes/p075301482" property="foaf:homepage"><span property="foaf:name">Koninklijke Bibliotheek (Den Haag)</span></a></p>
+				
+				<p property='dcat:distribution' typeof='dcat:Distribution'>Distributie: <span property="dct:title">Sparql endpoint</span> (<span content='text/csv' property='dcat:mediaType'>turtle</span>) via <a href='http://data.bibliotheken.nl/sparql' property='dcat:accessURL'>http://data.bibliotheken.nl/sparql</a></p>   
+
+			</div>
+		</div>
+        
+		
+    </div>
+  </body>
+</html>
