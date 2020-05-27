@@ -1,6 +1,6 @@
 <?php 
 
-include('dcat-ap-donl.php'); 
+include('publicatiemodel-definitie.php'); 
 include('util.php'); 
 
 ?><!DOCTYPE html>
@@ -26,7 +26,7 @@ include('util.php');
 					<a class="navbar-brand" href="../"><img alt="Dataset Descriptions home" src="../assets/imgs/nde_logo.png"></a>
 				</div>
 				<div class="navbar-title">
-					<a class="navbar-brand" href="../">Dataset Descriptions</a>|&nbsp;&nbsp;&nbsp;<a href="index.html">Formulieren</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;DCAT-AP-DONL + Schema.org/Dataset
+					<a class="navbar-brand" href="../">Dataset Descriptions</a>|&nbsp;&nbsp;&nbsp;<a href="index.html">Formulieren</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Publicatiemodel (op basis van Schema.org/Dataset)
 				</div>
 			</div>
 		</nav>
@@ -34,22 +34,23 @@ include('util.php');
 			<div class="row">
 				<a id="dataset_examples" href="#" class="btn btn-info btn-sm float-right">Voorbeelddata</a>
 				<h2 class="mt-5">Dataset beschrijving</h2>
-				<div class="p-3 mb-2 bg-info text-white">Vul zo veel mogelijk van de onderstaande invoervelden in, minimaal de met een (*) gemarkeerde, verplichte invoervelden.<br>Wanneer er op de "Maak JSON-LD" knop wordt geklikt wordt er op basis van de invoer een te kopi&euml;ren blok JSON-LD gemaakt die in de eigen website op de dataset pagina ingevoegd dient te worden. Eén volgens DCAT-AP-DONL en één op basis van Google schema.org/Dataset. Er worden geen gegevens opgeslagen, dit formulier heeft geen registratie functie.</div>
+				<div class="p-3 mb-2 bg-info text-white">Vul zo veel mogelijk van de onderstaande invoervelden in, minimaal de met een (*) gemarkeerde, verplichte invoervelden.<br>Wanneer er op de "Maak JSON-LD" knop wordt geklikt wordt er op basis van de invoer een te kopi&euml;ren blok JSON-LD gemaakt die in de eigen website op de dataset pagina ingevoegd dient te worden. Er worden geen gegevens opgeslagen, dit formulier heeft geen registratie functie.</div>
 				<br>
 				<form id="dataset_form">
 				<?php echo_datasetfields(); ?>
 
                 <button class="btn btn-success" type="submit" id="do_script_jsonld">Maak JSON-LD</button>
 				
-				<a class="float-right btn btn-info" href="shacl/dcat-ap-donl.ttl">DCAT-AP-DONL SHACL (work in progress)</a>
+				<a class="float-right btn btn-info" href="shacl/publicatiemodel.ttl">SHACL (work in progress)</a>
 				<a style="margin-right:10px" class="float-right btn btn-info" href="https://shacl.org/playground/" target="_new">SHACL Playground</a>
                 <a style="margin-right:10px" class="float-right btn btn-info" href="https://search.google.com/structured-data/testing-tool/u/0/" target="_new">Tool voor gestructureerde datasets</a>
                 
             </form>
 
+<!--
 			<h4 class="mt-5">DCAT</h4>
             <pre id="id_script_jsonld_dcat"></pre>
-			
+-->		
 			<h4 class="mt-5">Schema.org/Dataset</h4>
             <pre id="id_script_jsonld_schema"></pre>
 	
@@ -106,37 +107,6 @@ include('util.php');
 
 
 	function make_script_jsonld() {
-		make_script_jsonld_dcat();
-		make_script_jsonld_schema();
-	}
-	
-	function make_script_jsonld_dcat() {
-
-		var dcat = {};
-		dcat["@context"] = {};
-		dcat["@context"]["dcat"] = "http://www.w3.org/ns/dcat#";
-		dcat["@context"]["dct"] = "http://purl.org/dc/terms/",
-		dcat["@context"]["foaf"] = "http://xmlns.com/foaf/0.1/",
-		dcat["@context"]["vcard"] = "http://www.w3.org/2006/vcard/ns#",
-		dcat["@context"]["xsd"] = "http://www.w3.org/2001/XMLSchema#";
-		dcat["@graph"] = [];
-
-<?php echo_script_jsonld_dcat(); ?>
-
-
-		jsonldString = JSON.stringify(dcat, null, '\t');
-
-		script_jsonld = '&lt;script type="application/ld+json"&gt;' + "\n";
-		script_jsonld += jsonldString;
-		script_jsonld += "\n" + '&lt;/script&gt;';
-
-		$("#id_script_jsonld_dcat").html(script_jsonld);
-
-	}
-
-	function make_script_jsonld_schema() {
-
-
 <?php echo_script_jsonld_schema(); ?>
 
 		jsonldString = JSON.stringify(schema	, null, '\t');

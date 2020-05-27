@@ -1,0 +1,138 @@
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Dataset cardinaliteit
+#
+# http://schema.org/identifier			1..1
+# http://schema.org/name				1..1
+# http://schema.org/description			1..1
+# http://schema.org/creator				1..1
+# http://schema.org/publisher			1..1
+# http://schema.org/license				1..1
+# http://schema.org/distribution		1..n
+# http://schema.org/datePublished		0..1
+# http://schema.org/dateModified		0..1
+# http://schema.org/isBasedOnUrl		0..1
+
+
+schema:DatasetShape
+	a sh:NodeShape ;
+	sh:targetClass schema:Dataset ;
+	sh:property [
+		sh:path schema:identifier ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:nodeKind sh:Literal ;
+	] ;
+	sh:property [
+		sh:path schema:name ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:nodeKind sh:Literal ;
+	] ;
+	sh:property [
+		sh:path schema:description ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:nodeKind sh:Literal ;
+	] ;
+	sh:property [
+		sh:path schema:creator ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:node schema:OrganizationShape ;
+	] ;
+	sh:property [
+		sh:path schema:publisher ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:node schema:OrganizationShape ;
+	] ;	
+	sh:property [
+		sh:path schema:license ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:nodeKind sh:Literal ;
+	] ;
+	sh:property [
+		sh:path schema:distribution ;
+		sh:minCount 1 ;
+		sh:node schema:DistributionShape ;
+	] ;
+	sh:property [
+		sh:path schema:datePublished ;
+		sh:pattern "^\\d{4}-\\d{2}-\\d{2}" ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path schema:dateModified ;
+		sh:pattern "^\\d{4}-\\d{2}-\\d{2}" ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path schema:isBasedOnUrl ;
+		sh:pattern "https?://.*" ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+# Distribution cardinaliteit
+#
+# http://schema.org/encodingFormat	1..n
+# http://schema.org/name			1..1
+# http://schema.org/contentUrl		1..1
+# http://schema.org/datePublished 	0..1
+# http://schema.org/dateModified	0..1
+# http://schema.org/description		0..1
+
+schema:DistributionShape
+	a sh:NodeShape ;
+	sh:targetClass schema:DataDownload ;
+	sh:property [
+		sh:path schema:encodingFormat ;
+		sh:minCount 1 ;
+	] ;
+	sh:property [
+		sh:path schema:name ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:nodeKind sh:Literal ;
+	] ;
+	sh:property [
+		sh:path schema:contentUrl ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:pattern "https?://.*" ;
+		sh:nodeKind sh:Literal ;
+	] ;
+	sh:property [
+		sh:path schema:datePublished;
+		sh:pattern "^\\d{4}-\\d{2}-\\d{2}" ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path schema:dateModified ;
+		sh:pattern "^\\d{4}-\\d{2}-\\d{2}" ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path schema:description ;
+		sh:nodeKind sh:Literal ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+schema:OrganizationShape
+	a sh:NodeShape ;
+	sh:targetClass schema:Organization ;
+	sh:property [
+		sh:path schema:contactPoint ;
+		sh:node schema:OrganizationShape ;
+	] ;
+.
+
+schema:ContactPointShape
+	a sh:NodeShape ;
+	sh:targetClass schema:contactPoint ;
+.

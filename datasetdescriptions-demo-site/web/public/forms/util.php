@@ -104,7 +104,7 @@ function echo_script_jsonld_schema() {
 	global $datasetfields,$distributionfields;
 
 	echo 'var schema = {};';
-	echo 'schema["@context"] = "https://schema.org/";';
+	echo 'schema["@context"] = {}; schema["@context"]["@vocab"]="http://schema.org/";';
 	echo 'schema["@type"] = "Dataset";';
 	
 	foreach($datasetfields as $datasetfield) {
@@ -139,26 +139,35 @@ function field($field,$class="") {
 	if ($class!="" && !isset($field["class"])) { $field["class"]=$class; }
 	
 	switch ($field["range"]) {
-		case "donl:language": return field_waardelijst($field); break;
-		case "overheid:taxonomiebeleidsagenda": return field_waardelijst($field); break;
-		case "overheid:license": return field_waardelijst($field); break;
-		case "dcat:mediaType": return field_waardelijst($field);  break;
-		case "mdr:filetype": return field_waardelijst($field);  break;
+		case "donl:language":
+		case "overheid:taxonomiebeleidsagenda":
+		case "overheid:license":
+		case "DONL:License": 
+		case "dcat:mediaType":
+		case "mdr:filetype": 
 		case "donl:authority": return field_waardelijst($field);  break;
 		
-		case "vcard:identifier": return field_xsd_anyURI($field); break;
+		case "vcard:identifier": 
+		case "schema:isBasedUrl":
+		case "xsd:anyURI" :return field_xsd_anyURI($field); break;
 
-		case "vcard:fn": return field_xml_string($field); break;
-		case "vcard:hasEmail": return field_xml_string($field); break;
+		case "vcard:fn": 
+		case "vcard:hasEmail":
+		case "xml:string": return field_xml_string($field); break;
+		
+	
 		case "vcard:Individual or vcard:Organization": return field_vcard_organisation($field); brea;
 		
-		case "xml:string": return field_xml_string($field); break;
-		case "xsd:anyURI" :return field_xsd_anyURI($field); break;
+		
 		case "vcard:Kind": return field_vcard_Kind($field); break;
 		case "foaf:Agent": return field_foaf_Agent($field); break;
-		case "xsd:date": return field_xsd_date($field); break;
+		
+		case "xsd:date": 
+		case "xsd:datetime": return field_xsd_date($field); break;
 
-		case "dcat:Distribution": return field_dcat_Distribution($field); break;
+		case "dcat:Distribution": 
+		case "schema:DataDownload": return field_Distribution($field); break;
+		
 		default: error_log("field ".$field["range"]." not defined"); break;
 	}
 }
@@ -192,7 +201,15 @@ function field_xml_string($field) {
 	if (isset($field["mandatory"]) && $field["mandatory"]==1) {
 		$str.=' class="mandatory"';
 	}
-	$str.='>'.$field["label"].'</label>';
+	$str.='>';
+	if (isset($field["property_uri"]) && substr($field["property_uri"],0,6)=="schema") {
+		$str.='<a target="schema" href="https://schema.org/'.substr($field["property_uri"],7).'">';
+		$str.=$field["label"];
+		$str.='</a>';
+	} else {
+		$str.=$field["label"];
+	}
+	$str.='</label>';
 
 	$str.='</th><td id="val_'.$id.'">';
 	if (isset($field["multiple"]) && $field["multiple"]==1) { $str.='<span class="multi">'; } 
@@ -204,6 +221,9 @@ function field_xml_string($field) {
 	if ($field["range"]=="xsd:date") {
 		$str.='type="date" ';
 	}
+	if ($field["range"]=="xsd:datetime") {
+		$str.='type="datetime-local" ';
+	}	
 	if ($field["range"]=="vcard:hasEmail") {
 		$str.='type="email" ';
 	}
@@ -254,7 +274,15 @@ function field_waardelijst($field) {
 	if (isset($field["mandatory"]) && $field["mandatory"]==1) {
 		$str.=' class="mandatory"';
 	}
-	$str.='>'.$field["label"].'</label>';
+	$str.='>';
+	if (isset($field["property_uri"]) && substr($field["property_uri"],0,6)=="schema") {
+		$str.='<a target="schema" href="https://schema.org/'.substr($field["property_uri"],7).'">';
+		$str.=$field["label"];
+		$str.='</a>';
+	} else {
+		$str.=$field["label"];
+	}
+	$str.='</label>';
 	
 	$str.='</th><td id="val_'.$id.'">'; 
 	if (isset($field["multiple"]) && $field["multiple"]==1) { $str.='<span class="multi">'; }
@@ -291,7 +319,7 @@ function field_vcard_Kind($field) {
 }
 	
 
-function field_dcat_Distribution($field) {
+function field_Distribution($field) {
 	global $distributionfields,$datasetscript;
 	$str ='<tr class="distribution"><th colspan="2">';
 	
@@ -299,7 +327,15 @@ function field_dcat_Distribution($field) {
 	if (isset($field["mandatory"]) && $field["mandatory"]==1) {
 		$str.=' class="mandatory"';
 	}
-	$str.='>'.$field["label"].'</label>';
+	$str.='>';
+	if (isset($field["property_uri"]) && substr($field["property_uri"],0,6)=="schema") {
+		$str.='<a target="schema" href="https://schema.org/'.substr($field["property_uri"],7).'">';
+		$str.=$field["label"];
+		$str.='</a>';
+	} else {
+		$str.=$field["label"];
+	}
+	$str.='</label>';
 	
 	$field["label"];
 	$str.='<span class="btn btn-success btn-sm float-right" id="plus_'.$field["id"].'"><i class="fas fa-plus"></i></span>';
