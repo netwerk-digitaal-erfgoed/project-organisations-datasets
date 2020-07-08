@@ -105,10 +105,11 @@ The use of a data catalog (a collection of datasets) is not mandatory, but recom
 | [schema:identifier](https://schema.org/identifier) | The unique identification of the dataset | Mandatory |  
 | [schema:name](https://schema.org/name) | The name of the dataset | Mandatory |  
 | [schema:description](https://schema.org/description) | The description of the dataset | Mandatory |  
-| [schema:creator](https://schema.org/creator) | The creator (or owner) of the dataset (a [schema:Organization](https://schema.org/Organization) or [schema:Person](https://schema.org/Person)| Mandatory |  
-| [schema:publisher](https://schema.org/publisher) | The publisher of the dataset (a [schema:Organization](https://schema.org/Organization) or [schema:Person](https://schema.org/Person) | Mandatory |  
+| [schema:creator](https://schema.org/creator) | The creator (or owner) of the dataset (a [schema:Organization](https://schema.org/Organization) or [schema:Person](https://schema.org/Person))| Mandatory |  
+| [schema:publisher](https://schema.org/publisher) | The publisher of the dataset (a [schema:Organization](https://schema.org/Organization) or [schema:Person](https://schema.org/Person))| Mandatory |  
 | [schema:license](https://schema.org/license) | The applicable license (*1) | Mandatory |  
 | [schema:distribution](https://schema.org/distribution) | The distribution(s) of the dataset | Mandatory |  
+| [schema:dateCreated](https://schema.org/dateCreated) | The date (or datetime) the dataset was created  (*2)| Recommended |  
 | [schema:datePublished](https://schema.org/datePublished) | Date (or datetime) the dataset was published (*2)| Recommended |  
 | [schema:dateModified](https://schema.org/dateModified) | Date (or datetime) the dataset was last modified (*2)| Recommended |  
 | [schema:mainEntityOfPage](https://schema.org/mainEntityOfPage) | URL of a webpage where the dataset is described. | Recommended |  
@@ -118,7 +119,6 @@ The use of a data catalog (a collection of datasets) is not mandatory, but recom
 | [schema:genre](https://schema.org/genre) | The genre or genres which describe the dataset | Recommended |  
 | [schema:keywords](https://schema.org/keywords) | One or more keyword which describe the dataset | Recommended |  
 | [schema:includedInDataCatalog](https://schema.org/includedInDataCatalog) | The URI of the data catalog in which the dataset is included | Recommended |  
-| [schema:dateCreated](https://schema.org/dateCreated) | The date (or datetime) the dataset was created | Recommended |  
 | [schema:spatialCoverage](https://schema.org/spatialCoverage) | Indicates the place(s) which are the focus of the dataset | Recommended |  
 | [schema:temporalCoverage](https://schema.org/temporalCoverage) | Indicates the period that the dataset applies to | Recommended |  
 | [schema:version](https://schema.org/version) |The version of the dataset | Recommended |  
@@ -150,7 +150,7 @@ It is recommended to specify the language used in strings, even the default lang
 - [http://creativecommons.org/publicdomain/mark/1.0/deed.nl](http://creativecommons.org/publicdomain/mark/1.0/deed.nl) for public domain
 - [http://standaarden.overheid.nl/owms/terms/geslotenlicentie](http://standaarden.overheid.nl/owms/terms/geslotenlicentie) for a closed license (beware, that closed licenses limit the use!)
   
-\*2) The properties [schema:datePublished](https://schema.org/datePublished) and [schema:dateModified](https://schema.org/dateModified) are not mandatory (which the conceptual model suggest). It was decided to only recommend the use of these properties because the Register project has shown that not all datasets have these properties. Either because it is not tracked (which is bad practice), or because it is less applicable, such as with API's such as SPARQL endpoints.
+\*2) The properties [schema:dateCreated](https://schema.org/dateCreated), [schema:datePublished](https://schema.org/datePublished) and [schema:dateModified](https://schema.org/dateModified) are not mandatory (which the conceptual model suggest). It was decided to only recommend the use of these properties because the Register project has shown that not all datasets have these properties. Either because it is not tracked (which is bad practice), or because it is less applicable, such as with API's such as SPARQL endpoints.
 
 \*3) The dataset must be accessible directly via the specified URL of a distribution. In technical terms: the requests must be stateless (no session or frequently changing key) and must not require any client-side logic (such as Javascript). The distribution can be in the form of a file or an API (endpoint). 
   

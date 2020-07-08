@@ -34,16 +34,25 @@ include('util.php');
 			<div class="row">
 				<a id="dataset_examples" href="#" class="btn btn-info btn-sm float-right">Voorbeelddata</a>
 				<h2 class="mt-5">Dataset beschrijving</h2>
-				<div class="p-3 mb-2 bg-info text-white">Vul zo veel mogelijk van de onderstaande invoervelden in, minimaal de met een (*) gemarkeerde, verplichte invoervelden.<br>Wanneer er op de "Maak JSON-LD" knop wordt geklikt wordt er op basis van de invoer een te kopi&euml;ren blok JSON-LD gemaakt die in de eigen website op de dataset pagina ingevoegd dient te worden. Er worden geen gegevens opgeslagen, dit formulier heeft geen registratie functie.</div>
+				<div class="p-3 mb-2 bg-info text-white">
+					<p class="text-center">Onderstaande formulier is gebaseerd op het <a target="_new" style="color:white;font-weight:bold;text-decoration:underline" href="https://github.com/netwerk-digitaal-erfgoed/project-organisations-datasets/tree/master/publication-model">Publication model for dataset descriptions</a>. Het formulier geleid de gebruiker in het beschrijven van de dataset en daarna de distributies van de dataset.</p>
+					<p class="text-center"><img src="datacatalog-dataset-distribution.svg" style="max-width:100%;margin:0 32px"></p>
+					<p class="text-center">Vul zo veel mogelijk van de onderstaande invoervelden in, minimaal de met een (*) gemarkeerde, verplichte invoervelden. Via een tooltip bij het label van een veld wordt er een beschrijving gegeven van het veld, wanneer er op een label geklikt wordt dan wordt de property beschrijving op schema.org geopend. De placeholder tekst van een veld geeft het datatype (range) aan. Een groene plus knop voegt een extra invoerveld of invoerveldenset (bij distributie) toe.<br>Wanneer er op de "Maak JSON-LD" knop wordt geklikt wordt er op basis van de invoer een te kopi&euml;ren blok JSON-LD gemaakt die in de eigen website op de dataset pagina ingevoegd dient te worden. Er worden geen gegevens opgeslagen, dit formulier heeft geen registratie functie.</p>
+					<hr>
+					<p class="text-center">Dit is een <strong>demonstrator</strong>, heeft is bedoeld om een indruk te geven van een dataset beschrijving. Het formulier implementeerd niet het volledige publicatiemodel, zo kunnen er alleen organisaties gekozen worden als eigenaar en verstrekker (een persoon is volgens het publicatie model ook mogelijk) en is er geen meertaligheid. Voor enkele properties zijn voor het gemak <a target="_new" style="color:white;text-decoration:underline" href="https://waardelijsten.dcat-ap-donl.nl/">waardelijsten gekoppeld van DCAT-AP-DONL</a>, deze stelt het publicatiemodel niet verplicht, maar adviseert het gebruik van waardelijsten wel.</p>
+				</div>
+				
+			
+				
 				<br>
 				<form id="dataset_form">
 				<?php echo_datasetfields(); ?>
 
                 <button class="btn btn-success" type="submit" id="do_script_jsonld">Maak JSON-LD</button>
 				
-				<a class="float-right btn btn-info" href="shacl/publicatiemodel.ttl">SHACL (work in progress)</a>
+				<a class="float-right btn btn-info" href="shacl/publicatiemodel.ttl" target="_new">SHACL (work in progress)</a>
 				<a style="margin-right:10px" class="float-right btn btn-info" href="https://shacl.org/playground/" target="_new">SHACL Playground</a>
-                <a style="margin-right:10px" class="float-right btn btn-info" href="https://search.google.com/structured-data/testing-tool/u/0/" target="_new">Tool voor gestructureerde datasets</a>
+                <a style="margin-right:10px" class="float-right btn btn-info" href="https://search.google.com/test/rich-results" target="_new">Google's test voor uitgebreide resultaten</a>
                 
             </form>
 
@@ -51,7 +60,7 @@ include('util.php');
 			<h4 class="mt-5">DCAT</h4>
             <pre id="id_script_jsonld_dcat"></pre>
 -->		
-			<h4 class="mt-5">Schema.org/Dataset</h4>
+			<h4 class="mt-5">Gegeneerde datasetbeschrijving in JSON-LD</h4>
             <pre id="id_script_jsonld_schema"></pre>
 	
 <!-- jQuery  -->

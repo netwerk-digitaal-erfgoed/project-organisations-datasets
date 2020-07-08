@@ -2,16 +2,18 @@
 
 define('LANGUAGE','nl-NL');
 
+/* schema.org/Dataset */
+
 $datasetfields=array();
 
 $datasetfields[]=array(
 	"id"=>"dataset_identifier",
 	"example"=>"http://archief.io/id/B8CA13423A834E8CB9C23DF85F239E31",
-	"label"=>"Permalink",
+	"label"=>"Identificatie",
 	"property_uri"=>"schema:identifier",
 	"mandatory"=>1,
 	"range"=>"xsd:anyURI",
-	"title"=>"This property contains the main identifier for the Dataset, e.g. the URI or other unique identifier in the context of the Catalogue.",
+	"title"=>"The unique identification of the dataset",
 	"script_schema"=>'if ($("#id_dataset_identifier").val()) { schema["@id"]=$("#id_dataset_identifier").val(); schema["identifier"]=$("#id_dataset_identifier").val(); }'
 );
 
@@ -22,7 +24,7 @@ $datasetfields[]=array(
 	"property_uri"=>"schema:name",
 	"mandatory"=>1,
 	"range"=>"xml:string",
-	"title"=>"This property contains a free-text account of the Dataset. This property can be repeated for parallel language versions of the description.",
+	"title"=>"The name of the dataset",
 	"script_schema"=>'if ($("#id_dataset_name").val()) { schema["name"]=$("#id_dataset_name").val(); }'
 );
 
@@ -33,7 +35,7 @@ $datasetfields[]=array(
 	"property_uri"=>"schema:description",
 	"mandatory"=>1,
 	"range"=>"xml:string",
-	"title"=>"This property contains a name given to the Dataset. This property can be repeated for parallel language versions of the name.",
+	"title"=>"The description of the dataset",
 	"script_schema"=>'if ($("#id_dataset_description").val()) { schema["description"]=$("#id_dataset_description").val(); }'
 );
 
@@ -77,14 +79,16 @@ $datasetfields[]=array(
 	"script_schema"=>'if ($("#id_dataset_documentation_0").val()) { var mainEntityOfPage_idx=0; schema["mainEntityOfPage"]=[]; while ($("#id_dataset_mainEntityOfPage_"+mainEntityOfPage_idx).val()) { schema["keywords"].push($("#id_dataset_mainEntityOfPage_"+mainEntityOfPage_idx).val()); mainEntityOfPage_idx++; }}'
 );
 
+
+
 $datasetfields[]=array(
-	"id"=>"dataset_isBasedOn",
-	"label"=>"Originele dataset",
-	"example"=>"http://archief.io/id/B340657148971409681784357F239E31",
-	"property_uri"=>"schema:isBasedOn",
-	"range"=>"xsd:anyURI",
-	"title"=>"Originele dataset waar deze dataset op is gebaseerd.",
-	"script_schema"=>'if ($("#id_dataset_isBasedOn").val() != "") { schema["isBasedOn"]=$("#id_dataset_isBasedOn").val(); }'
+	"id"=>"dataset_dateCreated",
+	"label"=>"Creatiedatum",
+	"example"=>"2020-03-30T04:05",
+	"property_uri"=>"schema:dateCreated",
+	"range"=>"xsd:datetime", // of xsd:date
+	"title"=>"This property contains the date of creation of the Dataset.",
+	"script_schema"=>'if ($("#id_dataset_dateCreated").val()) { schema["dateCreated"]=$("#id_dataset_dateCreated").val(); }'
 );
 
 $datasetfields[]=array(
@@ -108,6 +112,16 @@ $datasetfields[]=array(
 );
 
 $datasetfields[]=array(
+	"id"=>"dataset_version",
+	"label"=>"Versie",
+	"example"=>"4",
+	"property_uri"=>"schema:version",
+	"range"=>"xml:string",
+	"title"=>"The version of the dataset",
+	"script_schema"=>'if ($("#id_dataset_version").val()) { schema["version"]=$("#id_dataset_version").val(); }'
+);
+
+$datasetfields[]=array(
 	"id"=>"dataset_authority",
 	"label"=>"Data-eigenaar",
 	"example"=>"http://standaarden.overheid.nl/owms/terms/Ministerie_van_Onderwijs,_Cultuur_en_Wetenschap",
@@ -115,9 +129,10 @@ $datasetfields[]=array(
 	"property_uri"=>"schema:creator",	
 	"range"=>"donl:authority",
 	"select"=>"donl_organization",
-	"title"=>"This property refers to an entity (organisation) responsible for making the Dataset available.",
+	"title"=>"The creator (or owner) of the dataset",
 	"script_schema"=>'schema["creator"]={}; schema["creator"]["@type"]="Organization"; schema["creator"]["name"]=$("#id_dataset_authority option:selected").text(); schema["creator"]["url"]=$("#id_dataset_authority").val();'
 );
+
 
 $datasetfields[]=array(
 	"id"=>"dataset_contactPointCreator_name",
@@ -149,6 +164,7 @@ $datasetfields[]=array(
 	"script_schema"=>'if ($("#id_dataset_contactPointCreator_phone").val()) { if (schema["creator"]["contactPoint"]===undefined) { schema["creator"]["contactPoint"]={}; } schema["creator"]["contactPoint"]["@type"]="ContactPoint"; schema["creator"]["contactPoint"]["telephone"]=$("#id_dataset_contactPointCreator_phone").val(); }'
 );
 
+
 $datasetfields[]=array(
 	"id"=>"dataset_publisher",
 	"label"=>"Verstrekker",
@@ -157,15 +173,46 @@ $datasetfields[]=array(
 	"mandatory"=>1,
 	"range"=>"donl:authority",
 	"select"=>"donl_organization",
-	"title"=>"This property refers to an entity (organisation) responsible for making the Dataset available.",
+	"title"=>"The publisher of the dataset",
 	"script_schema"=>'if ($("#id_dataset_publisher").val()) { var publisher={}; publisher["@id"]=$("#id_dataset_publisher").val(); publisher["@type"]="Organization"; publisher["name"]=$("#id_dataset_publisher option:selected").text(); schema["publisher"]=publisher; }'
 );
+
+$datasetfields[]=array(
+	"id"=>"dataset_contactPointPublisher_name",
+	"label"=>"Verstrekker contact Naam",
+	"example"=>"T. Ester",
+	"property_uri"=>"schema:name",
+	"range"=>"xml:string",
+	"title"=>"This property contains contact information that can be used for sending comments about the Dataset.",
+	"script_schema"=>'if ($("#id_dataset_contactPointPublisher_name").val()) { if (schema["publisher"]["contactPoint"]===undefined) { schema["publisher"]["contactPoint"]={}; } schema["publisher"]["contactPoint"]["@type"]="ContactPoint"; schema["publisher"]["contactPoint"]["name"]=$("#id_dataset_contactPointCreator_name").val(); }'
+);
+
+$datasetfields[]=array(
+	"id"=>"dataset_contactPointPublisher_email",
+	"label"=>"Verstrekker contact E&#8209;mail",
+	"example"=>"voorbeeld@nde.nl",
+	"property_uri"=>"schema:email",
+	"range"=>"xml:string",
+	"title"=>"This property contains contact information that can be used for sending comments about the Dataset.",
+	"script_schema"=>'if ($("#id_dataset_contactPointCreator_email").val()) { if (schema["publisher"]["contactPoint"]===undefined) { schema["publisher"]["contactPoint"]={}; } schema["publisher"]["contactPoint"]["@type"]="ContactPoint"; schema["publisher"]["contactPoint"]["email"]=$("#id_dataset_contactPointCreator_email").val(); }'
+);
+
+$datasetfields[]=array(
+	"id"=>"dataset_contactPointPublisher_phone",
+	"label"=>"Verstrekker contact Telefoon",
+	"example"=>"088-1234567",
+	"property_uri"=>"schema:telephone",
+	"range"=>"xml:string",
+	"title"=>"This property contains contact information that can be used for sending comments about the Dataset.",
+	"script_schema"=>'if ($("#id_dataset_contactPointCreator_phone").val()) { if (schema["publisher"]["contactPoint"]===undefined) { schema["publisher"]["contactPoint"]={}; } schema["publisher"]["contactPoint"]["@type"]="ContactPoint"; schema["publisher"]["contactPoint"]["telephone"]=$("#id_dataset_contactPointCreator_phone").val(); }'
+);
+
 
 $datasetfields[]=array(
 	"id"=>"dataset_keyword",
 	"label"=>"Tag",
 	"example"=>"Test",
-	"property_uri"=>"schema:keyword",
+	"property_uri"=>"schema:keywords",
 	"multiple"=>1,
 	"range"=>"xml:string",
 	"title"=>"This property contains a keyword or tag describing the Dataset.",
@@ -194,10 +241,35 @@ $datasetfields[]=array(
 	"script_schema"=>'if ($("#id_dataset_citation").val()) { schema["citation"]=$("#id_dataset_citation").val(); }'
 );
 
-/* TODO
-	http://schema.org/hasPart
-	http://schema.org/isPartOf
-*/
+$datasetfields[]=array(
+	"id"=>"dataset_spatialCoverage",
+	"label"=>"Dekking plaats/gebied",
+	"example"=>"Nederland",
+	"property_uri"=>"schema:spatialCoverage",
+	"range"=>"xml:string",
+	"title"=>"Indicates the place(s) which are the focus of the dataset",
+	"script_schema"=>'if ($("#id_dataset_spatialCoverage").val()) { schema["spatialCoverage"]=$("#id_dataset_spatialCoverage").val(); }'
+);
+
+$datasetfields[]=array(
+	"id"=>"dataset_temporalCoverage",
+	"label"=>"Dekking tijd/periode",
+	"example"=>"1900-2000",
+	"property_uri"=>"schema:temporalCoverage",
+	"range"=>"xml:string",
+	"title"=>"Indicates the period that the dataset applies to",
+	"script_schema"=>'if ($("#id_dataset_temporalCoverage").val()) { schema["temporalCoverage"]=$("#id_dataset_temporalCoverage").val(); }'
+);
+
+$datasetfields[]=array(
+	"id"=>"dataset_isBasedOnUrl",
+	"label"=>"URI datacatalogus waar dataset op is gebaseerd",
+	"example"=>"Orginieledataset XYZ",
+	"property_uri"=>"schema:isBasedOnUrl",
+	"range"=>"xsd:anyURI",
+	"title"=>"The URI of dataset this dataset is based",
+	"script_schema"=>'if ($("#id_dataset_includedInDataCatalog").val()) { schema["isBasedOnUrl"]={};  schema["isBasedOnUrl"]["@type"]="DataCatalog"; schema["isBasedOnUrl"]["name"]=$("#id_dataset_isBasedOnUrl").val(); }'
+);
 
 $datasetfields[]=array(
 	"id"=>"dataset_includedInDataCatalog",
@@ -205,7 +277,7 @@ $datasetfields[]=array(
 	"example"=>"Testdatasetcollectie",
 	"property_uri"=>"schema:includedInDataCatalog",
 	"range"=>"xml:string",
-	"title"=>"A data catalog which contains this dataset.",
+	"title"=>"The URI of the data catalog in which the dataset is included",
 	"script_schema"=>'if ($("#id_dataset_includedInDataCatalog").val()) { schema["includedInDataCatalog"]={};  schema["includedInDataCatalog"]["@type"]="DataCatalog"; schema["includedInDataCatalog"]["name"]=$("#id_dataset_includedInDataCatalog").val(); }'
 );
 	  
@@ -218,6 +290,9 @@ $datasetfields[]=array(
 	"range"=>"schema:DataDownload",
 	"title"=>"This property links the Dataset to an available Distribution."
 );
+
+
+
 
 /* schema.org/DataDownload */
 
@@ -264,7 +339,6 @@ $distributionfields[]=array(
 	"id"=>"distribution_0_license",
 	"label"=>"Licentie",
 	"example"=>"http://creativecommons.org/publicdomain/zero/1.0/deed.nl",
-	"mandatory"=>1,
 	"property_uri"=>"schema:license",
 	"range"=>"DONL:License",
 	"select"=>"donl_license",
