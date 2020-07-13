@@ -279,8 +279,10 @@ In all scenarios, the heritage institution is in charge of the publication of da
 
 Vendors and heritage institutions can easily test dataset descriptions through [Google's test for rich results](https://search.google.com/test/rich-results). Using this tool, you can enter a URL (from a page with a dataset description) or a code fragment from a page with a dataset description, after which Google tries to understand the provided metadata and provide warnings when properties are missing or wrong. The presence and content of all properties of the dataset descriptions can now be checked against the publication model.
 
+A [SHACL file for dataset descriptions](http://demo.netwerkdigitaalerfgoed.nl/datasets/forms/shacl/publicatiemodel.ttl) is being developed. This file can be used to validate a dataset description, checks include cardinality and content patterns.
+
 Another way of checking, is to search [Google Dataset Search](https://datasetsearch.research.google.com/). Do your own datasets appear here (this can take some time)? Are they presented as intended?
-  
+ 
 ## Promoting your datasets 
 
 Now that the datasets have been described and published in a structured way, it is important to "shout this off the roof". Make sure users like search engines and aggregators know about the dataset descriptions by sharing information on the organisations website.
