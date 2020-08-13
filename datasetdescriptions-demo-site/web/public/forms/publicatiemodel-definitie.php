@@ -263,22 +263,22 @@ $datasetfields[]=array(
 
 $datasetfields[]=array(
 	"id"=>"dataset_isBasedOnUrl",
-	"label"=>"URI datacatalogus waar dataset op is gebaseerd",
-	"example"=>"Orginieledataset XYZ",
+	"label"=>"URI dataset waar deze dataset op is gebaseerd",
+	"example"=>"http://www.example.com/1",
 	"property_uri"=>"schema:isBasedOnUrl",
 	"range"=>"xsd:anyURI",
 	"title"=>"The URI of dataset this dataset is based",
-	"script_schema"=>'if ($("#id_dataset_includedInDataCatalog").val()) { schema["isBasedOnUrl"]={};  schema["isBasedOnUrl"]["@type"]="DataCatalog"; schema["isBasedOnUrl"]["name"]=$("#id_dataset_isBasedOnUrl").val(); }'
+	"script_schema"=>'if ($("#id_dataset_includedInDataCatalog").val()) { schema["isBasedOnUrl"]=$("#id_dataset_isBasedOnUrl").val(); }'
 );
 
 $datasetfields[]=array(
 	"id"=>"dataset_includedInDataCatalog",
 	"label"=>"Naam datacatalogus waar dataset onderdeel van uitmaakt",
-	"example"=>"Testdatasetcollectie",
+	"example"=>"http://www.example.com/2",
 	"property_uri"=>"schema:includedInDataCatalog",
 	"range"=>"xml:string",
 	"title"=>"The URI of the data catalog in which the dataset is included",
-	"script_schema"=>'if ($("#id_dataset_includedInDataCatalog").val()) { schema["includedInDataCatalog"]={};  schema["includedInDataCatalog"]["@type"]="DataCatalog"; schema["includedInDataCatalog"]["name"]=$("#id_dataset_includedInDataCatalog").val(); }'
+	"script_schema"=>'if ($("#id_dataset_includedInDataCatalog").val()) { schema["includedInDataCatalog"]={};  schema["includedInDataCatalog"]["@type"]="DataCatalog"; schema["includedInDataCatalog"]["url"]=$("#id_dataset_includedInDataCatalog").val(); }'
 );
 	  
 $datasetfields[]=array(

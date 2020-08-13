@@ -58,7 +58,7 @@ schema:DatasetShape
 	sh:property [
 		sh:path schema:distribution ;
 		sh:minCount 1 ;
-		sh:node schema:DistributionShape ;
+		sh:class schema:DataDownload ;
 	] ;
 	sh:property [
 		sh:path schema:datePublished ;
@@ -128,7 +128,7 @@ schema:OrganizationShape
 	sh:targetClass schema:Organization ;
 	sh:property [
 		sh:path schema:contactPoint ;
-		sh:node schema:OrganizationShape ;
+		sh:cass schema:contactPoint ;
 	] ;
 .
 
