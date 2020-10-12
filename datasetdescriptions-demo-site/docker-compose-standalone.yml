@@ -21,7 +21,6 @@ services:
         build: php-fpm
         container_name: dcat-php-fpm
         volumes:
-            - "./etc/php/php.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini:ro"
             - "./web:/var/www/html:ro"
 #        networks:
 #            - traefik
