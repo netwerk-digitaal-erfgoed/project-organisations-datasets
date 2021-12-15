@@ -1,3 +1,5 @@
+# ⚠️ This documented is archived and superseded by the [Requirements for Datasets](https://netwerk-digitaal-erfgoed.github.io/requirements-datasets/).
+
 # Preface
 
 ## Context
